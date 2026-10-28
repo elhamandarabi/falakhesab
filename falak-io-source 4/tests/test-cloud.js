@@ -1,0 +1,32 @@
+const { chromium } = require('playwright');const fs=require('fs');
+(async()=>{
+ const b=await chromium.launch();const p=await b.newPage({viewport:{width:1300,height:900}});
+ const errs=[];p.on('pageerror',e=>errs.push('PAGEERR '+e.message));
+ await p.route(/fonts\.g/,r=>r.abort());
+ await p.route(/supabase-js|vendor\/supabase-/,r=>r.fulfill({body:fs.readFileSync('mock-supabase.js','utf8'),contentType:'application/javascript'}));
+ await p.route(/config\.js$/,r=>r.fulfill({body:"window.FALAK_CONFIG={supabaseUrl:'https://x.supabase.co',supabaseAnonKey:'k',superAdmin:'falaktravelagency11@gmail.com'}",contentType:'application/javascript'}));
+ await p.goto('file://'+process.cwd()+'/site/index.html');await p.waitForTimeout(600);
+ console.log('auth view:',await p.locator('#authView h1').textContent());
+ await p.screenshot({path:'c-login.png'});
+ await p.evaluate(()=>location.hash='#/signup');await p.waitForTimeout(200);
+ await p.fill('#aEmail','falaktravelagency11@gmail.com');await p.fill('#aPw','secret12');await p.click('#af button');await p.waitForTimeout(300);
+ console.log('after signup:',await p.locator('#authView h1').textContent());
+ await p.evaluate(()=>location.hash='#/login');await p.waitForTimeout(200);
+ await p.fill('#aEmail','falaktravelagency11@gmail.com');await p.fill('#aPw','secret12');await p.click('#af button');await p.waitForTimeout(600);
+ console.log('logged in view:',await p.locator('#view h1').first().textContent());
+ await p.click('#addBiz');await p.fill('#nbName','Falak Travel');await p.check('#nbSample');await p.click('#nbBtn');await p.waitForTimeout(800);
+ console.log('summary:',await p.locator('.ok,.small.neg').first().textContent().catch(()=>'none'));
+ await p.evaluate(()=>location.hash='#/users');await p.waitForTimeout(300);
+ await p.click('#addU');await p.fill('#mEmail','staff@falak.io');await p.click('#mf button[type=submit]');await p.waitForTimeout(400);
+ console.log('members:',(await p.locator('tbody tr').allInnerTexts()).join(' | '));
+ await p.screenshot({path:'c-users.png'});
+ await p.evaluate(()=>location.hash='#/admin');await p.waitForTimeout(400);
+ console.log('admin:',await p.locator('#view h1+span').textContent());
+ // edit an invoice (update path w/ conflict check)
+ await p.evaluate(()=>location.hash='#/salesinvoice');await p.waitForTimeout(300);
+ await p.locator('tbody tr.click').first().click();await p.waitForTimeout(200);
+ await p.click('a.btn:text-is("Edit")');await p.waitForTimeout(200);await p.fill('#fDesc','edited');await p.click('#saveBtn');await p.waitForTimeout(400);
+ console.log('after edit:',await p.evaluate(()=>location.hash));
+ await p.click('#signOut');await p.waitForTimeout(400);
+ console.log('after signout:',await p.locator('#authView h1').textContent());
+ console.log('errors',errs);await b.close();})();

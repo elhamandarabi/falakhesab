@@ -1,0 +1,26 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1300,height:900}});const errs=[];
+ p.on('pageerror',e=>errs.push('PAGEERR '+e.message));await p.route(/fonts\.g/,r=>r.abort());
+ require('fs').writeFileSync('site/_demo.html',require('fs').readFileSync('site/index.html','utf8').replace('<script src="config.js"></script>','<script>window.FALAK_CONFIG={}</script>'));
+ await p.goto('file://'+process.cwd()+'/site/_demo.html');await p.waitForTimeout(800);
+ const nav=async h=>{await p.evaluate(h=>location.hash=h,h);await p.waitForTimeout(300);const t=await p.locator('body').innerText();if(/Something went wrong/.test(t))errs.push(h+': '+t.match(/Something went wrong.*/)[0])};
+ const tbl=async()=>(await p.locator('#view table').innerText()).replace(/\t/g,' | ').split('\n').filter(Boolean);
+ // add a ticket + opening so statements have variety
+ const ids=await p.evaluate(()=>{const d=JSON.parse(localStorage.getItem('falak_io_demo_v2'));const m={};d.records.forEach(r=>{m[r.type]=m[r.type]||r.id});return m});
+ await nav('#/reports');console.log('tiles:',await p.locator('.tile').count());
+ await nav('#/reports/cashflow');let t=await tbl();console.log('CASHFLOW\n '+t.join('\n '));
+ await nav('#/summary');const cashBS=(await p.locator('.sheet').first().innerText());console.log('BS cash lines:',cashBS.split('\n').filter(l=>/bank account|Cash on hand/.test(l)).join(' ; ').replace(/\t/g,' '));
+ await nav('#/reports/equity');t=await tbl();console.log('EQUITY\n '+t.join('\n '));
+ await nav('#/summary');console.log('BS total equity:',(await p.locator('.row',{hasText:'Total equity'}).innerText()).replace(/\s+/g,' '));
+ await nav('#/reports/bs-compare');t=await tbl();console.log('BS-COMPARE\n '+t.join('\n '));
+ await nav('#/reports/pl-compare');t=await tbl();console.log('PL-COMPARE (last rows)\n '+t.slice(-3).join('\n '));
+ await nav('#/summary');console.log('Summary net:',(await p.locator('.row.grand').last().innerText()).replace(/\s+/g,' '));
+ await nav('#/reports/sales-customer');t=await tbl();console.log('SALES BY CUSTOMER\n '+t.join('\n '));
+ await nav('#/reports/rp-summary');t=await tbl();console.log('RP SUMMARY\n '+t.join('\n '));
+ await nav('#/reports/statements');t=await tbl();console.log('STATEMENTS\n '+t.join('\n '));
+ await p.locator('#view tbody tr.click').first().click();await p.waitForTimeout(300);
+ console.log('statement doc:',(await p.locator('.card.doc').innerText()).replace(/\s+/g,' '));
+ console.log('wa:',decodeURIComponent(await p.locator('a[href^="https://wa.me"]').getAttribute('href')).replace(/\n/g,' | '));
+ await p.screenshot({path:'r2-statement.png',fullPage:true});
+ await nav('#/reports/cashflow');await p.screenshot({path:'r2-cashflow.png',fullPage:true});
+ console.log('errors',errs);await b.close()})();

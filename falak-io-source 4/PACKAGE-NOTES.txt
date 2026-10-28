@@ -1,0 +1,35 @@
+Falak Hesab source package — 28 Oct 2026 (website, demo, CSV export; steps 3–8)
+Copied as-is from the working source used to build the live site (falakhesab.com).
+Nothing was rebuilt or changed, except the two placeholder edits listed below.
+
+CONTENTS
+  js/                 Application source (8 files, concatenated in this order by build.sh)
+  i18n/               Translations: dict.txt (English|Dari|Pashto|Turkish), patterns.js, build.py
+  shell.html          Page markup + all CSS
+  build.sh            Build script -> writes site/ (index.html, app.js, i18n.js, config.js)
+  database/           supabase-setup.sql (full, re-runnable setup: tables, RLS, triggers, history, share RPC)
+  config/             config.example.js (placeholder settings)
+  tests/              Playwright test scripts used during development
+  tools/manager-import/  Scripts used to convert the Manager.io backup (.manager) to a Falak.io backup
+
+PLACEHOLDERS (only differences from the originals)
+  build.sh: supabaseUrl and supabaseAnonKey replaced with YOUR_SUPABASE_PROJECT_URL /
+  YOUR_SUPABASE_ANON_PUBLIC_KEY. Put your real values back (or copy config/config.example.js
+  to site/config.js) before building for production. The superAdmin email is kept.
+
+EXCLUDED ON PURPOSE
+  - Built output (site/, dist/) and the deployed zip
+  - Real accounting data: your .manager backup and the converted falak-travel-from-manager.json
+  - Screenshots and generated test output (contain demo/test data)
+  - No passwords, service-role keys or session tokens exist in the source
+
+NOT AVAILABLE (never existed, so not included)
+  - Separate migration files: all database changes are in database/supabase-setup.sql
+  - README, package.json/lockfile, netlify.toml, _headers, .gitignore, Git history
+  - Automated test runner config (tests are standalone scripts)
+
+KNOWN LIMITS OF THE COPIED TESTS/TOOLS
+  - Tests were run from the project root with site/ already built; test-cloud.js and
+    test-lang.js expect mock-supabase.js in the working directory.
+  - test-import.js and tools/manager-import/*.py contain absolute paths from the
+    development workspace (/home/claude/...) and need adjusting before use.
