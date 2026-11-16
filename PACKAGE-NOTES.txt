@@ -1,0 +1,40 @@
+Falak Hesab source package — 11 Nov 2026 (adds ticket refund payments and Step 11 bank transfer subscription payments; steps 3–11)
+Copied as-is from the working source used to build the live site (falakhesab.com).
+Nothing was rebuilt or changed, except the two placeholder edits listed below.
+
+CONTENTS
+  js/                 Application source (concatenated in the order listed in build.sh)
+  i18n/               Translations: dict.txt (English|Dari|Pashto|Turkish), patterns.js, build.py
+  shell.html          Page markup + all CSS
+  build.sh            Build script -> writes site/ (index.html, app.js, i18n.js, config.js)
+  database/           supabase-setup.sql (full, re-runnable setup) + step files 3–10 with undo files
+  config/             config.example.js (placeholder settings)
+  tests/              Playwright test scripts used during development
+  chatbot/            Help chatbot: kb.md (what the bot knows) + function.ts (server function source)
+  supabase/functions/falak-chat/index.ts  Built server function to paste into Supabase (made by build.sh)
+  video/              Tutorial video recorder (Playwright) and narration scripts
+  tools/prerender.js  Builds the home, Privacy and Terms pages into the HTML (run by build.sh; needs Playwright)
+  tools/manager-import/  Scripts used to convert the Manager.io backup (.manager) to a Falak.io backup
+
+PLACEHOLDERS (only differences from the originals)
+  build.sh: supabaseUrl and supabaseAnonKey replaced with YOUR_SUPABASE_PROJECT_URL /
+  YOUR_SUPABASE_ANON_PUBLIC_KEY. Put your real values back (or copy config/config.example.js
+  to site/config.js) before building for production. The superAdmin email is kept.
+
+EXCLUDED ON PURPOSE
+  - Built output (site/, dist/) and the deployed zip
+  - Real accounting data: your .manager backup and the converted falak-travel-from-manager.json
+  - Screenshots and generated test output (contain demo/test data)
+  - No passwords, service-role keys, AI (Anthropic) keys or session tokens exist in the source.
+    The chatbot key is set only as a Supabase secret (ANTHROPIC_API_KEY).
+
+NOT AVAILABLE (never existed, so not included)
+  - Separate migration files: all database changes are in database/supabase-setup.sql
+  - README, package.json/lockfile, netlify.toml, _headers, .gitignore, Git history
+  - Automated test runner config (tests are standalone scripts)
+
+KNOWN LIMITS OF THE COPIED TESTS/TOOLS
+  - Tests were run from the project root with site/ already built; test-cloud.js and
+    test-lang.js expect mock-supabase.js in the working directory.
+  - test-import.js and tools/manager-import/*.py contain absolute paths from the
+    development workspace (/home/claude/...) and need adjusting before use.

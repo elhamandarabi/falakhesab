@@ -1,0 +1,1507 @@
+Overview|نمای کلی|عمومي کتنه|Genel Bakış
+Money|پول|پیسې|Para
+Sales|فروش|پلور|Satışlar
+Purchases|خرید|پېر|Alışlar
+Inventory|موجودی|ګدام|Stok
+Payroll|معاشات|معاشونه|Bordro
+Assets|دارایی‌ها|شتمنۍ|Varlıklar
+Accounting|حسابداری|محاسبه|Muhasebe
+Business|کسب‌وکار|سوداګري|İşletme
+Summary|خلاصه|لنډیز|Özet
+Reports|گزارش‌ها|راپورونه|Raporlar
+Bank & Cash Accounts|حساب‌های بانکی و نقدی|بانکي او نغدي حسابونه|Banka ve Kasa Hesapları
+Receipts|دریافت‌ها|رسیدونه|Tahsilatlar
+Payments|پرداخت‌ها|تادیات|Ödemeler
+Inter Account Transfers|انتقال بین حساب‌ها|د حسابونو ترمنځ لېږد|Hesaplar Arası Transferler
+Customers|مشتریان|پېرودونکي|Müşteriler
+Sales Quotes|نرخ‌نامه‌های فروش|د پلور نرخ‌نامې|Satış Teklifleri
+Sales Orders|سفارش‌های فروش|د پلور فرمایشونه|Satış Siparişleri
+Sales Invoices|فاکتورهای فروش|د پلور بلونه|Satış Faturaları
+Recurring Invoices|فاکتورهای تکراری|تکراري بلونه|Tekrarlayan Faturalar
+Credit Notes|یادداشت‌های بستانکار|کریډیټ یادښتونه|Alacak Dekontları
+Delivery Notes|یادداشت‌های تحویل|د سپارلو یادښتونه|Sevk İrsaliyeleri
+Suppliers|تأمین‌کنندگان|عرضه کوونکي|Tedarikçiler
+Purchase Orders|سفارش‌های خرید|د پېرلو فرمایشونه|Satın Alma Siparişleri
+Purchase Invoices|فاکتورهای خرید|د پېرلو بلونه|Alış Faturaları
+Debit Notes|یادداشت‌های بدهکار|ډیبیټ یادښتونه|Borç Dekontları
+Goods Receipts|رسیدهای اجناس|د توکو رسیدونه|Mal Kabul Fişleri
+Inventory Items|اجناس انبار|د ګدام توکي|Stok Kalemleri
+Inventory Write-offs|حذف اجناس انبار|له ګدامه ایستل شوي توکي|Stok Zayi Kayıtları
+Employees|کارمندان|کارکوونکي|Çalışanlar
+Payslips|فیش‌های معاش|د معاش پاڼې|Maaş Bordroları
+Expense Claims|ادعاهای مصارف|د لګښت ادعاوې|Masraf Beyanları
+Fixed Assets|دارایی‌های ثابت|ثابتې شتمنۍ|Sabit Kıymetler
+Depreciation Entries|ثبت‌های استهلاک|د استهلاک ثبتونه|Amortisman Kayıtları
+Journal Entries|ثبت‌های روزنامچه|د ژورنال ثبتونه|Yevmiye Kayıtları
+Projects|پروژه‌ها|پروژې|Projeler
+Chart of Accounts|جدول حساب‌ها|د حسابونو جدول|Hesap Planı
+Chart of accounts|جدول حساب‌ها|د حسابونو جدول|Hesap planı
+Tax Codes|کدهای مالیات|د مالیې کوډونه|Vergi Kodları
+Tax codes|کدهای مالیات|د مالیې کوډونه|Vergi kodları
+Currencies|اسعار|اسعار|Para Birimleri
+Settings|تنظیمات|تنظیمات|Ayarlar
+Users & Access|کاربران و دسترسی|کاروونکي او لاسرسی|Kullanıcılar ve Erişim
+Users & access|کاربران و دسترسی|کاروونکي او لاسرسی|Kullanıcılar ve erişim
+History|تاریخچه|تاریخچه|Geçmiş
+Businesses|کسب‌وکارها|سوداګرۍ|İşletmeler
+Free accounting|حسابداری رایگان|وړیا محاسبه|Ücretsiz muhasebe
+Falak Hesab · free accounting|Falak Hesab · حسابداری رایگان|Falak Hesab · وړیا محاسبه|Falak Hesab · ücretsiz muhasebe
+Menu|منو|مینو|Menü
+Sign out|خروج|وتل|Çıkış yap
+My account|حساب من|زما حساب|Hesabım
+Admin: all users & businesses|مدیریت: همه کاربران و کسب‌وکارها|اډمین: ټول کاروونکي او سوداګرۍ|Yönetici: tüm kullanıcılar ve işletmeler
+Demo mode — data stays in this browser.|حالت نمایشی — معلومات فقط در همین مرورگر می‌ماند.|ازمایښتي حالت — معلومات یوازې په دې براوزر کې پاتې کېږي.|Demo modu — veriler yalnızca bu tarayıcıda kalır.
+Demo mode.|حالت نمایشی.|ازمایښتي حالت.|Demo modu.
+Nothing is shared and there are no logins yet. When Falak Hesab is connected to its online database, each person signs in with their own email and password and everyone works on the same books at the same time.|هنوز چیزی شریک نمی‌شود و ورود وجود ندارد. وقتی Falak Hesab به دیتابیس آنلاین وصل شود، هر شخص با ایمیل و رمز خود وارد می‌شود و همه هم‌زمان روی یک دفتر کار می‌کنند.|لا څه نه شریکېږي او ننوتل نشته. کله چې Falak Hesab له آنلاین ډیټابېس سره وصل شي، هر څوک په خپل ایمیل او پټنوم ننوځي او ټول په یو وخت په ورته کتابونو کار کوي.|Henüz hiçbir şey paylaşılmıyor ve giriş yok. Falak Hesab çevrim içi veritabanına bağlandığında herkes kendi e-posta ve şifresiyle giriş yapar ve herkes aynı defterlerde aynı anda çalışır.
+Owner|مالک|مالک|Sahip
+Administrator|مدیر|مدیر|Yönetici
+Limited user|کاربر محدود|محدود کاروونکی|Sınırlı kullanıcı
+View only|فقط مشاهده|یوازې کتل|Yalnızca görüntüleme
+Full access|دسترسی کامل|بشپړ لاسرسی|Tam erişim
+Can view everything, change nothing|همه را می‌بیند، چیزی را تغییر نمی‌دهد|هر څه ویني، هېڅ نه بدلوي|Her şeyi görür, hiçbir şeyi değiştiremez
+No tabs|هیچ بخشی|هېڅ برخه نه|Sekme yok
+Language|زبان|ژبه|Dil
+Sign in|ورود|ننوتل|Giriş yap
+Email|ایمیل|ایمیل|E-posta
+Password|رمز عبور|پټنوم|Şifre
+Create a free account|ایجاد حساب رایگان|وړیا حساب جوړ کړئ|Ücretsiz hesap oluştur
+Forgot password?|رمز را فراموش کرده‌اید؟|پټنوم مو هېر کړی؟|Şifrenizi mi unuttunuz?
+Create your free account|حساب رایگان خود را بسازید|خپل وړیا حساب جوړ کړئ|Ücretsiz hesabınızı oluşturun
+Password (at least 6 characters)|رمز عبور (حداقل ۶ حرف)|پټنوم (لږ تر لږه ۶ توري)|Şifre (en az 6 karakter)
+Create account|ایجاد حساب|حساب جوړول|Hesap oluştur
+Employees: use the same email your manager added in Falak Hesab, so you see their business after you sign in.|کارمندان: همان ایمیلی را استفاده کنید که مدیرتان در Falak Hesab اضافه کرده تا پس از ورود، کسب‌وکار او را ببینید.|کارکوونکي: هماغه ایمیل وکاروئ چې ستاسو مدیر په Falak Hesab کې اضافه کړی، ترڅو له ننوتلو وروسته د هغه سوداګري ووینئ.|Çalışanlar: Yöneticinizin Falak Hesab'ya eklediği e-postayı kullanın; giriş yaptıktan sonra işletmesini görürsünüz.
+I already have an account|من قبلاً حساب دارم|زه دمخه حساب لرم|Zaten hesabım var
+Reset password|بازیابی رمز|پټنوم بیا جوړول|Şifreyi sıfırla
+Send reset link|ارسال لینک بازیابی|د بیا جوړولو لینک واستوئ|Sıfırlama bağlantısı gönder
+Back to sign in|بازگشت به ورود|ننوتلو ته بېرته|Girişe dön
+Choose a new password|رمز جدید انتخاب کنید|نوی پټنوم وټاکئ|Yeni şifre seçin
+New password|رمز جدید|نوی پټنوم|Yeni şifre
+Save password|ذخیره رمز|پټنوم خوندي کړئ|Şifreyi kaydet
+Check your email|ایمیل خود را بررسی کنید|خپل ایمیل وګورئ|E-postanızı kontrol edin
+Go to sign in|رفتن به ورود|ننوتلو ته لاړ شئ|Girişe git
+Wrong email or password.|ایمیل یا رمز اشتباه است.|ایمیل یا پټنوم غلط دی.|E-posta veya şifre hatalı.
+Password changed|رمز تغییر کرد|پټنوم بدل شو|Şifre değiştirildi
+Change password|تغییر رمز|پټنوم بدلول|Şifreyi değiştir
+Use at least 6 characters|حداقل ۶ حرف استفاده کنید|لږ تر لږه ۶ توري وکاروئ|En az 6 karakter kullanın
+Link not available|لینک در دسترس نیست|لینک شتون نلري|Bağlantı kullanılamıyor
+This link was turned off or is not correct. Please ask the sender for a new link.|این لینک غیرفعال شده یا درست نیست. لطفاً از فرستنده لینک جدید بخواهید.|دا لینک بند شوی یا سم نه دی. مهرباني وکړئ له لیږونکي نوی لینک وغواړئ.|Bu bağlantı kapatılmış veya hatalı. Lütfen gönderenden yeni bir bağlantı isteyin.
+Made with Falak Hesab · free accounting|ساخته‌شده با Falak Hesab · حسابداری رایگان|په Falak Hesab جوړ شوی · وړیا محاسبه|Falak Hesab ile hazırlandı · ücretsiz muhasebe
+New business|کسب‌وکار جدید|نوې سوداګري|Yeni işletme
+Import backup|وارد کردن نسخه پشتیبان|بیک‌اپ راوړل|Yedeği içe aktar
+Business name|نام کسب‌وکار|د سوداګرۍ نوم|İşletme adı
+Currency|واحد پول|اسعار|Para birimi
+Base currency|واحد پول اصلی|اصلي اسعار|Ana para birimi
+Start date of books|تاریخ شروع دفاتر|د کتابونو د پیل نېټه|Defterlerin başlangıç tarihi
+Add example customers, invoices and payments so I can explore|مشتریان، فاکتورها و پرداخت‌های نمونه اضافه شود تا بررسی کنم|د بېلګې پېرودونکي، بلونه او تادیات اضافه کړئ چې وې ازمویم|İnceleyebilmem için örnek müşteri, fatura ve ödemeler ekle
+Create business|ایجاد کسب‌وکار|سوداګري جوړول|İşletme oluştur
+Cancel|لغو|لغوه|İptal
+You don't have a business yet. Create one to start, or ask your manager to add your email to theirs.|شما هنوز کسب‌وکاری ندارید. یکی بسازید یا از مدیرتان بخواهید ایمیل شما را اضافه کند.|تاسو لا سوداګري نلرئ. یوه جوړه کړئ یا له خپل مدیر وغواړئ چې ستاسو ایمیل اضافه کړي.|Henüz bir işletmeniz yok. Bir tane oluşturun veya yöneticinizden e-postanızı eklemesini isteyin.
+Business created|کسب‌وکار ایجاد شد|سوداګري جوړه شوه|İşletme oluşturuldu
+Enter a business name|نام کسب‌وکار را وارد کنید|د سوداګرۍ نوم ولیکئ|İşletme adını girin
+Loading your businesses…|در حال بارگذاری کسب‌وکارها…|ستاسو سوداګرۍ پورته کېږي…|İşletmeleriniz yükleniyor…
+Loading books…|در حال بارگذاری دفاتر…|کتابونه پورته کېږي…|Defterler yükleniyor…
+Loading…|در حال بارگذاری…|پورته کېږي…|Yükleniyor…
+Loading users…|در حال بارگذاری کاربران…|کاروونکي پورته کېږي…|Kullanıcılar yükleniyor…
+Loading history…|در حال بارگذاری تاریخچه…|تاریخچه پورته کېږي…|Geçmiş yükleniyor…
+Balance sheet|بیلانس|بیلانس شیټ|Bilanço
+Profit and loss|سود و زیان|ګټه او زیان|Kâr ve zarar
+Cash at bank|نقد در بانک|په بانک کې نغدي|Bankadaki nakit
+Cash on hand|نقد در دست|لاس کې نغدي|Eldeki nakit
+Receivables|دریافتنی‌ها|ترلاسه کېدونکي|Alacaklar
+Accounts receivable|حساب‌های دریافتنی|ترلاسه کېدونکي حسابونه|Ticari alacaklar
+Accounts payable|حساب‌های پرداختنی|ورکړې وړ حسابونه|Ticari borçlar
+Inventory on hand|موجودی انبار|په ګدام کې توکي|Eldeki stok
+Fixed assets|دارایی‌های ثابت|ثابتې شتمنۍ|Sabit kıymetler
+Fixed assets, at cost|دارایی‌های ثابت، به قیمت تمام‌شده|ثابتې شتمنۍ، په لګښت|Sabit kıymetler, maliyet
+Accumulated depreciation|استهلاک انباشته|راټول شوی استهلاک|Birikmiş amortisman
+Other assets|سایر دارایی‌ها|نورې شتمنۍ|Diğer varlıklar
+Total assets|مجموع دارایی‌ها|ټولې شتمنۍ|Toplam varlıklar
+Liabilities|بدهی‌ها|پورونه|Yükümlülükler
+No liabilities|بدهی وجود ندارد|پور نشته|Yükümlülük yok
+Total liabilities|مجموع بدهی‌ها|ټول پورونه|Toplam yükümlülükler
+Equity|سرمایه|پانګه|Özkaynaklar
+Total equity|مجموع سرمایه|ټوله پانګه|Toplam özkaynaklar
+Total liabilities & equity|مجموع بدهی‌ها و سرمایه|ټول پورونه او پانګه|Toplam yükümlülükler ve özkaynaklar
+✓ Balance sheet is in balance|✓ بیلانس متوازن است|✓ بیلانس برابر دی|✓ Bilanço denk
+Balance sheet is out of balance|بیلانس متوازن نیست|بیلانس برابر نه دی|Bilanço denk değil
+Employee clearing accounts|حساب‌های تسویه کارمندان|د کارکوونکو تصفیې حسابونه|Çalışan cari hesapları
+Employee clearing|تسویه کارمند|د کارکوونکي تصفیه|Çalışan cari hesabı
+Tax payable|مالیات پرداختنی|ورکړې وړ مالیه|Ödenecek vergi
+Retained earnings|سود انباشته|ساتل شوې ګټه|Geçmiş yıl kârları
+Income|درآمد|عاید|Gelirler
+Expenses|مصارف|لګښتونه|Giderler
+Total income|مجموع درآمد|ټول عاید|Toplam gelir
+Total expenses|مجموع مصارف|ټول لګښتونه|Toplam gider
+Net profit|سود خالص|خالصه ګټه|Net kâr
+Net loss|زیان خالص|خالص زیان|Net zarar
+No income in this period|در این دوره درآمدی نیست|په دې موده کې عاید نشته|Bu dönemde gelir yok
+No expenses in this period|در این دوره مصرفی نیست|په دې موده کې لګښت نشته|Bu dönemde gider yok
+From|از|له|Başlangıç
+To|تا|تر|Bitiş
+Apply|اعمال|پلي کول|Uygula
+Start by adding a bank or cash account.|با افزودن یک حساب بانکی یا نقدی شروع کنید.|د یو بانکي یا نغدي حساب په اضافه کولو پیل وکړئ.|Bir banka veya kasa hesabı ekleyerek başlayın.
+Add bank or cash account|افزودن حساب بانکی یا نقدی|بانکي یا نغدي حساب اضافه کړئ|Banka veya kasa hesabı ekle
+recurring invoices are ready to create.|فاکتور تکراری آماده ایجاد است.|تکراري بلونه د جوړېدو لپاره چمتو دي.|tekrarlayan fatura oluşturulmaya hazır.
+Create them now|همین حالا ایجاد کنید|همدا اوس یې جوړ کړئ|Şimdi oluştur
+Back|بازگشت|بېرته|Geri
+Edit details|ویرایش مشخصات|جزئیات سمول|Bilgileri düzenle
+Reconcile|تطبیق|تطبیق|Mutabakat
+Import statement|وارد کردن صورت‌حساب|د بانک صورت‌حساب راوړل|Ekstreyi içe aktar
+Date|تاریخ|نېټه|Tarih
+Transaction|معامله|معامله|İşlem
+Reference|شماره مرجع|ماخذ شمېره|Referans
+Details|جزئیات|جزئیات|Ayrıntılar
+Debit|بدهکار|ډیبیټ|Borç
+Credit|بستانکار|کریډیټ|Alacak
+Balance|مانده|پاتې|Bakiye
+Opening balance|مانده اول دوره|پیل پاتې|Açılış bakiyesi
+Closing balance|مانده آخر دوره|پای پاتې|Kapanış bakiyesi
+No transactions in this period|در این دوره معامله‌ای نیست|په دې موده کې معامله نشته|Bu dönemde işlem yok
+No transactions|معامله‌ای نیست|معامله نشته|İşlem yok
+Receipt|دریافت|رسید|Tahsilat
+Payment|پرداخت|تادیه|Ödeme
+Transfer|انتقال|لېږد|Transfer
+Sales invoice|فاکتور فروش|د پلور بل|Satış faturası
+Credit note|یادداشت بستانکار|کریډیټ یادښت|Alacak dekontu
+Purchase invoice|فاکتور خرید|د پېرلو بل|Alış faturası
+Debit note|یادداشت بدهکار|ډیبیټ یادښت|Borç dekontu
+Payslip|فیش معاش|د معاش پاڼه|Maaş bordrosu
+Expense claim|ادعای مصرف|د لګښت ادعا|Masraf beyanı
+Depreciation|استهلاک|استهلاک|Amortisman
+Journal entry|ثبت روزنامچه|ژورنال ثبت|Yevmiye kaydı
+Inventory write-off|حذف موجودی|له ګدامه ایستل|Stok zayi kaydı
+Sales quote|نرخ‌نامه فروش|د پلور نرخ‌نامه|Satış teklifi
+Sales order|سفارش فروش|د پلور فرمایش|Satış siparişi
+Recurring invoice|فاکتور تکراری|تکراري بل|Tekrarlayan fatura
+Purchase order|سفارش خرید|د پېرلو فرمایش|Satın alma siparişi
+Delivery note|یادداشت تحویل|د سپارلو یادښت|Sevk irsaliyesi
+Goods receipt|رسید اجناس|د توکو رسید|Mal kabul fişi
+sales quote|نرخ‌نامه فروش|د پلور نرخ‌نامه|satış teklifi
+sales order|سفارش فروش|د پلور فرمایش|satış siparişi
+sales invoice|فاکتور فروش|د پلور بل|satış faturası
+credit note|یادداشت بستانکار|کریډیټ یادښت|alacak dekontu
+purchase order|سفارش خرید|د پېرلو فرمایش|satın alma siparişi
+New|جدید|نوی|Yeni
+Edit|ویرایش|سمول|Düzenle
+View|مشاهده|کتل|Görüntüle
+Create|ایجاد|جوړول|Oluştur
+Update|به‌روزرسانی|تازه کول|Güncelle
+Delete|حذف|ړنګول|Sil
+Created|ایجاد شد|جوړ شو|Oluşturuldu
+Updated|به‌روز شد|تازه شو|Güncellendi
+Deleted|حذف شد|ړنګ شو|Silindi
+Saved|ذخیره شد|خوندي شو|Kaydedildi
+Changed|تغییر کرد|بدل شو|Değiştirildi
+Search…|جستجو…|لټون…|Ara…
+Search|جستجو|لټون|Ara
+Total|مجموع|ټول|Toplam
+Nothing here yet —|هنوز چیزی اینجا نیست —|لا دلته څه نشته —|Henüz bir şey yok —
+New account|حساب جدید|نوی حساب|Yeni hesap
+New bank or cash account|حساب بانکی یا نقدی جدید|نوی بانکي یا نغدي حساب|Yeni banka veya kasa hesabı
+New credit note|یادداشت بستانکار جدید|نوی کریډیټ یادښت|Yeni alacak dekontu
+New currency|واحد پول جدید|نوې اسعار|Yeni para birimi
+New customer|مشتری جدید|نوی پېرودونکی|Yeni müşteri
+New debit note|یادداشت بدهکار جدید|نوی ډیبیټ یادښت|Yeni borç dekontu
+New delivery note|یادداشت تحویل جدید|نوی د سپارلو یادښت|Yeni sevk irsaliyesi
+New depreciation entry|ثبت استهلاک جدید|نوی د استهلاک ثبت|Yeni amortisman kaydı
+New employee|کارمند جدید|نوی کارکوونکی|Yeni çalışan
+New expense claim|ادعای مصرف جدید|نوې د لګښت ادعا|Yeni masraf beyanı
+New fixed asset|دارایی ثابت جدید|نوې ثابته شتمني|Yeni sabit kıymet
+New goods receipt|رسید اجناس جدید|نوی د توکو رسید|Yeni mal kabul fişi
+New item|جنس جدید|نوی توکی|Yeni stok kalemi
+New inventory item|جنس جدید انبار|د ګدام نوی توکی|Yeni stok kalemi
+New journal entry|ثبت روزنامچه جدید|نوی ژورنال ثبت|Yeni yevmiye kaydı
+New payment|پرداخت جدید|نوې تادیه|Yeni ödeme
+New payslip|فیش معاش جدید|نوې د معاش پاڼه|Yeni maaş bordrosu
+New project|پروژه جدید|نوې پروژه|Yeni proje
+New purchase invoice|فاکتور خرید جدید|نوی د پېرلو بل|Yeni alış faturası
+New purchase order|سفارش خرید جدید|نوی د پېرلو فرمایش|Yeni satın alma siparişi
+New receipt|دریافت جدید|نوی رسید|Yeni tahsilat
+New recurring invoice|فاکتور تکراری جدید|نوی تکراري بل|Yeni tekrarlayan fatura
+New sales invoice|فاکتور فروش جدید|نوی د پلور بل|Yeni satış faturası
+New sales order|سفارش فروش جدید|نوی د پلور فرمایش|Yeni satış siparişi
+New sales quote|نرخ‌نامه فروش جدید|نوې د پلور نرخ‌نامه|Yeni satış teklifi
+New supplier|تأمین‌کننده جدید|نوی عرضه کوونکی|Yeni tedarikçi
+New tax code|کد مالیات جدید|نوی د مالیې کوډ|Yeni vergi kodu
+New transfer|انتقال جدید|نوی لېږد|Yeni transfer
+New write-off|حذف جدید|نوی ایستل|Yeni zayi kaydı
+New inventory write-off|حذف موجودی جدید|نوی له ګدامه ایستل|Yeni stok zayi kaydı
+New inter account transfer|انتقال جدید بین حساب‌ها|د حسابونو ترمنځ نوی لېږد|Yeni hesaplar arası transfer
+new credit note|یادداشت بستانکار جدید|نوی کریډیټ یادښت|yeni alacak dekontu
+new debit note|یادداشت بدهکار جدید|نوی ډیبیټ یادښت|yeni borç dekontu
+new delivery note|یادداشت تحویل جدید|نوی د سپارلو یادښت|yeni sevk irsaliyesi
+new goods receipt|رسید اجناس جدید|نوی د توکو رسید|yeni mal kabul fişi
+new journal entry|ثبت روزنامچه جدید|نوی ژورنال ثبت|yeni yevmiye kaydı
+new purchase order|سفارش خرید جدید|نوی د پېرلو فرمایش|yeni satın alma siparişi
+new write-off|حذف جدید|نوی ایستل|yeni zayi kaydı
+new sales order|سفارش فروش جدید|نوی د پلور فرمایش|yeni satış siparişi
+new sales quote|نرخ‌نامه فروش جدید|نوې د پلور نرخ‌نامه|yeni satış teklifi
+new sales invoice|فاکتور فروش جدید|نوی د پلور بل|yeni satış faturası
+new recurring invoice|فاکتور تکراری جدید|نوی تکراري بل|yeni tekrarlayan fatura
+new purchase invoice|فاکتور خرید جدید|نوی د پېرلو بل|yeni alış faturası
+new receipt|دریافت جدید|نوی رسید|yeni tahsilat
+new payment|پرداخت جدید|نوې تادیه|yeni ödeme
+new customer|مشتری جدید|نوی پېرودونکی|yeni müşteri
+new supplier|تأمین‌کننده جدید|نوی عرضه کوونکی|yeni tedarikçi
+new item|جنس جدید|نوی توکی|yeni stok kalemi
+new employee|کارمند جدید|نوی کارکوونکی|yeni çalışan
+new payslip|فیش معاش جدید|نوې د معاش پاڼه|yeni maaş bordrosu
+new expense claim|ادعای مصرف جدید|نوې د لګښت ادعا|yeni masraf beyanı
+new fixed asset|دارایی ثابت جدید|نوې ثابته شتمني|yeni sabit kıymet
+new depreciation entry|ثبت استهلاک جدید|نوی د استهلاک ثبت|yeni amortisman kaydı
+new project|پروژه جدید|نوې پروژه|yeni proje
+new tax code|کد مالیات جدید|نوی د مالیې کوډ|yeni vergi kodu
+new currency|واحد پول جدید|نوې اسعار|yeni para birimi
+new transfer|انتقال جدید|نوی لېږد|yeni transfer
+new bank or cash account|حساب بانکی یا نقدی جدید|نوی بانکي یا نغدي حساب|yeni banka veya kasa hesabı
+Edit account|ویرایش حساب|حساب سمول|Hesabı düzenle
+Edit bank or cash account|ویرایش حساب بانکی یا نقدی|بانکي یا نغدي حساب سمول|Banka veya kasa hesabını düzenle
+Edit currency|ویرایش واحد پول|اسعار سمول|Para birimini düzenle
+Edit customer|ویرایش مشتری|پېرودونکی سمول|Müşteriyi düzenle
+Edit depreciation entry|ویرایش ثبت استهلاک|د استهلاک ثبت سمول|Amortisman kaydını düzenle
+Edit employee|ویرایش کارمند|کارکوونکی سمول|Çalışanı düzenle
+Edit expense claim|ویرایش ادعای مصرف|د لګښت ادعا سمول|Masraf beyanını düzenle
+Edit fixed asset|ویرایش دارایی ثابت|ثابته شتمني سمول|Sabit kıymeti düzenle
+Edit inter account transfer|ویرایش انتقال بین حساب‌ها|د حسابونو ترمنځ لېږد سمول|Hesaplar arası transferi düzenle
+Edit inventory item|ویرایش جنس انبار|د ګدام توکی سمول|Stok kalemini düzenle
+Edit payment|ویرایش پرداخت|تادیه سمول|Ödemeyi düzenle
+Edit payslip|ویرایش فیش معاش|د معاش پاڼه سمول|Maaş bordrosunu düzenle
+Edit project|ویرایش پروژه|پروژه سمول|Projeyi düzenle
+Edit purchase invoice|ویرایش فاکتور خرید|د پېرلو بل سمول|Alış faturasını düzenle
+Edit purchase order|ویرایش سفارش خرید|د پېرلو فرمایش سمول|Satın alma siparişini düzenle
+Edit receipt|ویرایش دریافت|رسید سمول|Tahsilatı düzenle
+Edit recurring invoice|ویرایش فاکتور تکراری|تکراري بل سمول|Tekrarlayan faturayı düzenle
+Edit sales invoice|ویرایش فاکتور فروش|د پلور بل سمول|Satış faturasını düzenle
+Edit sales order|ویرایش سفارش فروش|د پلور فرمایش سمول|Satış siparişini düzenle
+Edit sales quote|ویرایش نرخ‌نامه فروش|د پلور نرخ‌نامه سمول|Satış teklifini düzenle
+Edit supplier|ویرایش تأمین‌کننده|عرضه کوونکی سمول|Tedarikçiyi düzenle
+Edit tax code|ویرایش کد مالیات|د مالیې کوډ سمول|Vergi kodunu düzenle
+Edit journal entry|ویرایش ثبت روزنامچه|ژورنال ثبت سمول|Yevmiye kaydını düzenle
+Edit credit note|ویرایش یادداشت بستانکار|کریډیټ یادښت سمول|Alacak dekontunu düzenle
+Edit debit note|ویرایش یادداشت بدهکار|ډیبیټ یادښت سمول|Borç dekontunu düzenle
+Edit delivery note|ویرایش یادداشت تحویل|د سپارلو یادښت سمول|Sevk irsaliyesini düzenle
+Edit goods receipt|ویرایش رسید اجناس|د توکو رسید سمول|Mal kabul fişini düzenle
+Edit inventory write-off|ویرایش حذف موجودی|له ګدامه ایستل سمول|Stok zayi kaydını düzenle
+Name|نام|نوم|Ad
+Type|نوع|ډول|Tür
+Bank account|حساب بانکی|بانکي حساب|Banka hesabı
+Cash account|حساب نقدی|نغدي حساب|Kasa hesabı
+Bank|بانک|بانک|Banka
+Cash|نقد|نغدي|Kasa
+Account number / IBAN|شماره حساب / IBAN|د حساب شمېره / IBAN|Hesap numarası / IBAN
+Cleared balance|مانده تأییدشده|تایید شوی پاتې|Mutabık bakiye
+Pending|در انتظار|په تمه|Bekleyen
+Actual balance|مانده واقعی|اصلي پاتې|Gerçek bakiye
+This account has transactions. Delete them first.|این حساب معامله دارد. اول آن‌ها را حذف کنید.|دا حساب معاملې لري. لومړی یې ړنګې کړئ.|Bu hesabın işlemleri var. Önce onları silin.
+Tick every transaction that appears on your bank statement.|هر معامله‌ای که در صورت‌حساب بانک آمده را علامت بزنید.|هره معامله چې ستاسو د بانک صورت‌حساب کې ده، نښه یې کړئ.|Banka ekstrenizde görünen her işlemi işaretleyin.
+Statement date|تاریخ صورت‌حساب|د صورت‌حساب نېټه|Ekstre tarihi
+Difference|تفاوت|توپیر|Fark
+Tick all|انتخاب همه|ټول نښه کړئ|Tümünü işaretle
+Money in|پول ورودی|راغلې پیسې|Giren para
+Money out|پول خروجی|وتلې پیسې|Çıkan para
+Cleared on|تأیید شده در|تایید شوی په|Mutabakat tarihi
+Save reconciliation|ذخیره تطبیق|تطبیق خوندي کړئ|Mutabakatı kaydet
+Nothing changed|چیزی تغییر نکرد|هېڅ بدل نه شو|Hiçbir şey değişmedi
+Cleared|تأییدشده|تایید شوی|Mutabık
+Cleared on bank statement|در صورت‌حساب بانک تأیید شده|د بانک په صورت‌حساب کې تایید شوی|Banka ekstresinde mutabık
+Import bank statement|وارد کردن صورت‌حساب بانک|د بانک صورت‌حساب راوړل|Banka ekstresini içe aktar
+Download a CSV file from your online banking and add it here.|فایل CSV را از بانکداری آنلاین دانلود و اینجا اضافه کنید.|د CSV فایل له آنلاین بانکدارۍ ښکته کړئ او دلته یې اضافه کړئ.|İnternet bankacılığından CSV dosyasını indirip buraya ekleyin.
+CSV file|فایل CSV|د CSV فایل|CSV dosyası
+Date format in the file|قالب تاریخ در فایل|په فایل کې د نېټې بڼه|Dosyadaki tarih biçimi
+Day/Month/Year (31/12/2026)|روز/ماه/سال (31/12/2026)|ورځ/میاشت/کال (31/12/2026)|Gün/Ay/Yıl (31/12/2026)
+Month/Day/Year (12/31/2026)|ماه/روز/سال (12/31/2026)|میاشت/ورځ/کال (12/31/2026)|Ay/Gün/Yıl (12/31/2026)
+…or paste the statement text|…یا متن صورت‌حساب را بچسبانید|…یا د صورت‌حساب متن دلته ولګوئ|…veya ekstre metnini yapıştırın
+Read statement|خواندن صورت‌حساب|صورت‌حساب لوستل|Ekstreyi oku
+Which column is which?|کدام ستون چیست؟|کوم ستون څه دی؟|Hangi sütun hangisi?
+Amount (+ in, − out)|مبلغ (+ ورودی، − خروجی)|مبلغ (+ راغلي، − وتلي)|Tutar (+ giriş, − çıkış)
+Money out column (if separate)|ستون پول خروجی (اگر جدا است)|د وتلو پیسو ستون (که جلا وي)|Çıkan para sütunu (ayrıysa)
+Preview transactions|پیش‌نمایش معاملات|د معاملو مخکتنه|İşlemleri önizle
+What to do|چه کار شود|څه وشي|Yapılacak işlem
+Use|استفاده|کارول|Kullan
+Import ticked lines|وارد کردن سطرهای انتخاب‌شده|نښه شوې کرښې راوړل|İşaretli satırları içe aktar
+Lines without an account are skipped. Matching transactions are found by the same amount within 7 days.|سطرهای بدون حساب نادیده گرفته می‌شوند. معاملات مشابه با همان مبلغ در ۷ روز پیدا می‌شوند.|بې حسابه کرښې پرېښودل کېږي. ورته معاملې د ورته مبلغ له مخې په ۷ ورځو کې موندل کېږي.|Hesap seçilmeyen satırlar atlanır. Eşleşen işlemler 7 gün içinde aynı tutarla bulunur.
+Create receipt to…|ایجاد دریافت به…|رسید جوړول ته…|Tahsilat oluştur…
+Create payment to…|ایجاد پرداخت به…|تادیه جوړول ته…|Ödeme oluştur…
+No rows found|سطری پیدا نشد|کرښه ونه موندل شوه|Satır bulunamadı
+Choose an account for at least one line|حداقل برای یک سطر حساب انتخاب کنید|لږ تر لږه د یوې کرښې لپاره حساب وټاکئ|En az bir satır için hesap seçin
+Could not read any dates and amounts. Check the columns and date format.|تاریخ و مبلغی خوانده نشد. ستون‌ها و قالب تاریخ را بررسی کنید.|هېڅ نېټه او مبلغ ونه لوستل شو. ستونونه او د نېټې بڼه وګورئ.|Tarih ve tutar okunamadı. Sütunları ve tarih biçimini kontrol edin.
+You need access to Receipts and Payments to import a bank statement.|برای وارد کردن صورت‌حساب بانک به دریافت‌ها و پرداخت‌ها دسترسی لازم دارید.|د بانک صورت‌حساب راوړلو لپاره رسیدونو او تادیاتو ته لاسرسی ته اړتیا لرئ.|Banka ekstresi aktarmak için Tahsilatlar ve Ödemeler erişimi gerekir.
+Received from|دریافت از|ترلاسه شوی له|Kimden alındı
+Paid to|پرداخت به|ورکړل شوی ته|Kime ödendi
+Received in|دریافت در|ترلاسه شوی په|Tahsil edilen hesap
+Paid from|پرداخت از|ورکړل شوی له|Ödenen hesap
+Description|شرح|تشریح|Açıklama
+Account|حساب|حساب|Hesap
+Invoice|فاکتور|بل|Fatura
+Amount|مبلغ|مبلغ|Tutar
+Add line|افزودن سطر|کرښه اضافه کړئ|Satır ekle
+Remove line|حذف سطر|کرښه لرې کړئ|Satırı kaldır
+Not linked|وصل نشده|نه دی تړل شوی|Bağlı değil
+Select account…|انتخاب حساب…|حساب وټاکئ…|Hesap seçin…
+Select…|انتخاب…|وټاکئ…|Seçin…
+Add at least one line|حداقل یک سطر اضافه کنید|لږ تر لږه یوه کرښه اضافه کړئ|En az bir satır ekleyin
+Choose an account on every line|برای هر سطر حساب انتخاب کنید|په هره کرښه کې حساب وټاکئ|Her satırda hesap seçin
+Enter an amount on every line|برای هر سطر مبلغ وارد کنید|په هره کرښه کې مبلغ ولیکئ|Her satıra tutar girin
+Enter a date|تاریخ را وارد کنید|نېټه ولیکئ|Tarih girin
+Enter a name|نام را وارد کنید|نوم ولیکئ|Ad girin
+Enter a price on every line|برای هر سطر قیمت وارد کنید|په هره کرښه کې بیه ولیکئ|Her satıra fiyat girin
+Enter an amount|مبلغ را وارد کنید|مبلغ ولیکئ|Tutar girin
+Enter an amount above zero|مبلغ بیشتر از صفر وارد کنید|له صفر لوړ مبلغ ولیکئ|Sıfırdan büyük tutar girin
+Enter a quantity above zero|مقدار بیشتر از صفر وارد کنید|له صفر لوړ مقدار ولیکئ|Sıfırdan büyük miktar girin
+Choose two different accounts|دو حساب متفاوت انتخاب کنید|دوه بېل حسابونه وټاکئ|İki farklı hesap seçin
+Enter the amount received|مبلغ دریافت‌شده را وارد کنید|ترلاسه شوی مبلغ ولیکئ|Alınan tutarı girin
+Amount paid|مبلغ پرداخت‌شده|ورکړل شوی مبلغ|Ödenen tutar
+Amount received|مبلغ دریافت‌شده|ترلاسه شوی مبلغ|Alınan tutar
+Exchange rate: 1|نرخ تبادله: ۱|د تبادلې نرخ: ۱|Döviz kuru: 1
+Default exchange rate: 1 unit = ? {C}|نرخ پیش‌فرض: ۱ واحد = ? {C}|اصلي نرخ: ۱ واحد = ? {C}|Varsayılan kur: 1 birim = ? {C}
+Customer|مشتری|پېرودونکی|Müşteri
+Supplier|تأمین‌کننده|عرضه کوونکی|Tedarikçi
+Code|کد|کوډ|Kod
+Phone|تلفن|ټیلیفون|Telefon
+Phone / WhatsApp|تلفن / واتساپ|ټیلیفون / واټساپ|Telefon / WhatsApp
+Payment terms (days)|مهلت پرداخت (روز)|د تادیې موده (ورځې)|Ödeme vadesi (gün)
+Tax number|نمبر مالیاتی|د مالیې شمېره|Vergi numarası
+Billing address|آدرس صورت‌حساب|د بل پته|Fatura adresi
+Statement|صورت‌حساب|صورت‌حساب|Ekstre
+Transactions|معاملات|معاملې|İşlemler
+Contact|تماس|اړیکه|İletişim
+Overdue|معوق|ځنډېدلی|Vadesi geçmiş
+Balance due|مانده قابل پرداخت|پاتې ورکړه|Ödenecek bakiye
+Balance owed|مانده بدهی|پاتې پور|Borç bakiyesi
+This customer has transactions and cannot be deleted.|این مشتری معامله دارد و حذف نمی‌شود.|دا پېرودونکی معاملې لري او نه ړنګېږي.|Bu müşterinin işlemleri var, silinemez.
+This supplier has transactions and cannot be deleted.|این تأمین‌کننده معامله دارد و حذف نمی‌شود.|دا عرضه کوونکی معاملې لري او نه ړنګېږي.|Bu tedarikçinin işlemleri var, silinemez.
+Choose a customer|مشتری را انتخاب کنید|پېرودونکی وټاکئ|Müşteri seçin
+Choose a supplier|تأمین‌کننده را انتخاب کنید|عرضه کوونکی وټاکئ|Tedarikçi seçin
+Add a customer first.|اول یک مشتری اضافه کنید.|لومړی یو پېرودونکی اضافه کړئ.|Önce bir müşteri ekleyin.
+Add a supplier first.|اول یک تأمین‌کننده اضافه کنید.|لومړی یو عرضه کوونکی اضافه کړئ.|Önce bir tedarikçi ekleyin.
+Issue date|تاریخ صدور|د صادرېدو نېټه|Düzenleme tarihi
+Due date|تاریخ سررسید|د ورکړې نېټه|Vade tarihi
+Expiry date|تاریخ انقضا|د پای نېټه|Geçerlilik tarihi
+Delivery date|تاریخ تحویل|د سپارلو نېټه|Teslim tarihi
+Item|جنس|توکی|Kalem
+Qty|مقدار|شمېر|Miktar
+Unit price|قیمت واحد|د یوې بیه|Birim fiyat
+Disc %|تخفیف %|تخفیف %|İnd. %
+Tax|مالیات|مالیه|Vergi
+No tax|بدون مالیات|بې مالیې|Vergisiz
+Subtotal|جمع جزء|فرعي ټول|Ara toplam
+Notes (printed at the bottom)|یادداشت‌ها (در پایین چاپ می‌شود)|یادښتونه (لاندې چاپېږي)|Notlar (altta yazdırılır)
+Project|پروژه|پروژه|Proje
+Status|وضعیت|حالت|Durum
+Paid|پرداخت‌شده|ورکړل شوی|Ödendi
+Due|سررسید|د ورکړې|Vadeli
+Next invoice date|تاریخ فاکتور بعدی|د راتلونکي بل نېټه|Sonraki fatura tarihi
+Repeat every|تکرار هر|تکرار هر|Tekrar sıklığı
+Week(s)|هفته|اونۍ|Hafta
+Month(s)|ماه|میاشت|Ay
+Quarter(s)|ربع|درې میاشتنۍ|Çeyrek
+Year(s)|سال|کال|Yıl
+Due after (days)|سررسید بعد از (روز)|د ورکړې موده (ورځې)|Vade (gün sonra)
+End date (optional)|تاریخ پایان (اختیاری)|د پای نېټه (اختیاري)|Bitiş tarihi (isteğe bağlı)
+Active|فعال|فعال|Aktif
+Paused|متوقف|درول شوی|Duraklatıldı
+Finished|پایان‌یافته|پای ته رسېدلی|Bitti
+Repeats|تکرار|تکرار|Tekrar
+Next invoice|فاکتور بعدی|راتلونکی بل|Sonraki fatura
+Enter the next invoice date|تاریخ فاکتور بعدی را وارد کنید|د راتلونکي بل نېټه ولیکئ|Sonraki fatura tarihini girin
+INVOICE|فاکتور|بل|FATURA
+QUOTE|نرخ‌نامه|نرخ‌نامه|TEKLİF
+SALES ORDER|سفارش فروش|د پلور فرمایش|SATIŞ SİPARİŞİ
+CREDIT NOTE|یادداشت بستانکار|کریډیټ یادښت|ALACAK DEKONTU
+PURCHASE ORDER|سفارش خرید|د پېرلو فرمایش|SATIN ALMA SİPARİŞİ
+PURCHASE INVOICE|فاکتور خرید|د پېرلو بل|ALIŞ FATURASI
+DEBIT NOTE|یادداشت بدهکار|ډیبیټ یادښت|BORÇ DEKONTU
+RECEIPT|رسید دریافت|رسید|TAHSİLAT MAKBUZU
+PAYMENT|رسید پرداخت|تادیه|ÖDEME MAKBUZU
+PAYSLIP|فیش معاش|د معاش پاڼه|MAAŞ BORDROSU
+DELIVERY NOTE|یادداشت تحویل|د سپارلو یادښت|SEVK İRSALİYESİ
+GOODS RECEIPT|رسید اجناس|د توکو رسید|MAL KABUL FİŞİ
+Bill to|صورت‌حساب به|بل ته|Fatura adresi
+Number|شماره|شمېره|Numara
+Paid by|پرداخت‌شده توسط|ورکړل شوی د|Ödeyen
+Receive payment|دریافت پول|پیسې ترلاسه کول|Tahsilat al
+Pay this invoice|پرداخت این فاکتور|دا بل ورکړئ|Bu faturayı öde
+Make recurring|تکراری کردن|تکراري کول|Tekrarlayan yap
+Copy to sales invoice|کپی به فاکتور فروش|د پلور بل ته کاپي|Satış faturasına kopyala
+Copy to purchase invoice|کپی به فاکتور خرید|د پېرلو بل ته کاپي|Alış faturasına kopyala
+Copy to sales order|کپی به سفارش فروش|د پلور فرمایش ته کاپي|Satış siparişine kopyala
+Print / PDF|چاپ / PDF|چاپ / PDF|Yazdır / PDF
+Share|اشتراک‌گذاری|شریکول|Paylaş
+Copy link|کپی لینک|لینک کاپي کړئ|Bağlantıyı kopyala
+Stop sharing|توقف اشتراک|شریکول ودرول|Paylaşımı durdur
+Anyone with this link can view and print it. They do not need an account.|هر کسی این لینک را داشته باشد می‌تواند آن را ببیند و چاپ کند. به حساب نیاز ندارد.|هر څوک چې دا لینک ولري کولی شي وې ویني او چاپ یې کړي. حساب ته اړتیا نلري.|Bu bağlantıya sahip herkes görüntüleyip yazdırabilir. Hesap gerekmez.
+Link copied|لینک کپی شد|لینک کاپي شو|Bağlantı kopyalandı
+Link turned off|لینک غیرفعال شد|لینک بند شو|Bağlantı kapatıldı
+Press Ctrl+C / Cmd+C to copy|برای کپی Ctrl+C / Cmd+C را بزنید|د کاپي لپاره Ctrl+C / Cmd+C ووهئ|Kopyalamak için Ctrl+C / Cmd+C'ye basın
+Copied|کپی شد|کاپي شو|Kopyalandı
+Copy|کپی|کاپي|Kopyala
+Prepared by|تهیه‌کننده|چمتو کوونکی|Hazırlayan
+Received by|دریافت‌کننده|ترلاسه کوونکی|Teslim alan
+Approved by|تأییدکننده|تایید کوونکی|Onaylayan
+Employee|کارمند|کارکوونکی|Çalışan
+Employer|کارفرما|کارګمارونکی|İşveren
+Earnings|عواید|عایدات|Kazançlar
+Deductions|کسورات|کسرونه|Kesintiler
+Gross pay|معاش ناخالص|ناخالص معاش|Brüt ücret
+Total deductions|مجموع کسورات|ټول کسرونه|Toplam kesinti
+Net pay|معاش خالص|خالص معاش|Net ücret
+None|هیچ|هېڅ|Yok
+Pay period|دوره معاش|د معاش موده|Bordro dönemi
+Pay period / description|دوره معاش / شرح|د معاش موده / تشریح|Bordro dönemi / açıklama
+Deliver to|تحویل به|سپارل ته|Teslim yeri
+Delivered by|تحویل‌دهنده|سپارونکی|Teslim eden
+Checked by|بررسی‌کننده|کتونکی|Kontrol eden
+Signature|امضا|لاسلیک|İmza
+Last changed|آخرین تغییر|وروستی بدلون|Son değişiklik
+by|توسط|د|tarafından
+Item name|نام جنس|د توکي نوم|Kalem adı
+Item code|کد جنس|د توکي کوډ|Kalem kodu
+Unit (e.g. pcs, box, hour)|واحد (مثلاً عدد، کارتن، ساعت)|واحد (لکه دانه، کارتن، ساعت)|Birim (ör. adet, kutu, saat)
+Unit|واحد|واحد|Birim
+Sales price|قیمت فروش|د پلور بیه|Satış fiyatı
+Purchase price|قیمت خرید|د پېرلو بیه|Alış fiyatı
+Income account (sales)|حساب درآمد (فروش)|د عاید حساب (پلور)|Gelir hesabı (satış)
+Expense account (purchases, if not tracked)|حساب مصرف (خرید، اگر پیگیری نشود)|د لګښت حساب (پېر، که تعقیب نشي)|Gider hesabı (alış, takip edilmiyorsa)
+Track stock quantity (goods). Leave unticked for services.|پیگیری مقدار موجودی (اجناس). برای خدمات علامت نزنید.|د ګدام مقدار تعقیب کړئ (توکي). د خدمتونو لپاره نښه مه کوئ.|Stok miktarını takip et (mallar). Hizmetler için işaretlemeyin.
+Qty on hand|مقدار موجود|موجود شمېر|Eldeki miktar
+To deliver|برای تحویل|د سپارلو لپاره|Teslim edilecek
+To receive|برای دریافت|د ترلاسه کولو لپاره|Teslim alınacak
+Average cost|قیمت میانگین|منځنی لګښت|Ortalama maliyet
+Value|ارزش|ارزښت|Değer
+service|خدمت|خدمت|hizmet
+This item is used on documents and cannot be deleted.|این جنس در اسناد استفاده شده و حذف نمی‌شود.|دا توکی په سندونو کې کارول شوی او نه ړنګېږي.|Bu kalem belgelerde kullanılıyor, silinemez.
+Enter an item name|نام جنس را وارد کنید|د توکي نوم ولیکئ|Kalem adını girin
+Employee code|کد کارمند|د کارکوونکي کوډ|Çalışan kodu
+Position|سمت|دنده|Pozisyon
+Address|آدرس|پته|Adres
+Owed to employee|بدهی به کارمند|کارکوونکي ته پور|Çalışana borç
+This employee has transactions and cannot be deleted.|این کارمند معامله دارد و حذف نمی‌شود.|دا کارکوونکی معاملې لري او نه ړنګېږي.|Bu çalışanın işlemleri var, silinemez.
+Choose an employee|کارمند را انتخاب کنید|کارکوونکی وټاکئ|Çalışan seçin
+Add at least one earning|حداقل یک عاید اضافه کنید|لږ تر لږه یو عاید اضافه کړئ|En az bir kazanç ekleyin
+Expense account|حساب مصرف|د لګښت حساب|Gider hesabı
+Account (e.g. tax or advance)|حساب (مثلاً مالیات یا پیش‌پرداخت)|حساب (لکه مالیه یا پیشکي)|Hesap (ör. vergi veya avans)
+Gross|ناخالص|ناخالص|Brüt
+Period|دوره|موده|Dönem
+Paid by (employee)|پرداخت‌شده توسط (کارمند)|ورکړل شوی د (کارکوونکي)|Ödeyen (çalışan)
+Choose who paid|پرداخت‌کننده را انتخاب کنید|ورکوونکی وټاکئ|Ödeyeni seçin
+Expense claims are paid back to employees. Add an employee first.|ادعاهای مصارف به کارمندان بازپرداخت می‌شود. اول یک کارمند اضافه کنید.|د لګښت ادعاوې کارکوونکو ته بېرته ورکول کېږي. لومړی یو کارکوونکی اضافه کړئ.|Masraf beyanları çalışanlara geri ödenir. Önce bir çalışan ekleyin.
+Add an employee first.|اول یک کارمند اضافه کنید.|لومړی یو کارکوونکی اضافه کړئ.|Önce bir çalışan ekleyin.
+Cost|قیمت تمام‌شده|لګښت|Maliyet
+Book value|ارزش دفتری|دفتري ارزښت|Defter değeri
+This asset has transactions and cannot be deleted.|این دارایی معامله دارد و حذف نمی‌شود.|دا شتمني معاملې لري او نه ړنګېږي.|Bu varlığın işlemleri var, silinemez.
+Fixed asset|دارایی ثابت|ثابته شتمني|Sabit kıymet
+Depreciation amount|مبلغ استهلاک|د استهلاک مبلغ|Amortisman tutarı
+Choose a fixed asset|دارایی ثابت را انتخاب کنید|ثابته شتمني وټاکئ|Sabit kıymet seçin
+Add a fixed asset first.|اول یک دارایی ثابت اضافه کنید.|لومړی یوه ثابته شتمني اضافه کړئ.|Önce bir sabit kıymet ekleyin.
+Narration|شرح ثبت|تشریح|Açıklama
+Debits|بدهکارها|ډیبیټونه|Borçlar
+Credits|بستانکارها|کریډیټونه|Alacaklar
+Balanced|متوازن|برابر|Denk
+A journal entry needs at least two lines|ثبت روزنامچه حداقل به دو سطر نیاز دارد|ژورنال ثبت لږ تر لږه دوو کرښو ته اړتیا لري|Yevmiye kaydı en az iki satır gerektirir
+Debits and credits must be equal|بدهکار و بستانکار باید برابر باشند|ډیبیټ او کریډیټ باید برابر وي|Borç ve alacak eşit olmalı
+Group|گروه|ګروپ|Grup
+built-in|سیستمی|سیستمي|yerleşik
+This account is in use and cannot be deleted.|این حساب در استفاده است و حذف نمی‌شود.|دا حساب کارول کېږي او نه ړنګېږي.|Bu hesap kullanılıyor, silinemez.
+Bank accounts, customers, suppliers, employees, inventory, tax and fixed assets have their own control accounts and appear on the Summary automatically.|حساب‌های بانکی، مشتریان، تأمین‌کنندگان، کارمندان، موجودی، مالیات و دارایی‌های ثابت حساب کنترل خود را دارند و خودکار در خلاصه نمایش داده می‌شوند.|بانکي حسابونه، پېرودونکي، عرضه کوونکي، کارکوونکي، ګدام، مالیه او ثابتې شتمنۍ خپل کنټرول حسابونه لري او په لنډیز کې پخپله ښکاري.|Banka hesapları, müşteriler, tedarikçiler, çalışanlar, stok, vergi ve sabit kıymetlerin kendi kontrol hesapları vardır ve Özet'te otomatik görünür.
+Name (e.g. KDV 20%)|نام (مثلاً KDV 20%)|نوم (لکه KDV 20%)|Ad (ör. KDV %20)
+Rate %|نرخ %|نرخ %|Oran %
+Rate|نرخ|نرخ|Oran
+This tax code is in use and cannot be deleted.|این کد مالیات در استفاده است و حذف نمی‌شود.|دا د مالیې کوډ کارول کېږي او نه ړنګېږي.|Bu vergi kodu kullanılıyor, silinemez.
+Business details|مشخصات کسب‌وکار|د سوداګرۍ جزئیات|İşletme bilgileri
+Lock date (no changes on or before)|تاریخ قفل (تا این تاریخ تغییر ممکن نیست)|د قلف نېټه (تر دې نېټې بدلون نشته)|Kilit tarihi (bu tarih ve öncesinde değişiklik yok)
+Email address|آدرس ایمیل|د ایمیل پته|E-posta adresi
+Address (printed on documents)|آدرس (روی اسناد چاپ می‌شود)|پته (په سندونو چاپېږي)|Adres (belgelerde yazdırılır)
+Default invoice notes (e.g. bank details)|یادداشت پیش‌فرض فاکتور (مثلاً مشخصات بانکی)|د بل اصلي یادښت (لکه بانکي جزئیات)|Varsayılan fatura notu (ör. banka bilgileri)
+Save details|ذخیره مشخصات|جزئیات خوندي کړئ|Bilgileri kaydet
+Only administrators can change business details.|فقط مدیران می‌توانند مشخصات کسب‌وکار را تغییر دهند.|یوازې مدیران کولی شي د سوداګرۍ جزئیات بدل کړي.|İşletme bilgilerini yalnızca yöneticiler değiştirebilir.
+Lists|فهرست‌ها|لېستونه|Listeler
+Who can sign in to this business|چه کسی می‌تواند وارد این کسب‌وکار شود|څوک کولی شي دې سوداګرۍ ته ننوځي|Bu işletmeye kimler giriş yapabilir
+Backup|نسخه پشتیبان|بیک‌اپ|Yedek
+Your books are stored online and shared with your team. You can still download a copy for safekeeping or to move it to another account.|دفاتر شما آنلاین ذخیره و با تیم شما شریک می‌شود. باز هم می‌توانید یک نسخه برای نگهداری یا انتقال دانلود کنید.|ستاسو کتابونه آنلاین ساتل کېږي او له ټیم سره شریکېږي. بیا هم کولی شئ د ساتنې یا لېږد لپاره یوه کاپي ښکته کړئ.|Defterleriniz çevrim içi saklanır ve ekibinizle paylaşılır. Yine de saklamak veya başka hesaba taşımak için bir kopya indirebilirsiniz.
+Download backup|دانلود نسخه پشتیبان|بیک‌اپ ښکته کول|Yedeği indir
+Show backup text|نمایش متن نسخه پشتیبان|د بیک‌اپ متن ښودل|Yedek metnini göster
+Delete business|حذف کسب‌وکار|سوداګري ړنګول|İşletmeyi sil
+Deletes this business and all its transactions for everyone.|این کسب‌وکار و همه معاملاتش را برای همه حذف می‌کند.|دا سوداګري او ټولې معاملې یې د ټولو لپاره ړنګوي.|Bu işletmeyi ve tüm işlemlerini herkes için siler.
+Business deleted|کسب‌وکار حذف شد|سوداګري ړنګه شوه|İşletme silindi
+Only administrators can manage users.|فقط مدیران می‌توانند کاربران را مدیریت کنند.|یوازې مدیران کولی شي کاروونکي اداره کړي.|Kullanıcıları yalnızca yöneticiler yönetebilir.
+Add user|افزودن کاربر|کاروونکی اضافه کړئ|Kullanıcı ekle
+Add a user|افزودن کاربر|یو کاروونکی اضافه کړئ|Kullanıcı ekle
+Access level|سطح دسترسی|د لاسرسي کچه|Erişim düzeyi
+What they can use|چه چیزی را می‌توانند استفاده کنند|څه کارولی شي|Neleri kullanabilir
+Added|اضافه‌شده|اضافه شوی|Eklendi
+you|شما|تاسو|siz
+Tabs this user can open and change|بخش‌هایی که این کاربر می‌تواند باز و تغییر دهد|هغه برخې چې دا کاروونکی یې خلاصولی او بدلولی شي|Bu kullanıcının açıp değiştirebileceği sekmeler
+Remove access|حذف دسترسی|لاسرسی لرې کول|Erişimi kaldır
+Access removed|دسترسی حذف شد|لاسرسی لرې شو|Erişim kaldırıldı
+Access updated|دسترسی به‌روز شد|لاسرسی تازه شو|Erişim güncellendi
+User added|کاربر اضافه شد|کاروونکی اضافه شو|Kullanıcı eklendi
+Enter a valid email|ایمیل درست وارد کنید|سم ایمیل ولیکئ|Geçerli bir e-posta girin
+That email already has access|این ایمیل قبلاً دسترسی دارد|دا ایمیل دمخه لاسرسی لري|Bu e-postanın zaten erişimi var
+How your staff sign in|کارمندان شما چگونه وارد می‌شوند|ستاسو کارکوونکي څنګه ننوځي|Personeliniz nasıl giriş yapar
+Add their email here and choose what they may use.|ایمیل آن‌ها را اینجا اضافه کنید و انتخاب کنید چه چیزی را استفاده کنند.|د هغوی ایمیل دلته اضافه کړئ او وټاکئ چې څه وکاروي.|E-postalarını buraya ekleyin ve neleri kullanabileceklerini seçin.
+Send them the Falak Hesab link. They choose|لینک Falak Hesab را برایشان بفرستید. آن‌ها گزینه|د Falak Hesab لینک ورته واستوئ. هغوی|Onlara Falak Hesab bağlantısını gönderin. Şunu seçerler:
+with the same email and set their own password.|را با همان ایمیل انتخاب و رمز خود را تعیین می‌کنند.|په هماغه ایمیل غوره کوي او خپل پټنوم ټاکي.|aynı e-postayla ve kendi şifrelerini belirlerler.
+After confirming their email they sign in and see this business. Changes appear for everyone straight away.|پس از تأیید ایمیل وارد می‌شوند و این کسب‌وکار را می‌بینند. تغییرات فوراً برای همه نمایش داده می‌شود.|د ایمیل له تایید وروسته ننوځي او دا سوداګري ویني. بدلونونه سمدلاسه ټولو ته ښکاري.|E-postalarını onayladıktan sonra giriş yapıp bu işletmeyi görürler. Değişiklikler herkese anında görünür.
+Admin|مدیریت|اډمین|Yönetici
+All businesses|همه کسب‌وکارها|ټولې سوداګرۍ|Tüm işletmeler
+All registered users|همه کاربران ثبت‌شده|ټول ثبت شوي کاروونکي|Tüm kayıtlı kullanıcılar
+Signed up|تاریخ ثبت‌نام|نوم لیکنه|Kayıt tarihi
+Users|کاربران|کاروونکي|Kullanıcılar
+Open|باز کردن|خلاصول|Aç
+No businesses yet|هنوز کسب‌وکاری نیست|لا سوداګري نشته|Henüz işletme yok
+Only the super admin can open this page.|فقط مدیر کل می‌تواند این صفحه را باز کند.|یوازې لوی اډمین کولی شي دا پاڼه خلاصه کړي.|Bu sayfayı yalnızca süper yönetici açabilir.
+To block a person completely, delete them in Supabase → Authentication → Users. To remove them from one business, open it and use Users & Access.|برای مسدود کردن کامل یک شخص، او را در Supabase → Authentication → Users حذف کنید. برای حذف از یک کسب‌وکار، آن را باز کنید و از کاربران و دسترسی استفاده کنید.|د یو کس د بشپړ بندولو لپاره یې په Supabase → Authentication → Users کې ړنګ کړئ. له یوې سوداګرۍ د لرې کولو لپاره هغه خلاصه کړئ او کاروونکي او لاسرسی وکاروئ.|Bir kişiyi tamamen engellemek için Supabase → Authentication → Users bölümünden silin. Tek bir işletmeden çıkarmak için işletmeyi açıp Kullanıcılar ve Erişim'i kullanın.
+Trial balance|تراز آزمایشی|ازمایښتي بیلانس|Mizan
+Debit and credit balance of every account|مانده بدهکار و بستانکار هر حساب|د هر حساب ډیبیټ او کریډیټ پاتې|Her hesabın borç ve alacak bakiyesi
+General ledger summary|خلاصه دفتر کل|د عمومي لیجر لنډیز|Büyük defter özeti
+Opening, movement and closing for each account|مانده اول، گردش و مانده آخر هر حساب|د هر حساب پیل، حرکت او پای|Her hesap için açılış, hareket ve kapanış
+Profit and loss by month|سود و زیان ماهانه|میاشتنۍ ګټه او زیان|Aylık kâr ve zarar
+Income and expenses month by month|درآمد و مصارف به تفکیک ماه|عاید او لګښتونه میاشت په میاشت|Ay ay gelir ve giderler
+Profit and loss by project|سود و زیان به تفکیک پروژه|د پروژې له مخې ګټه او زیان|Projeye göre kâr ve zarar
+Income, expenses and profit for each project|درآمد، مصارف و سود هر پروژه|د هرې پروژې عاید، لګښت او ګټه|Her proje için gelir, gider ve kâr
+Aged receivables|سنی‌سازی دریافتنی‌ها|د ترلاسه کېدونکو عمر|Alacak yaşlandırma
+Unpaid sales invoices by age|فاکتورهای فروش پرداخت‌نشده به تفکیک مدت|نا ورکړل شوي د پلور بلونه د عمر له مخې|Yaşa göre ödenmemiş satış faturaları
+Aged payables|سنی‌سازی پرداختنی‌ها|د ورکړې وړ حسابونو عمر|Borç yaşlandırma
+Unpaid purchase invoices by age|فاکتورهای خرید پرداخت‌نشده به تفکیک مدت|نا ورکړل شوي د پېرلو بلونه د عمر له مخې|Yaşa göre ödenmemiş alış faturaları
+Inventory value|ارزش موجودی|د ګدام ارزښت|Stok değeri
+Quantity on hand and value per item|مقدار موجود و ارزش هر جنس|د هر توکي موجود شمېر او ارزښت|Kalem bazında eldeki miktar ve değer
+Tax summary|خلاصه مالیات|د مالیې لنډیز|Vergi özeti
+Tax collected and paid per tax code|مالیات جمع‌آوری و پرداخت‌شده به تفکیک کد|د هر کوډ له مخې راټوله او ورکړل شوې مالیه|Vergi koduna göre tahsil edilen ve ödenen vergi
+Balance sheet & profit and loss|بیلانس و سود و زیان|بیلانس او ګټه او زیان|Bilanço ve kâr-zarar
+On the Summary page|در صفحه خلاصه|د لنډیز په پاڼه کې|Özet sayfasında
+Customer statements|صورت‌حساب مشتریان|د پېرودونکو صورت‌حسابونه|Müşteri ekstreleri
+Open a customer to see its statement|برای دیدن صورت‌حساب، یک مشتری را باز کنید|د صورت‌حساب لیدو لپاره یو پېرودونکی خلاص کړئ|Ekstresini görmek için bir müşteri açın
+Opening|اول دوره|پیل|Açılış
+Closing|آخر دوره|پای|Kapanış
+Debit balances are positive, credit balances negative.|مانده‌های بدهکار مثبت و بستانکار منفی است.|ډیبیټ پاتې مثبت او کریډیټ پاتې منفي دي.|Borç bakiyeleri pozitif, alacak bakiyeleri negatiftir.
+Current|جاری|اوسنی|Vadesi gelmemiş
+1–30 days|۱ تا ۳۰ روز|۱–۳۰ ورځې|1–30 gün
+31–60 days|۳۱ تا ۶۰ روز|۳۱–۶۰ ورځې|31–60 gün
+61–90 days|۶۱ تا ۹۰ روز|۶۱–۹۰ ورځې|61–90 gün
+Over 90 days|بیش از ۹۰ روز|له ۹۰ ورځو زیات|90 günden fazla
+Nothing outstanding|چیزی باقی نمانده|هېڅ پاتې نه دی|Bekleyen yok
+No balances yet|هنوز مانده‌ای نیست|لا پاتې نشته|Henüz bakiye yok
+Tax code|کد مالیات|د مالیې کوډ|Vergi kodu
+Tax on sales|مالیات فروش|د پلور مالیه|Satışlardan vergi
+Tax on purchases|مالیات خرید|د پېرلو مالیه|Alışlardan vergi
+Net payable|خالص قابل پرداخت|خالص د ورکړې وړ|Net ödenecek
+No project transactions in this period|در این دوره معامله پروژه‌ای نیست|په دې موده کې د پروژې معامله نشته|Bu dönemde proje işlemi yok
+Profit|سود|ګټه|Kâr
+Items|اجناس|توکي|Kalemler
+Reason|دلیل|لامل|Sebep
+e.g. damaged, expired, lost|مثلاً خراب، تاریخ‌گذشته، گم‌شده|لکه خراب، تېر نېټه، ورک|ör. hasarlı, süresi geçmiş, kayıp
+Stock is valued at average cost. The value is moved from inventory to the expense account.|موجودی به قیمت میانگین ارزیابی می‌شود. ارزش از موجودی به حساب مصرف منتقل می‌شود.|ګدام په منځني لګښت ارزول کېږي. ارزښت له ګدامه د لګښت حساب ته لېږدول کېږي.|Stok ortalama maliyetle değerlenir. Değer stoktan gider hesabına aktarılır.
+Choose an item on every line|برای هر سطر جنس انتخاب کنید|په هره کرښه کې توکی وټاکئ|Her satırda kalem seçin
+Choose an expense account|حساب مصرف را انتخاب کنید|د لګښت حساب وټاکئ|Gider hesabı seçin
+Delivery address (if different)|آدرس تحویل (اگر متفاوت است)|د سپارلو پته (که توپیر ولري)|Teslimat adresi (farklıysa)
+e.g. Kabul office fit-out|مثلاً تجهیز دفتر کابل|لکه د کابل دفتر سمبالول|ör. Kabil ofis tadilatı
+Once a project exists, a Project column appears on receipts, payments, invoices, expense claims and journal entries, so you can see profit per project.|وقتی پروژه‌ای وجود داشته باشد، ستون پروژه در دریافت‌ها، پرداخت‌ها، فاکتورها، ادعاهای مصارف و ثبت‌های روزنامچه ظاهر می‌شود تا سود هر پروژه را ببینید.|کله چې پروژه شتون ولري، د پروژې ستون په رسیدونو، تادیاتو، بلونو، د لګښت ادعاوو او ژورنال ثبتونو کې ښکاري، ترڅو د هرې پروژې ګټه ووینئ.|Bir proje oluşturulunca tahsilat, ödeme, fatura, masraf beyanı ve yevmiye kayıtlarında Proje sütunu görünür; böylece proje bazında kârı görebilirsiniz.
+This project is used on transactions and cannot be deleted.|این پروژه در معاملات استفاده شده و حذف نمی‌شود.|دا پروژه په معاملو کې کارول شوې او نه ړنګېږي.|Bu proje işlemlerde kullanılıyor, silinemez.
+Code (e.g. EUR, TRY, AFN)|کد (مثلاً EUR، TRY، AFN)|کوډ (لکه EUR، TRY، AFN)|Kod (ör. EUR, TRY, AFN)
+e.g. Turkish lira|مثلاً لیره ترکیه|لکه ترکي لیره|ör. Türk lirası
+This rate is filled in on new transactions. You can change it on each transaction.|این نرخ در معاملات جدید درج می‌شود. می‌توانید در هر معامله آن را تغییر دهید.|دا نرخ په نویو معاملو کې ډکېږي. په هره معامله کې یې بدلولی شئ.|Bu kur yeni işlemlere otomatik girilir. Her işlemde değiştirebilirsiniz.
+Enter a currency code|کد واحد پول را وارد کنید|د اسعارو کوډ ولیکئ|Para birimi kodunu girin
+This is already your base currency|این واحد پول اصلی شماست|دا دمخه ستاسو اصلي اسعار دي|Bu zaten ana para biriminiz
+This currency already exists|این واحد پول قبلاً وجود دارد|دا اسعار دمخه شته|Bu para birimi zaten var
+Enter an exchange rate above zero|نرخ تبادله بیشتر از صفر وارد کنید|له صفر لوړ د تبادلې نرخ ولیکئ|Sıfırdan büyük kur girin
+This currency is used by accounts, customers or suppliers.|این واحد پول توسط حساب‌ها، مشتریان یا تأمین‌کنندگان استفاده می‌شود.|دا اسعار د حسابونو، پېرودونکو یا عرضه کوونکو لخوا کارول کېږي.|Bu para birimi hesaplar, müşteriler veya tedarikçiler tarafından kullanılıyor.
+Every saved version of this record|همه نسخه‌های ذخیره‌شده این رکورد|د دې ریکارډ ټولې خوندي شوې بڼې|Bu kaydın kaydedilmiş tüm sürümleri
+Latest 300 changes in this business|۳۰۰ تغییر آخر در این کسب‌وکار|په دې سوداګرۍ کې وروستي ۳۰۰ بدلونونه|Bu işletmedeki son 300 değişiklik
+When|زمان|کله|Ne zaman
+Who|چه کسی|څوک|Kim
+Action|عمل|کړنه|İşlem
+Tab|بخش|برخه|Sekme
+Record|رکورد|ریکارډ|Kayıt
+No changes recorded yet|هنوز تغییری ثبت نشده|لا بدلون نه دی ثبت شوی|Henüz değişiklik kaydı yok
+Only administrators can see the change history.|فقط مدیران می‌توانند تاریخچه تغییرات را ببینند.|یوازې مدیران کولی شي د بدلونونو تاریخچه وګوري.|Değişiklik geçmişini yalnızca yöneticiler görebilir.
+You can view this record but not change it.|می‌توانید این رکورد را ببینید اما تغییر دهید نه.|تاسو کولی شئ دا ریکارډ ووینئ خو بدل یې نه شئ کړی.|Bu kaydı görebilirsiniz ama değiştiremezsiniz.
+This transaction is on or before the lock date and cannot be changed.|این معامله در تاریخ قفل یا قبل از آن است و تغییر نمی‌کند.|دا معامله د قلف په نېټه یا مخکې ده او نه بدلېږي.|Bu işlem kilit tarihinde veya öncesinde, değiştirilemez.
+Delete this record? This cannot be undone.|این رکورد حذف شود؟ این کار برگشت‌پذیر نیست.|دا ریکارډ ړنګ شي؟ بېرته نه راګرځي.|Bu kayıt silinsin mi? Bu işlem geri alınamaz.
+Remove|حذف|لرې کول|Kaldır
+Someone else changed this record while you were editing. The latest version has been loaded.|شخص دیگری هنگام ویرایش شما این رکورد را تغییر داد. آخرین نسخه بارگذاری شد.|بل چا ستاسو د سمون پر مهال دا ریکارډ بدل کړ. وروستۍ بڼه پورته شوه.|Siz düzenlerken başka biri bu kaydı değiştirdi. En son sürüm yüklendi.
+Something went wrong:|مشکلی پیش آمد:|یوه ستونزه پېښه شوه:|Bir sorun oluştu:
+Payment for invoice|پرداخت برای فاکتور|د بل لپاره تادیه|Fatura ödemesi
+Opening balance is the amount in this account on {D}, in the account's own currency.|مانده اول، مبلغ این حساب در تاریخ {D} به واحد پول خود حساب است.|پیل پاتې په {D} نېټه د دې حساب مبلغ دی، د حساب په خپلو اسعارو.|Açılış bakiyesi, bu hesabın {D} tarihindeki tutarıdır (hesabın kendi para biriminde).
+Furniture & equipment|اثاثیه و تجهیزات|فرنیچر او تجهیزات|Demirbaş ve ekipman
+Prepayments|پیش‌پرداخت‌ها|مخکینۍ تادیات|Peşin ödenmiş giderler
+Loans payable|قرض‌های پرداختنی|د ورکړې وړ پورونه|Ödenecek krediler
+Other payables|سایر پرداختنی‌ها|نور د ورکړې وړ|Diğer borçlar
+Owner's capital|سرمایه مالک|د مالک پانګه|Sermaye
+Owner's drawings|برداشت مالک|د مالک ایستنې|Ortak çekişleri
+Service income|درآمد خدمات|د خدمتونو عاید|Hizmet geliri
+Commission income|درآمد کمیسیون|د کمیسیون عاید|Komisyon geliri
+Other income|سایر درآمدها|نور عاید|Diğer gelirler
+Rent|کرایه|کرایه|Kira
+Salaries & wages|معاشات و دستمزد|معاشونه او مزدونه|Maaş ve ücretler
+Utilities|آب، برق و گاز|اوبه، برېښنا او ګاز|Elektrik, su, doğalgaz
+Telephone & internet|تلفن و انترنت|ټیلیفون او انټرنېټ|Telefon ve internet
+Office supplies|لوازم دفتری|دفتري توکي|Büro malzemeleri
+Transport & travel|ترانسپورت و سفر|ټرانسپورټ او سفر|Ulaşım ve seyahat
+Advertising|تبلیغات|اعلانات|Reklam
+Bank charges|کارمزد بانکی|بانکي فیسونه|Banka masrafları
+Repairs & maintenance|ترمیم و نگهداری|ترمیم او ساتنه|Bakım ve onarım
+Other expenses|سایر مصارف|نور لګښتونه|Diğer giderler
+Cost of goods sold|قیمت تمام‌شده کالای فروش‌رفته|د پلورل شویو توکو لګښت|Satılan malın maliyeti
+Depreciation expense|مصرف استهلاک|د استهلاک لګښت|Amortisman gideri
+Foreign exchange gains/losses|سود و زیان تبادله ارز|د اسعارو د تبادلې ګټه/زیان|Kur farkı kâr/zarar
+Thank you for your business.|از همکاری شما سپاسگزاریم.|ستاسو له همکارۍ مننه.|İş birliğiniz için teşekkür ederiz.
+Basic salary|معاش اصلی|اصلي معاش|Temel maaş
+Advance repayment|بازپرداخت پیش‌پرداخت|د پیشکي بېرته ورکړه|Avans geri ödemesi
+Could not save|ذخیره نشد|خوندي نه شو|Kaydedilemedi
+Could not delete|حذف نشد|ړنګ نه شو|Silinemedi
+Could not create|ایجاد نشد|جوړ نه شو|Oluşturulamadı
+Could not import|وارد نشد|راوړل نه شو|İçe aktarılamadı
+Could not remove|حذف نشد|لرې نه شو|Kaldırılamadı
+Import failed|وارد کردن ناموفق بود|راوړل ناکام شول|İçe aktarma başarısız
+Could not load businesses|کسب‌وکارها بارگذاری نشد|سوداګرۍ پورته نه شوې|İşletmeler yüklenemedi
+Could not load history|تاریخچه بارگذاری نشد|تاریخچه پورته نه شوه|Geçmiş yüklenemedi
+will be marked cleared|تأییدشده علامت می‌خورد|تایید شوې به نښه شي|mutabık olarak işaretlenecek
+We sent a confirmation link to|لینک تأیید را فرستادیم به|د تایید لینک مو ولېږه|Onay bağlantısını şu adrese gönderdik:
+. Open it, then come back and sign in.|. آن را باز کنید، سپس برگردید و وارد شوید.|. هغه خلاص کړئ، بیا راشئ او ننوځئ.|. Açın, sonra geri dönüp giriş yapın.
+If an account exists for|اگر حسابی برای|که چېرې حساب شتون ولري د|Şu adres için bir hesap varsa:
+, a reset link is on its way.|وجود داشته باشد، لینک بازیابی در راه است.|لپاره، د بیا جوړولو لینک په لاره دی.|, sıfırlama bağlantısı yolda.
+Matches|مطابق با|سره سمون لري|Eşleşir
+Week|هفته|اونۍ|Hafta
+Accounts|حساب‌ها|حسابونه|Hesaplar
+today|امروز|نن|bugün
+Delete customer and all their transactions|حذف مشتری و همه معاملاتش|پېرودونکی او ټولې معاملې یې ړنګول|Müşteriyi ve tüm işlemlerini sil
+Delete supplier and all their transactions|حذف تأمین‌کننده و همه معاملاتش|عرضه کوونکی او ټولې معاملې یې ړنګول|Tedarikçiyi ve tüm işlemlerini sil
+Type the name to confirm|برای تأیید، نام را بنویسید|د تایید لپاره نوم ولیکئ|Onaylamak için adı yazın
+Delete everything|حذف همه|ټول ړنګول|Hepsini sil
+Only administrators can do this.|فقط مدیران می‌توانند این کار را انجام دهند.|یوازې مدیران دا کار کولی شي.|Bunu yalnızca yöneticiler yapabilir.
+Stopped: some items could not be deleted. Open the list and try again.|متوقف شد: بعضی موارد حذف نشد. فهرست را باز کنید و دوباره امتحان کنید.|ودرېده: ځینې توکي ړنګ نه شول. لېست خلاص کړئ او بیا هڅه وکړئ.|Durduruldu: bazı öğeler silinemedi. Listeyi açıp tekrar deneyin.
+Help & Support|کمک و پشتیبانی|مرسته او ملاتړ|Yardım ve Destek
+Need help?|کمک لازم دارید؟|مرستې ته اړتیا لرئ؟|Yardıma mı ihtiyacınız var?
+Contact us|تماس با ما|موږ سره اړیکه|Bize ulaşın
+Having a problem or a question about Falak Hesab? Write to us and we will help you.|مشکل یا سؤالی درباره Falak Hesab دارید؟ به ما پیام دهید، کمک‌تان می‌کنیم.|د Falak Hesab په اړه ستونزه یا پوښتنه لرئ؟ موږ ته ولیکئ، مرسته به درسره وکړو.|Falak Hesab ile ilgili bir sorununuz veya sorunuz mu var? Bize yazın, yardımcı olalım.
+Send email|ارسال ایمیل|برېښنالیک لېږل|E-posta gönder
+WhatsApp / phone|واتس‌اپ / تلفن|واټس‌اپ / تلیفون|WhatsApp / telefon
+To help us answer faster|برای اینکه سریع‌تر پاسخ دهیم|د دې لپاره چې ژر ځواب درکړو|Daha hızlı yanıt verebilmemiz için
+Tell us the email you sign in with and the business name.|ایمیلی که با آن وارد می‌شوید و نام کسب‌وکار را بنویسید.|هغه برېښنالیک چې پرې ننوځئ او د سوداګرۍ نوم ولیکئ.|Giriş yaptığınız e-postayı ve işletme adını yazın.
+Say what you were doing and what went wrong.|بگویید چه کاری می‌کردید و چه مشکلی پیش آمد.|ووایاست چې څه مو کول او څه ستونزه پېښه شوه.|Ne yaptığınızı ve neyin yanlış gittiğini yazın.
+Send a screenshot of the problem if you can.|اگر می‌توانید، از مشکل عکس صفحه بفرستید.|که کولی شئ، د ستونزې سکرین شاټ راولېږئ.|Mümkünse sorunun ekran görüntüsünü gönderin.
+Never send us your password.|هرگز رمز عبور خود را برای ما نفرستید.|هېڅکله خپل پاسورډ موږ ته مه لېږئ.|Şifrenizi asla bize göndermeyin.
+Choose or create a business|یک کسب‌وکار را انتخاب یا ایجاد کنید|یوه سوداګري وټاکئ یا جوړه کړئ|Bir işletme seçin veya oluşturun
+Travel|سفر|سفر|Seyahat
+Travel overview|نمای کلی سفر|د سفر عمومي کتنه|Seyahat özeti
+Tickets|تکت‌ها|ټکټونه|Biletler
+Ticket|تکت|ټکټ|Bilet
+New ticket|تکت جدید|نوی ټکټ|Yeni bilet
+Edit ticket|ویرایش تکت|ټکټ سمول|Bileti düzenle
+Date issued|تاریخ صدور|د صادرېدو نېټه|Düzenleme tarihi
+Service|خدمت|خدمت|Hizmet
+Flight ticket|تکت پرواز|د الوتنې ټکټ|Uçak bileti
+Date change / reissue|تغییر تاریخ / صدور مجدد|د نېټې بدلون / بیا صادرول|Tarih değişikliği / yeniden düzenleme
+Extra baggage|بار اضافی|اضافي بار|Ek bagaj
+Other service|خدمت دیگر|بل خدمت|Diğer hizmet
+Passenger name|نام مسافر|د مسافر نوم|Yolcu adı
+Passenger|مسافر|مسافر|Yolcu
+PNR / booking code|PNR / کد رزرو|PNR / د بکینګ کوډ|PNR / rezervasyon kodu
+PNR|PNR|PNR|PNR
+Ticket number|شماره تکت|د ټکټ شمېره|Bilet numarası
+Airline|شرکت هوایی|هوايي شرکت|Havayolu
+Airlines|شرکت‌های هوایی|هوايي شرکتونه|Havayolları
+Route|مسیر|لار|Güzergah
+Flight date|تاریخ پرواز|د الوتنې نېټه|Uçuş tarihi
+Return date|تاریخ برگشت|د راستنېدو نېټه|Dönüş tarihi
+Sold to|فروخته شده به|چا ته وپلورل شو|Satılan kişi
+Selling price|قیمت فروش|د پلور بیه|Satış fiyatı
+Cost from airline|هزینه از شرکت هوایی|د هوايي شرکت لګښت|Havayolu maliyeti
+Refunded / cancelled|بازپرداخت / لغو شده|بېرته ورکړل شوی / لغو شوی|İade / iptal edildi
+Refunded|بازپرداخت شده|بېرته ورکړل شوی|İade edildi
+Refund date|تاریخ بازپرداخت|د بېرته ورکولو نېټه|İade tarihi
+Refund to customer|بازپرداخت به مشتری|پېرودونکي ته بېرته ورکړه|Müşteriye iade
+Refund from airline|بازپرداخت از شرکت هوایی|له هوايي شرکت بېرته اخیستل|Havayolundan iade
+Profit after refund|سود پس از بازپرداخت|له بېرته ورکولو وروسته ګټه|İade sonrası kâr
+Notes|یادداشت‌ها|یادښتونه|Notlar
+Still to receive|باقی برای دریافت|لا ترلاسه کېدونکی|Tahsil edilecek
+Before adding tickets, add at least one airline and one customer.|قبل از ثبت تکت، حداقل یک شرکت هوایی و یک مشتری اضافه کنید.|د ټکټ له ثبت مخکې، لږ تر لږه یو هوايي شرکت او یو پېرودونکی اضافه کړئ.|Bilet eklemeden önce en az bir havayolu ve bir müşteri ekleyin.
+Price|قیمت|بیه|Fiyat
+Cost from airlines|هزینه از شرکت‌های هوایی|د هوايي شرکتونو لګښت|Havayolu maliyetleri
+Amounts in|مبالغ به|مقدارونه په|Tutarlar:
+Deposits and balances are shown in each airline's or agent's own currency.|پیش‌پرداخت‌ها و مانده‌ها به ارز خود هر شرکت هوایی یا نماینده نشان داده می‌شوند.|ډیپازټونه او بیلانسونه د هر هوايي شرکت یا اجنټ په خپله اسعارو کې ښودل کېږي.|Depozitolar ve bakiyeler her havayolunun veya acentenin kendi para biriminde gösterilir.
+Deposit left|پیش‌پرداخت باقی‌مانده|پاتې ډیپازټ|Kalan depozito
+You owe|بدهی شما|تاسو پوروړي یاست|Borcunuz
+Owes you|به شما بدهکار است|تاسو ته پوروړی دی|Size borçlu
+Add deposit|افزودن پیش‌پرداخت|ډیپازټ اضافه کول|Depozito ekle
+Receive deposit|دریافت پیش‌پرداخت|ډیپازټ ترلاسه کول|Depozito al
++ Add airline|+ افزودن شرکت هوایی|+ هوايي شرکت اضافه کول|+ Havayolu ekle
++ Add sub-agent|+ افزودن نماینده فرعی|+ فرعي اجنټ اضافه کول|+ Alt acente ekle
+Sub-agents|نمایندگان فرعی|فرعي اجنټان|Alt acenteler
+Sub-agent|نماینده فرعی|فرعي اجنټ|Alt acente
+Sub-agent (B2B)|نماینده فرعی (B2B)|فرعي اجنټ (B2B)|Alt acente (B2B)
+Agent|نماینده|اجنټ|Acente
+Unpaid tickets|تکت‌های پرداخت‌نشده|نه ورکړل شوي ټکټونه|Ödenmemiş biletler
+Profit by route|سود بر اساس مسیر|د لار له مخې ګټه|Güzergaha göre kâr
+Top customers|مشتریان برتر|غوره پېرودونکي|En iyi müşteriler
+How it works|چگونه کار می‌کند|څنګه کار کوي|Nasıl çalışır
+Mark a supplier as|یک تأمین‌کننده را علامت بزنید به عنوان|یو عرضه کوونکی په نښه کړئ د|Bir tedarikçiyi şu şekilde işaretleyin:
+Show travel agency features (tickets, airlines, sub-agents)|نمایش امکانات آژانس مسافرتی (تکت، شرکت‌های هوایی، نمایندگان فرعی)|د سفر اژانس ځانګړتیاوې ښودل (ټکټونه، هوايي شرکتونه، فرعي اجنټان)|Seyahat acentesi özelliklerini göster (biletler, havayolları, alt acenteler)
+Ticket sales|فروش تکت|د ټکټ پلور|Bilet satışları
+Ticket cost|هزینه تکت|د ټکټ لګښت|Bilet maliyeti
+Enter the passenger name|نام مسافر را وارد کنید|د مسافر نوم ولیکئ|Yolcu adını girin
+Choose the airline|شرکت هوایی را انتخاب کنید|هوايي شرکت وټاکئ|Havayolunu seçin
+Choose who the ticket is sold to|انتخاب کنید تکت به چه کسی فروخته شده|وټاکئ چې ټکټ چا ته پلورل شوی|Biletin kime satıldığını seçin
+Enter the selling price|قیمت فروش را وارد کنید|د پلور بیه ولیکئ|Satış fiyatını girin
+Enter the cost from the airline|هزینه شرکت هوایی را وارد کنید|د هوايي شرکت لګښت ولیکئ|Havayolu maliyetini girin
+Enter the refund date|تاریخ بازپرداخت را وارد کنید|د بېرته ورکولو نېټه ولیکئ|İade tarihini girin
+The refund date cannot be before the issue date|تاریخ بازپرداخت نمی‌تواند قبل از تاریخ صدور باشد|د بېرته ورکولو نېټه د صادرېدو له نېټې مخکې نه شي کېدای|İade tarihi düzenleme tarihinden önce olamaz
+Nothing here yet|هنوز چیزی نیست|لا تر اوسه څه نشته|Henüz bir şey yok
+new ticket|تکت جدید|نوی ټکټ|yeni bilet
+Mark a supplier as Airline and a customer as Sub-agent (B2B) in their details.|در مشخصات، تأمین‌کننده را «شرکت هوایی» و مشتری را «نماینده فرعی (B2B)» انتخاب کنید.|په جزیاتو کې عرضه کوونکی «هوايي شرکت» او پېرودونکی «فرعي اجنټ (B2B)» وټاکئ.|Ayrıntılarda tedarikçiyi Havayolu, müşteriyi Alt acente (B2B) olarak işaretleyin.
+Money you send to an airline as a deposit: press Add deposit. Each ticket's cost is taken from the deposit.|پولی که به شرکت هوایی پیش‌پرداخت می‌فرستید: «افزودن پیش‌پرداخت» را بزنید. هزینه هر تکت از آن کم می‌شود.|هغه پیسې چې هوايي شرکت ته د ډیپازټ په توګه لېږئ: «ډیپازټ اضافه کول» کېکاږئ. د هر ټکټ لګښت له ډیپازټ څخه کمېږي.|Havayoluna depozito olarak gönderdiğiniz para: Depozito ekle'ye basın. Her biletin maliyeti depozitodan düşülür.
+Money a sub-agent sends you: press Receive deposit. Each ticket you sell them is taken from their deposit.|پولی که نماینده فرعی برای شما می‌فرستد: «دریافت پیش‌پرداخت» را بزنید. هر تکتی که به او می‌فروشید از پیش‌پرداختش کم می‌شود.|هغه پیسې چې فرعي اجنټ تاسو ته لېږي: «ډیپازټ ترلاسه کول» کېکاږئ. هر ټکټ چې ورته پلورئ له ډیپازټ یې کمېږي.|Alt acentenin size gönderdiği para: Depozito al'a basın. Ona sattığınız her bilet depozitosundan düşülür.
+Walk-in passengers: add the ticket, then press Receive payment on the ticket.|مسافران حضوری: تکت را ثبت کنید، سپس روی تکت «دریافت پول» را بزنید.|حضوري مسافر: ټکټ ثبت کړئ، بیا په ټکټ کې «پیسې ترلاسه کول» کېکاږئ.|Ofise gelen yolcular: bileti ekleyin, sonra bilette Ödeme al'a basın.
+TICKET RECEIPT|رسید تکت|د ټکټ رسید|BİLET MAKBUZU
+Ticket receipt|رسید تکت|د ټکټ رسید|Bilet makbuzu
+Passenger signature|امضای مسافر|د مسافر لاسلیک|Yolcu imzası
+Refund|بازپرداخت|بېرته ورکړه|İade
+View / Print|مشاهده / چاپ|کتل / چاپ|Görüntüle / Yazdır
+Simple accounting for your business|حسابداری ساده برای کسب‌وکار شما|ستاسو د سوداګرۍ لپاره ساده محاسبه|İşletmeniz için basit muhasebe
+Free, in English, Dari, Pashto and Turkish.|رایگان، به انگلیسی، دری، پشتو و ترکی.|وړیا، په انګلیسي، دري، پښتو او ترکي.|Ücretsiz; İngilizce, Darice, Peştuca ve Türkçe.
+Customize|سفارشی‌سازی|ځانګړې کول|Özelleştir
+Customize tabs|سفارشی‌سازی تب‌ها|د ټبونو ځانګړې کول|Sekmeleri özelleştir
+Choose which tabs appear in the menu|انتخاب کنید کدام تب‌ها در منو نشان داده شوند|وټاکئ چې کوم ټبونه په مېنو کې ښکاره شي|Menüde hangi sekmelerin görüneceğini seçin
+Choose which tabs appear in the menu for this business.|انتخاب کنید کدام تب‌ها در منوی این کسب‌وکار نشان داده شوند.|وټاکئ چې د دې سوداګرۍ په مېنو کې کوم ټبونه ښکاره شي.|Bu işletmenin menüsünde hangi sekmelerin görüneceğini seçin.
+Show all|نمایش همه|ټول ښودل|Tümünü göster
+Hide all|پنهان کردن همه|ټول پټول|Tümünü gizle
+Always shown:|همیشه نمایش داده می‌شوند:|تل ښودل کېږي:|Her zaman gösterilir:
+Hiding a tab does not delete anything. Its records stay in your books and reports, and you can show the tab again any time.|پنهان کردن یک تب چیزی را حذف نمی‌کند. اسناد آن در دفاتر و گزارش‌ها باقی می‌مانند و هر زمان می‌توانید دوباره آن را نمایش دهید.|د ټب پټول هېڅ نه ړنګوي. اسناد یې په کتابونو او راپورونو کې پاتې کېږي او هر وخت یې بیا ښودلی شئ.|Bir sekmeyi gizlemek hiçbir şeyi silmez. Kayıtları defterlerinizde ve raporlarınızda kalır; sekmeyi istediğiniz zaman yeniden gösterebilirsiniz.
+Save|ذخیره|ساتل|Kaydet
+Hide|پنهان کردن|پټول|Gizle
+These tabs have records:|این تب‌ها اسناد دارند:|دا ټبونه اسناد لري:|Bu sekmelerde kayıt var:
+Hide them anyway? Nothing is deleted.|باز هم پنهان شوند؟ چیزی حذف نمی‌شود.|بیا هم پټ شي؟ هېڅ نه ړنګېږي.|Yine de gizlensin mi? Hiçbir şey silinmez.
+Business logo|لوگوی کسب‌وکار|د سوداګرۍ لوګو|İşletme logosu
+Shown at the top of invoices, receipts, ticket receipts and other printed documents.|در بالای فاکتورها، رسیدها، رسید تکت و سایر اسناد چاپی نشان داده می‌شود.|د بلونو، رسیدونو، د ټکټ رسیدونو او نورو چاپي اسنادو په سر کې ښودل کېږي.|Faturaların, makbuzların, bilet makbuzlarının ve diğer belgelerin üstünde gösterilir.
+No logo|بدون لوگو|لوګو نشته|Logo yok
+Choose image|انتخاب تصویر|انځور وټاکئ|Resim seç
+Logo saved|لوگو ذخیره شد|لوګو وساتل شو|Logo kaydedildi
+Logo removed|لوگو حذف شد|لوګو لرې شو|Logo kaldırıldı
+Footers|پانویس‌ها|لاندینۍ متنونه|Alt bilgiler
+Text printed at the bottom of documents, for example bank details, terms or a thank-you note.|متنی که پایین اسناد چاپ می‌شود، مثلاً مشخصات بانکی، شرایط یا تشکر.|هغه متن چې د اسنادو لاندې چاپېږي، لکه بانکي معلومات، شرطونه یا مننه.|Belgelerin altına yazdırılan metin; örneğin banka bilgileri, şartlar veya teşekkür notu.
++ Add footer|+ افزودن پانویس|+ لاندینی متن اضافه کول|+ Alt bilgi ekle
+Save footers|ذخیره پانویس‌ها|لاندیني متنونه ساتل|Alt bilgileri kaydet
+Footers saved|پانویس‌ها ذخیره شدند|لاندیني متنونه وساتل شول|Alt bilgiler kaydedildi
+No footers yet.|هنوز پانویسی نیست.|لا لاندینی متن نشته.|Henüz alt bilgi yok.
+Text|متن|متن|Metin
+Show on|نمایش در|ښودل په|Gösterileceği yer
+Remove footer|حذف پانویس|لاندینی متن لرې کول|Alt bilgiyi kaldır
+Sales documents|اسناد فروش|د پلور اسناد|Satış belgeleri
+Purchase documents|اسناد خرید|د پېر اسناد|Satın alma belgeleri
+Receipts and payments|دریافت‌ها و پرداخت‌ها|رسیدونه او تادیات|Tahsilatlar ve ödemeler
+Ticket receipts|رسیدهای تکت|د ټکټ رسیدونه|Bilet makbuzları
+Starting balance (they owed you)|مانده اولیه (به شما بدهکار بودند)|لومړنی بیلانس (تاسو ته پوروړي وو)|Açılış bakiyesi (size borçluydu)
+Starting balance (you owed them)|مانده اولیه (شما بدهکار بودید)|لومړنی بیلانس (تاسو پوروړي وئ)|Açılış bakiyesi (siz borçluydunuz)
+Starting balance|مانده اولیه|لومړنی بیلانس|Açılış bakiyesi
+Choose a PNG or JPG image|یک تصویر PNG یا JPG انتخاب کنید|یو PNG یا JPG انځور وټاکئ|PNG veya JPG resim seçin
+That image is too large. Try a smaller one.|این تصویر خیلی بزرگ است. تصویر کوچک‌تری امتحان کنید.|دا انځور ډېر لوی دی. کوچنی انځور وازمویئ.|Bu resim çok büyük. Daha küçük bir resim deneyin.
+Change|تغییر|بدلون|Değişim
+Received|دریافت شده|ترلاسه شوي|Alınan
+Net|خالص|خالص|Net
+All transactions|همه معاملات|ټولې معاملې|Tüm işlemler
+Cash flow statement|صورت جریان نقدی|د نغدو پیسو جریان|Nakit akış tablosu
+Money in and out of bank and cash accounts|ورود و خروج پول از حساب‌های بانک و نقد|له بانک او نغدو حسابونو پیسې راتلل او وتل|Banka ve kasa hesaplarına giren ve çıkan para
+Statement of changes in equity|صورت تغییرات حقوق صاحبان سهام|د پانګې د بدلونونو صورت|Özkaynak değişim tablosu
+How owners' equity changed in the period|حقوق مالکان در این دوره چگونه تغییر کرد|د مالکانو پانګه په دې موده کې څنګه بدله شوه|Dönem içinde özkaynağın nasıl değiştiği
+Balance sheet – comparison|ترازنامه – مقایسه|بیلانس شیټ – پرتله|Bilanço – karşılaştırma
+This date compared with one year earlier|این تاریخ در مقایسه با یک سال قبل|دا نېټه له یو کال مخکې سره پرتله|Bu tarih, bir yıl öncesiyle karşılaştırmalı
+Profit and loss – comparison|سود و زیان – مقایسه|ګټه او زیان – پرتله|Kâr ve zarar – karşılaştırma
+This period compared with the same period last year|این دوره در مقایسه با همین دوره سال گذشته|دا موده د تېر کال له همدې مودې سره پرتله|Bu dönem, geçen yılın aynı dönemiyle karşılaştırmalı
+Sales by customer|فروش بر اساس مشتری|د پېرودونکي له مخې پلور|Müşteriye göre satışlar
+Sales, returns and money received per customer|فروش، برگشتی‌ها و پول دریافتی هر مشتری|د هر پېرودونکي پلور، بېرته راګرځېدلي او ترلاسه شوې پیسې|Müşteri başına satışlar, iadeler ve tahsilatlar
+Receipts and payments summary|خلاصه دریافت‌ها و پرداخت‌ها|د رسیدونو او تادیاتو لنډیز|Tahsilat ve ödeme özeti
+Money received and paid per account|پول دریافتی و پرداختی بر اساس حساب|د هر حساب ترلاسه شوې او ورکړل شوې پیسې|Hesap başına alınan ve ödenen para
+Unpaid invoices and tickets per customer, to print or send by WhatsApp|فاکتورها و تکت‌های پرداخت‌نشده هر مشتری، برای چاپ یا ارسال با واتس‌اپ|د هر پېرودونکي نه ورکړل شوي بلونه او ټکټونه، د چاپ یا واټس‌اپ لپاره|Müşteri başına ödenmemiş faturalar ve biletler; yazdırın veya WhatsApp ile gönderin
+Operating activities|فعالیت‌های عملیاتی|عملیاتي فعالیتونه|İşletme faaliyetleri
+Investing activities|فعالیت‌های سرمایه‌گذاری|د پانګونې فعالیتونه|Yatırım faaliyetleri
+Financing activities|فعالیت‌های تأمین مالی|د تمویل فعالیتونه|Finansman faaliyetleri
+Net cash from operating activities|خالص نقد از فعالیت‌های عملیاتی|له عملیاتي فعالیتونو خالص نغد|İşletme faaliyetlerinden net nakit
+Net cash from investing activities|خالص نقد از فعالیت‌های سرمایه‌گذاری|د پانګونې له فعالیتونو خالص نغد|Yatırım faaliyetlerinden net nakit
+Net cash from financing activities|خالص نقد از فعالیت‌های تأمین مالی|د تمویل له فعالیتونو خالص نغد|Finansman faaliyetlerinden net nakit
+Net change in cash|تغییر خالص نقد|د نغدو خالص بدلون|Nakitteki net değişim
+Cash at the beginning of the period|نقد در ابتدای دوره|د مودې په پیل کې نغد|Dönem başı nakit
+Cash at the end of the period|نقد در پایان دوره|د مودې په پای کې نغد|Dönem sonu nakit
+Other changes|سایر تغییرات|نور بدلونونه|Diğer değişiklikler
+This period|این دوره|دا موده|Bu dönem
+Last year|سال گذشته|تېر کال|Geçen yıl
+Returns|برگشتی‌ها|بېرته راګرځېدلي|İadeler
+Net sales|فروش خالص|خالص پلور|Net satışlar
+No sales in this period|در این دوره فروشی نیست|په دې موده کې پلور نشته|Bu dönemde satış yok
+No receipts or payments in this period|در این دوره دریافت یا پرداختی نیست|په دې موده کې رسید یا تادیه نشته|Bu dönemde tahsilat veya ödeme yok
+Unpaid items|موارد پرداخت‌نشده|نه ورکړل شوي توکي|Ödenmemiş kalemler
+View statement|مشاهده صورت‌حساب|صورت‌حساب کتل|Ekstreyi görüntüle
+STATEMENT|صورت‌حساب|صورت‌حساب|HESAP EKSTRESİ
+← Customer statements|← صورت‌حساب مشتریان|← د پېرودونکو صورت‌حسابونه|← Müşteri ekstreleri
+Sales include sales invoices and tickets; returns are credit notes and ticket refunds.|فروش شامل فاکتورهای فروش و تکت‌هاست؛ برگشتی‌ها شامل یادداشت‌های اعتباری و بازپرداخت تکت است.|پلور د پلور بلونه او ټکټونه لري؛ بېرته راګرځېدلي کریډټ نوټونه او د ټکټ بېرته ورکړې دي.|Satışlar satış faturalarını ve biletleri içerir; iadeler alacak dekontları ve bilet iadeleridir.
+Sarafi|صرافی|صرافي|Döviz bürosu
+Sarafi overview|نمای کلی صرافی|د صرافۍ عمومي کتنه|Döviz bürosu özeti
+Currency Exchange|تبادله اسعار|د اسعارو تبادله|Döviz Alım-Satım
+Hawala Transfers|حواله‌ها|حوالې|Havale Transferleri
+Daily Rates|نرخ‌های روز|ورځني نرخونه|Günlük Kurlar
+Cash Counts|شمارش نقدی|د نغدو شمېرنه|Kasa Sayımları
+← Currency Exchange|← تبادله اسعار|← د اسعارو تبادله|← Döviz Alım-Satım
+← Hawala Transfers|← حواله‌ها|← حوالې|← Havale Transferleri
+← Daily Rates|← نرخ‌های روز|← ورځني نرخونه|← Günlük Kurlar
+← Cash Counts|← شمارش نقدی|← د نغدو شمېرنه|← Kasa Sayımları
++ New exchange|+ تبادله جدید|+ نوې تبادله|+ Yeni döviz işlemi
++ New hawala|+ حواله جدید|+ نوې حواله|+ Yeni havale
++ New daily rates|+ نرخ‌های جدید روز|+ نوي ورځني نرخونه|+ Yeni günlük kurlar
++ New cash count|+ شمارش نقدی جدید|+ د نغدو نوې شمېرنه|+ Yeni kasa sayımı
+new exchange|تبادله جدید|نوې تبادله|yeni döviz işlemi
+new hawala|حواله جدید|نوې حواله|yeni havale
+new daily rates|نرخ‌های جدید روز|نوي ورځني نرخونه|yeni günlük kurlar
+new cash count|شمارش نقدی جدید|د نغدو نوې شمېرنه|yeni kasa sayımı
+New exchange|تبادله جدید|نوې تبادله|Yeni döviz işlemi
+New hawala|حواله جدید|نوې حواله|Yeni havale
+New daily rates|نرخ‌های جدید روز|نوي ورځني نرخونه|Yeni günlük kurlar
+New cash count|شمارش نقدی جدید|د نغدو نوې شمېرنه|Yeni kasa sayımı
+New currency exchange|تبادله جدید اسعار|د اسعارو نوې تبادله|Yeni döviz işlemi
+Edit currency exchange|ویرایش تبادله اسعار|د اسعارو تبادله سمول|Döviz işlemini düzenle
+New hawala transfer|حواله جدید|نوې حواله|Yeni havale
+Edit hawala transfer|ویرایش حواله|حواله سمول|Havaleyi düzenle
+Edit daily rates|ویرایش نرخ‌های روز|ورځني نرخونه سمول|Günlük kurları düzenle
+Edit cash count|ویرایش شمارش نقدی|د نغدو شمېرنه سمول|Kasa sayımını düzenle
+Customer name|نام مشتری|د پېرودونکي نوم|Müşteri adı
+ID / passport number|شماره تذکره / پاسپورت|د تذکرې / پاسپورټ شمېره|Kimlik / pasaport no.
+ID|تذکره|تذکره|Kimlik
+Customer gives|مشتری می‌دهد|پېرودونکی ورکوي|Müşteri verir
+Customer receives|مشتری دریافت می‌کند|پېرودونکی ترلاسه کوي|Müşteri alır
+Choose two accounts with different currencies.|دو حساب با ارزهای مختلف انتخاب کنید.|دوه حسابونه د بېلابېلو اسعارو سره وټاکئ.|Farklı para birimlerinde iki hesap seçin.
+Available in paid-from account|موجودی در حساب پرداخت|د ورکړې په حساب کې موجود|Ödeme hesabındaki bakiye
+Add today's rates|افزودن نرخ‌های امروز|د نن ورځې نرخونه اضافه کړئ|Bugünün kurlarını ekle
+Enter the amount the customer gives|مبلغی که مشتری می‌دهد را وارد کنید|هغه مقدار ولیکئ چې پېرودونکی یې ورکوي|Müşterinin verdiği tutarı girin
+Enter the amount the customer receives|مبلغی که مشتری دریافت می‌کند را وارد کنید|هغه مقدار ولیکئ چې پېرودونکی یې ترلاسه کوي|Müşterinin aldığı tutarı girin
+Exchange profit|سود تبادله|د تبادلې ګټه|Kur kârı
+Hawala commission|کمیشن حواله|د حوالې کمیشن|Havale komisyonu
+Hawala to pay out|حواله قابل پرداخت|د ورکړې وړ حواله|Ödenecek havaleler
+Cash over/short|اضافه/کسر نقدی|د نغدو زیاتوالی/کموالی|Kasa fazlası/eksiği
+Exchanges|تبادله‌ها|تبادلې|Döviz işlemleri
+Pending hawala|حواله‌های در انتظار|په تمه حوالې|Bekleyen havaleler
+Profit and commission in|سود و کمیشن به|ګټه او کمیشن په|Kâr ve komisyon:
+Today's rates|نرخ‌های امروز|د نن ورځې نرخونه|Bugünün kurları
+Update rates|به‌روزرسانی نرخ‌ها|نرخونه تازه کول|Kurları güncelle
+Buy|خرید|پېر|Alış
+Sell|فروش|پلور|Satış
+Spread|تفاوت|توپیر|Fark
+Partner sarafs|صرافان همکار|همکار صرافان|Muhabir dövizciler
+Partner saraf|صراف همکار|همکار صراف|Muhabir dövizci
+Partner saraf (hawala)|صراف همکار (حواله)|همکار صراف (حواله)|Muhabir dövizci (havale)
+Partner|همکار|همکار|Muhabir
++ Add partner saraf|+ افزودن صراف همکار|+ همکار صراف اضافه کول|+ Muhabir dövizci ekle
+They owe us|آنها بدهکارند|دوی پوروړي دي|Bize borçlu
+We owe them|ما بدهکاریم|موږ پوروړي یو|Biz borçluyuz
+Cash by currency|نقدی بر اساس ارز|نغدې د اسعارو له مخې|Para birimine göre kasa
+Count cash|شمارش نقدی|نغدې شمېرل|Kasa say
+Waiting|در انتظار|انتظار|Bekleme
+Daily cash report|گزارش نقدی روزانه|د ورځې د نغدو راپور|Günlük kasa raporu
+Receive|دریافت|ترلاسه|Alınan
+Send|ارسال|لېږل|Gönderilen
+Direction|نوع حواله|لوری|Yön
+Sender → Receiver|فرستنده ← گیرنده|لېږونکی ← ترلاسه کوونکی|Gönderen → Alıcı
+Sender|فرستنده|لېږونکی|Gönderen
+Receiver|گیرنده|ترلاسه کوونکی|Alıcı
+Commission|کمیشن|کمیشن|Komisyon
+Our commission|کمیشن ما|زموږ کمیشن|Komisyonumuz
+Transfer code|کد حواله|د حوالې کوډ|Havale kodu
+From city|از شهر|له ښار|Gönderen şehir
+To city|به شهر|ښار ته|Alıcı şehir
+Paid on|پرداخت شده در|ورکړل شو په|Ödeme tarihi
+Paid out from|پرداخت شده از|ورکړل شو له|Ödendiği hesap
+Money received in|پول دریافت شده در|پیسې ترلاسه شوې په|Paranın alındığı hesap
+Send money (customer pays us, partner pays out)|ارسال پول (مشتری به ما می‌پردازد، همکار پرداخت می‌کند)|پیسې لېږل (پېرودونکی موږ ته ورکوي، همکار یې ورکوي)|Para gönder (müşteri bize öder, muhabir öder)
+Receive money (partner sends, we pay out)|دریافت پول (همکار می‌فرستد، ما پرداخت می‌کنیم)|پیسې ترلاسه کول (همکار لېږي، موږ یې ورکوو)|Para al (muhabir gönderir, biz öderiz)
+The partner owes us the amount plus our commission. When you pay the receiver, set Status to Paid and choose the cash account.|همکار مبلغ به‌علاوه کمیشن ما را بدهکار است. وقتی به گیرنده پرداختید، وضعیت را «پرداخت شده» کنید و حساب نقدی را انتخاب کنید.|همکار موږ ته مقدار او زموږ کمیشن پور دی. کله چې ترلاسه کوونکي ته ورکړئ، حالت «ورکړل شوی» کړئ او د نغدو حساب وټاکئ.|Muhabir bize tutar artı komisyonumuz kadar borçludur. Alıcıya ödeme yaptığınızda durumu Ödendi yapın ve kasa hesabını seçin.
+Customer pays|مشتری می‌پردازد|پېرودونکی ورکوي|Müşteri öder
+We now owe the partner the amount; the commission is our income.|اکنون مبلغ را به همکار بدهکاریم؛ کمیشن درآمد ماست.|اوس موږ همکار ته مقدار پوروړي یو؛ کمیشن زموږ عاید دی.|Artık muhabire tutar kadar borçluyuz; komisyon bizim gelirimizdir.
+Choose the partner saraf|صراف همکار را انتخاب کنید|همکار صراف وټاکئ|Muhabir dövizciyi seçin
+Enter the receiver name|نام گیرنده را وارد کنید|د ترلاسه کوونکي نوم ولیکئ|Alıcı adını girin
+Enter the amount|مبلغ را وارد کنید|مقدار ولیکئ|Tutarı girin
+Choose the cash or bank account|حساب نقدی یا بانکی را انتخاب کنید|د نغدو یا بانک حساب وټاکئ|Kasa veya banka hesabını seçin
+The paid date cannot be before the transfer date|تاریخ پرداخت نمی‌تواند قبل از تاریخ حواله باشد|د ورکړې نېټه د حوالې له نېټې مخکې نه شي کېدای|Ödeme tarihi havale tarihinden önce olamaz
+Add your partner saraf first: Suppliers → New supplier → Type: Partner saraf (hawala). Use one partner record for each currency.|اول صراف همکار را اضافه کنید: تأمین‌کنندگان ← تأمین‌کننده جدید ← نوع: صراف همکار (حواله). برای هر ارز یک ریکارد همکار بسازید.|لومړی همکار صراف اضافه کړئ: عرضه کوونکي ← نوی عرضه کوونکی ← ډول: همکار صراف (حواله). د هرې اسعارو لپاره یو همکار ریکارډ جوړ کړئ.|Önce muhabir dövizciyi ekleyin: Tedarikçiler → Yeni tedarikçi → Tür: Muhabir dövizci (havale). Her para birimi için bir muhabir kaydı kullanın.
+Add your currencies first (Accounting → Currencies), for example AFN, TRY, EUR.|اول ارزها را اضافه کنید (حسابداری ← ارزها)، مثلاً AFN، TRY، EUR.|لومړی خپلې اسعار اضافه کړئ (محاسبه ← اسعار)، لکه AFN، TRY، EUR.|Önce para birimlerinizi ekleyin (Muhasebe → Para birimleri), örneğin AFN, TRY, EUR.
+Add a cash or bank account for each currency first (for example Cash USD and Cash AFN).|اول برای هر ارز یک حساب نقدی یا بانکی بسازید (مثلاً Cash USD و Cash AFN).|لومړی د هرې اسعارو لپاره د نغدو یا بانک حساب جوړ کړئ (لکه Cash USD او Cash AFN).|Önce her para birimi için bir kasa veya banka hesabı ekleyin (örneğin Kasa USD ve Kasa AFN).
+Rates are for 1 unit of the base currency|نرخ‌ها برای ۱ واحد ارز اصلی است|نرخونه د اصلي اسعارو د ۱ واحد لپاره دي|Kurlar ana para biriminin 1 birimi içindir
+Buy: the rate when we buy it from a customer. Sell: the rate when we sell it to a customer.|خرید: نرخ وقتی از مشتری می‌خریم. فروش: نرخ وقتی به مشتری می‌فروشیم.|پېر: هغه نرخ چې له پېرودونکي یې اخلو. پلور: هغه نرخ چې پېرودونکي ته یې پلورو.|Alış: müşteriden aldığımız kur. Satış: müşteriye sattığımız kur.
+Buy / sell rates|نرخ خرید / فروش|د پېر / پلور نرخونه|Alış / satış kurları
+Enter at least one rate|حداقل یک نرخ وارد کنید|لږ تر لږه یو نرخ ولیکئ|En az bir kur girin
+Cash or bank account|حساب نقدی یا بانکی|د نغدو یا بانک حساب|Kasa veya banka hesabı
+Balance in Falak Hesab|مانده در Falak Hesab|په Falak Hesab کې بیلانس|Falak Hesab'daki bakiye
+Counted cash|نقدی شمرده‌شده|شمېرل شوې نغدې|Sayılan nakit
+Note|یادداشت|یادښت|Not
+Enter the counted cash|نقدی شمرده‌شده را وارد کنید|شمېرل شوې نغدې ولیکئ|Sayılan nakdi girin
+If the counted cash is different, Falak Hesab adjusts the account to the counted amount and records the difference as "Cash over/short".|اگر نقدی شمرده‌شده فرق کند، Falak Hesab حساب را با مبلغ شمرده‌شده برابر می‌کند و تفاوت را به‌عنوان «اضافه/کسر نقدی» ثبت می‌کند.|که شمېرل شوې نغدې توپیر ولري، Falak Hesab حساب له شمېرل شوي مقدار سره برابروي او توپیر د «د نغدو زیاتوالی/کموالی» په توګه ثبتوي.|Sayılan nakit farklıysa Falak Hesab hesabı sayılan tutara göre düzeltir ve farkı "Kasa fazlası/eksiği" olarak kaydeder.
+Keep one cash or bank account for each currency (for example Cash USD, Cash AFN, Cash TRY) and add the currencies in Accounting → Currencies.|برای هر ارز یک حساب نقدی یا بانکی داشته باشید (مثلاً Cash USD، Cash AFN، Cash TRY) و ارزها را در حسابداری ← ارزها اضافه کنید.|د هرې اسعارو لپاره یو د نغدو یا بانک حساب ولرئ (لکه Cash USD، Cash AFN، Cash TRY) او اسعار په محاسبه ← اسعارو کې اضافه کړئ.|Her para birimi için bir kasa veya banka hesabı tutun (örneğin Kasa USD, Kasa AFN, Kasa TRY) ve para birimlerini Muhasebe → Para birimleri'ne ekleyin.
+Every morning enter Daily Rates. Currency Exchange uses them to suggest the rate and to calculate your profit.|هر صبح نرخ‌های روز را وارد کنید. تبادله اسعار از آن برای پیشنهاد نرخ و محاسبه سود استفاده می‌کند.|هر سهار ورځني نرخونه ولیکئ. د اسعارو تبادله یې د نرخ وړاندیز او د ګټې حساب لپاره کاروي.|Her sabah Günlük Kurları girin. Döviz Alım-Satım bunları kur önermek ve kârınızı hesaplamak için kullanır.
+Partner sarafs are suppliers with Type: Partner saraf (hawala). Use one partner record for each currency.|صرافان همکار، تأمین‌کنندگان با نوع «صراف همکار (حواله)» هستند. برای هر ارز یک ریکارد همکار بسازید.|همکار صرافان هغه عرضه کوونکي دي چې ډول یې «همکار صراف (حواله)» وي. د هرې اسعارو لپاره یو همکار ریکارډ وکاروئ.|Muhabir dövizciler, türü Muhabir dövizci (havale) olan tedarikçilerdir. Her para birimi için bir muhabir kaydı kullanın.
+At the end of the day use Count cash to compare the real cash with Falak Hesab.|در پایان روز با «شمارش نقدی» پول واقعی را با Falak Hesab مقایسه کنید.|د ورځې په پای کې د «نغدې شمېرل» په مرسته اصلي نغدې له Falak Hesab سره پرتله کړئ.|Gün sonunda gerçek nakdi Falak Hesab ile karşılaştırmak için Kasa say'ı kullanın.
+Money exchange and hawala usually need a licence and customer ID records. Check the rules that apply to your business.|صرافی و حواله معمولاً جواز و ثبت مدارک هویت مشتری لازم دارد. قوانین مربوط به کسب‌وکار خود را بررسی کنید.|صرافي او حواله معمولاً جواز او د پېرودونکي د پېژندګلوۍ اسنادو ته اړتیا لري. خپل اړوند قوانین وګورئ.|Döviz ve havale işleri genellikle lisans ve müşteri kimlik kaydı gerektirir. İşletmeniz için geçerli kuralları kontrol edin.
+EXCHANGE RECEIPT|رسید تبادله|د تبادلې رسید|DÖVİZ MAKBUZU
+Exchange receipt|رسید تبادله|د تبادلې رسید|Döviz makbuzu
+Customer signature|امضای مشتری|د پېرودونکي لاسلیک|Müşteri imzası
+HAWALA TRANSFER|حواله|حواله|HAVALE
+HAWALA – PAY OUT|حواله – پرداخت|حواله – ورکړه|HAVALE – ÖDEME
+Hawala transfer|حواله|حواله|Havale
+Amount to pay the receiver|مبلغ قابل پرداخت به گیرنده|ترلاسه کوونکي ته د ورکړې مقدار|Alıcıya ödenecek tutar
+Amount the receiver gets|مبلغی که گیرنده دریافت می‌کند|هغه مقدار چې ترلاسه کوونکی یې اخلي|Alıcının alacağı tutar
+Receiver signature|امضای گیرنده|د ترلاسه کوونکي لاسلیک|Alıcı imzası
+Sender signature|امضای فرستنده|د لېږونکي لاسلیک|Gönderen imzası
+Mark as paid|ثبت به‌عنوان پرداخت‌شده|ورکړل شوی په نښه کول|Ödendi olarak işaretle
+Marked as paid|به‌عنوان پرداخت‌شده ثبت شد|ورکړل شوی په نښه شو|Ödendi olarak işaretlendi
+Pay|پرداخت|ورکړه|Öde
+to|به|ته|→
+from|از|له|hesabından:
+Add a cash account in this currency first.|اول یک حساب نقدی با این ارز بسازید.|لومړی په دې اسعارو یو د نغدو حساب جوړ کړئ.|Önce bu para biriminde bir kasa hesabı ekleyin.
+Exchange and hawala slips|رسیدهای تبادله و حواله|د تبادلې او حوالې رسیدونه|Döviz ve havale makbuzları
+Currency exchange|تبادله اسعار|د اسعارو تبادله|Döviz işlemi
+Cash count|شمارش نقدی|د نغدو شمېرنه|Kasa sayımı
+Exchange & Transfers|صرافی و حواله|صرافي او حواله|Döviz ve Havale
+Charges|بدهی‌ها|پورونه|Borçlar
+Credit balance|مانده بستانکار|کریډټ بیلانس|Alacak bakiyesi
+Unpaid invoices|فاکتورهای پرداخت‌نشده|نه ورکړل شوي بلونه|Ödenmemiş faturalar
+A minus balance means the customer has paid in advance (credit).|مانده منفی یعنی مشتری از قبل پرداخت کرده است (بستانکار).|منفي بیلانس دا معنا لري چې پېرودونکي مخکې پیسې ورکړې دي (کریډټ).|Eksi bakiye, müşterinin peşin ödediği (alacaklı olduğu) anlamına gelir.
+Supplier statements|صورت‌حساب تأمین‌کنندگان|د عرضه کوونکو صورت‌حسابونه|Tedarikçi ekstreleri
+What each customer owes, to print or send by WhatsApp|بدهی هر مشتری، برای چاپ یا ارسال با واتس‌اپ|د هر پېرودونکي پور، د چاپ یا واټس‌اپ لپاره|Her müşterinin borcu; yazdırın veya WhatsApp ile gönderin
+What we owe each supplier, airline or partner|بدهی ما به هر تأمین‌کننده، شرکت هوایی یا همکار|موږ هر عرضه کوونکي، هوايي شرکت یا همکار ته څومره پوروړي یو|Her tedarikçiye, havayoluna veya muhabire borcumuz
+← Supplier statements|← صورت‌حساب تأمین‌کنندگان|← د عرضه کوونکو صورت‌حسابونه|← Tedarikçi ekstreleri
+Bills|صورت‌حساب‌ها|بلونه|Faturalar
+Payments made|پرداخت‌های انجام‌شده|ورکړل شوي تادیات|Yapılan ödemeler
+Amount we owe|مبلغ بدهی ما|زموږ پور|Borcumuz
+Advance paid|پیش‌پرداخت|مخکې ورکړل شوي|Peşin ödenen
+We owe|بدهی ما|موږ پوروړي یو|Borcumuz
+A minus amount means we paid in advance or have a deposit with them.|مبلغ منفی یعنی ما از قبل پرداخت کرده‌ایم یا نزد آنها پیش‌پرداخت داریم.|منفي مقدار دا معنا لري چې موږ مخکې ورکړي یا ورسره ډیپازټ لرو.|Eksi tutar, peşin ödediğimiz veya onlarda depozitomuz olduğu anlamına gelir.
+Other / advances|سایر / پیش‌پرداخت‌ها|نور / مخکې ورکړې|Diğer / avanslar
+Age columns are unpaid invoices and tickets by days overdue. "Other / advances" is the rest of the balance (payments, deposits or journal entries not linked to an invoice). Each party's amounts are in its own currency; the total row is in the base currency.|ستون‌های سن، فاکتورها و تکت‌های پرداخت‌نشده بر اساس روزهای تأخیر است. «سایر / پیش‌پرداخت‌ها» بقیه مانده است (پرداخت‌ها، پیش‌پرداخت‌ها یا ثبت‌های روزنامه که به فاکتور وصل نیستند). مبالغ هر طرف به ارز خودش است؛ ردیف مجموع به ارز اصلی است.|د عمر ستونونه د ځنډ د ورځو له مخې نه ورکړل شوي بلونه او ټکټونه دي. «نور / مخکې ورکړې» پاتې بیلانس دی (تادیات، ډیپازټونه یا ژورنال ثبتونه چې له بل سره نه دي تړلي). د هر لوري مقدار په خپلو اسعارو دي؛ د ټولټال کرښه په اصلي اسعارو ده.|Yaş sütunları, gecikme gününe göre ödenmemiş fatura ve biletlerdir. "Diğer / avanslar" bakiyenin geri kalanıdır (faturaya bağlı olmayan ödemeler, depozitolar veya yevmiye kayıtları). Her tarafın tutarları kendi para birimindedir; toplam satırı ana para birimindedir.
+Cash count difference|تفاوت شمارش نقدی|د نغدو شمېرنې توپیر|Kasa sayım farkı
+Deposit|پیش‌پرداخت|ډیپازټ|Depozito
+Advances to suppliers and deposits|پیش‌پرداخت به تأمین‌کنندگان و ودایع|عرضه کوونکو ته مخکې ورکړې او ډیپازټونه|Tedarikçi avansları ve depozitolar
+Customer advances and deposits|پیش‌دریافت از مشتریان و ودایع|د پېرودونکو مخکې ورکړې او ډیپازټونه|Müşteri avansları ve depozitolar
+Two-step login|ورود دو مرحله‌ای|دوه پړاوي ننوتل|İki adımlı giriş
+Open your authenticator app and type the 6-digit code for Falak Hesab.|اپلیکیشن تأیید هویت را باز کنید و کد ۶ رقمی Falak Hesab را وارد کنید.|د تایید اپلیکیشن خلاص کړئ او د Falak Hesab ۶ رقمي کوډ ولیکئ.|Doğrulama uygulamanızı açın ve Falak Hesab için 6 haneli kodu yazın.
+Verify|تأیید|تایید|Doğrula
+Wrong code. Type the newest 6-digit code from your app.|کد اشتباه است. جدیدترین کد ۶ رقمی اپلیکیشن را وارد کنید.|کوډ غلط دی. د اپلیکیشن تر ټولو نوی ۶ رقمي کوډ ولیکئ.|Kod yanlış. Uygulamadaki en yeni 6 haneli kodu yazın.
+On|فعال|فعال|Açık
+Off|غیرفعال|بند|Kapalı
+When you sign in, Falak Hesab asks for a 6-digit code from your authenticator app. Even if someone learns your password, they cannot sign in without your phone.|هنگام ورود، Falak Hesab یک کد ۶ رقمی از اپلیکیشن تأیید هویت می‌خواهد. حتی اگر کسی رمز شما را بداند، بدون گوشی شما نمی‌تواند وارد شود.|کله چې ننوځئ، Falak Hesab ستاسو له تایید اپلیکیشن څخه ۶ رقمي کوډ غواړي. که څوک ستاسو پاسورډ هم پوه شي، بې ستاسو له موبایل نه شي ننوتلی.|Giriş yaparken Falak Hesab doğrulama uygulamanızdan 6 haneli bir kod ister. Biri şifrenizi öğrense bile telefonunuz olmadan giriş yapamaz.
+Turn off two-step login|غیرفعال کردن ورود دو مرحله‌ای|دوه پړاوي ننوتل بندول|İki adımlı girişi kapat
+Turn off two-step login? Your account will be protected by the password only.|ورود دو مرحله‌ای غیرفعال شود؟ حساب شما فقط با رمز محافظت می‌شود.|دوه پړاوي ننوتل بند شي؟ ستاسو حساب به یوازې په پاسورډ خوندي وي.|İki adımlı giriş kapatılsın mı? Hesabınız yalnızca şifreyle korunacak.
+Two-step login turned off|ورود دو مرحله‌ای غیرفعال شد|دوه پړاوي ننوتل بند شو|İki adımlı giriş kapatıldı
+Turn off|غیرفعال کردن|بندول|Kapat
+Protect your account with a 6-digit code from an app on your phone (Google Authenticator, Microsoft Authenticator or similar). Strongly recommended for owners and administrators.|حساب خود را با کد ۶ رقمی از یک اپلیکیشن در گوشی (Google Authenticator، Microsoft Authenticator یا مشابه) محافظت کنید. برای مالکان و مدیران بسیار توصیه می‌شود.|خپل حساب د موبایل د یوه اپلیکیشن (Google Authenticator، Microsoft Authenticator یا ورته) ۶ رقمي کوډ سره خوندي کړئ. مالکانو او مدیرانو ته ډېر سپارښتنه کېږي.|Hesabınızı telefonunuzdaki bir uygulamadan (Google Authenticator, Microsoft Authenticator veya benzeri) gelen 6 haneli kodla koruyun. Sahipler ve yöneticiler için şiddetle önerilir.
+Turn on two-step login|فعال کردن ورود دو مرحله‌ای|دوه پړاوي ننوتل فعالول|İki adımlı girişi aç
+Install|نصب کنید|نصب کړئ|Yükleyin:
+Can't scan? Type this key in the app:|نمی‌توانید اسکن کنید؟ این کلید را در اپلیکیشن وارد کنید:|سکن نه شي کولی؟ دا کیلي په اپلیکیشن کې ولیکئ:|Tarayamıyor musunuz? Bu anahtarı uygulamaya yazın:
+Confirm|تأیید|تایید|Onayla
+Two-step login is on|ورود دو مرحله‌ای فعال شد|دوه پړاوي ننوتل فعال شو|İki adımlı giriş açıldı
+Install Google Authenticator or Microsoft Authenticator on your phone.|اپلیکیشن Google Authenticator یا Microsoft Authenticator را روی گوشی نصب کنید.|Google Authenticator یا Microsoft Authenticator په موبایل کې نصب کړئ.|Telefonunuza Google Authenticator veya Microsoft Authenticator yükleyin.
+In the app, press + and scan this QR code.|در اپلیکیشن + را بزنید و این کد QR را اسکن کنید.|په اپلیکیشن کې + کېکاږئ او دا QR کوډ سکن کړئ.|Uygulamada + simgesine basın ve bu QR kodunu tarayın.
+Type the 6-digit code the app shows, then press Confirm.|کد ۶ رقمی که اپلیکیشن نشان می‌دهد را وارد کرده و «تأیید» را بزنید.|هغه ۶ رقمي کوډ چې اپلیکیشن یې ښيي ولیکئ، بیا «تایید» کېکاږئ.|Uygulamanın gösterdiği 6 haneli kodu yazın, ardından Onayla'ya basın.
+Passenger phone / WhatsApp|تلفن / واتس‌اپ مسافر|د مسافر تلیفون / واټس‌اپ|Yolcu telefonu / WhatsApp
+Upcoming flights (next 7 days)|پروازهای پیش رو (۷ روز آینده)|راتلونکې الوتنې (راتلونکې ۷ ورځې)|Yaklaşan uçuşlar (önümüzdeki 7 gün)
+WhatsApp reminder|یادآوری واتس‌اپ|د واټس‌اپ یادونه|WhatsApp hatırlatma
+No flights in the next 7 days|در ۷ روز آینده پروازی نیست|په راتلونکو ۷ ورځو کې الوتنه نشته|Önümüzdeki 7 günde uçuş yok
+Today|امروز|نن|Bugün
+Tomorrow|فردا|سبا|Yarın
+Hello|سلام|سلام|Merhaba
+Reminder from|یادآوری از|یادونه له|Hatırlatma:
+your flight|پرواز شما|ستاسو الوتنه|uçuşunuz
+on|در تاریخ|په|tarih:
+Please be at the airport at least 3 hours before departure and bring your passport.|لطفاً حداقل ۳ ساعت قبل از پرواز در میدان هوایی باشید و پاسپورت خود را همراه داشته باشید.|مهرباني وکړئ د الوتنې څخه لږ تر لږه ۳ ساعته مخکې هوايي ډګر ته ورشئ او پاسپورټ له ځان سره راوړئ.|Lütfen kalkıştan en az 3 saat önce havalimanında olun ve pasaportunuzu yanınızda bulundurun.
+Have a good flight!|سفر خوش!|ښه سفر مو وي!|İyi uçuşlar!
+Use at least 8 characters with letters and numbers.|حداقل ۸ کاراکتر شامل حروف و اعداد استفاده کنید.|لږ تر لږه ۸ توري د حروفو او شمېرو سره وکاروئ.|Harf ve rakam içeren en az 8 karakter kullanın.
+Password (at least 8 characters, letters and numbers)|رمز عبور (حداقل ۸ کاراکتر، حروف و اعداد)|پاسورډ (لږ تر لږه ۸ توري، حروف او شمېرې)|Şifre (en az 8 karakter, harf ve rakam)
+is already on ticket|قبلاً در تکت ثبت شده|مخکې په ټکټ کې ثبت دی|zaten şu bilette kayıtlı:
+This passenger already has a ticket with PNR|این مسافر قبلاً تکتی با این PNR دارد|دې مسافر مخکې له دې PNR سره ټکټ لري|Bu yolcunun zaten şu PNR ile bileti var:
+Press the save button again to save anyway.|برای ذخیره، دوباره دکمه ذخیره را بزنید.|بیا هم د ساتلو لپاره د ساتلو تڼۍ بیا کېکاږئ.|Yine de kaydetmek için kaydet düğmesine tekrar basın.
+A customer with the same name or phone already exists|مشتری با همین نام یا تلفن از قبل وجود دارد|د همدې نوم یا تلیفون پېرودونکی مخکې شته|Aynı ad veya telefonla bir müşteri zaten var
+A supplier with the same name or phone already exists|تأمین‌کننده با همین نام یا تلفن از قبل وجود دارد|د همدې نوم یا تلیفون عرضه کوونکی مخکې شته|Aynı ad veya telefonla bir tedarikçi zaten var
+Recycle bin|سطل بازیافت|د بیا راګرځولو ټوکرۍ|Geri dönüşüm kutusu
+← History|← تاریخچه|← تاریخچه|← Geçmiş
+Records deleted in the last 30 days. Restore puts them back exactly as they were.|اسنادی که در ۳۰ روز گذشته حذف شده‌اند. بازگردانی آنها را دقیقاً مثل قبل برمی‌گرداند.|هغه اسناد چې په تېرو ۳۰ ورځو کې ړنګ شوي. بیا راګرځول یې لکه پخوا بېرته راولي.|Son 30 günde silinen kayıtlar. Geri yükleme onları tam olarak eski haline getirir.
+Restore selected|بازگردانی انتخاب‌شده‌ها|ټاکل شوي بېرته راګرځول|Seçilenleri geri yükle
+By|توسط|له خوا|Yapan
+The recycle bin is empty|سطل بازیافت خالی است|ټوکرۍ تشه ده|Geri dönüşüm kutusu boş
+Only owners and administrators can restore. Records dated on or before the lock date cannot be restored until the lock date is moved.|فقط مالکان و مدیران می‌توانند بازگردانی کنند. اسناد با تاریخ قبل یا مساوی تاریخ قفل تا جابجایی تاریخ قفل قابل بازگردانی نیستند.|یوازې مالکان او مدیران بېرته راګرځولی شي. هغه اسناد چې نېټه یې د قفل نېټې پورې ده، تر هغه بېرته نه راګرځي چې د قفل نېټه بدله شي.|Yalnızca sahipler ve yöneticiler geri yükleyebilir. Kilit tarihinde veya öncesinde olan kayıtlar, kilit tarihi değiştirilene kadar geri yüklenemez.
+selected records are on or before the lock date. Move the lock date in Settings first.|سند انتخاب‌شده قبل یا مساوی تاریخ قفل است. اول تاریخ قفل را در تنظیمات تغییر دهید.|ټاکل شوي اسناد د قفل نېټې پورې دي. لومړی په تنظیماتو کې د قفل نېټه بدله کړئ.|seçili kayıt kilit tarihinde veya öncesinde. Önce Ayarlar'dan kilit tarihini değiştirin.
+Restore|بازگردانی|بېرته راګرځول|Geri yükle
+records?|سند؟|اسناد؟|kayıt?
+Restored|بازگردانده شد|بېرته راوګرځول شو|Geri yüklendi
+Could not restore|بازگردانی ممکن نشد|بېرته را نه ګرځېد|Geri yüklenemedi
+You were signed out after 60 minutes without activity.|پس از ۶۰ دقیقه بدون فعالیت از حساب خارج شدید.|له ۶۰ دقیقو بې فعالیته وروسته له حساب څخه ووتل شوئ.|60 dakika işlem yapılmadığı için oturumunuz kapatıldı.
+Company address|آدرس شرکت|د شرکت پته|Şirket adresi
+Your own sign-in page with your logo and name. Staff who open it go straight into this business.|صفحه ورود مخصوص شما با لوگو و نام شما. کارمندانی که آن را باز کنند مستقیم وارد همین کسب‌وکار می‌شوند.|ستاسو خپله د ننوتلو پاڼه ستاسو له لوګو او نوم سره. هغه کارکوونکي چې دا خلاصوي سیده همدې سوداګرۍ ته ننوځي.|Logonuz ve adınızla size özel giriş sayfası. Bu sayfayı açan personel doğrudan bu işletmeye girer.
+Save address|ذخیره آدرس|پته خوندي کړئ|Adresi kaydet
+Remove address|حذف آدرس|پته لرې کړئ|Adresi kaldır
+If you change the address, the old link stops working. Send the new link to your staff.|اگر آدرس را تغییر دهید، لینک قبلی دیگر کار نمی‌کند. لینک جدید را برای کارمندان خود بفرستید.|که پته بدله کړئ، زوړ لینک نور کار نه کوي. نوی لینک خپلو کارکوونکو ته واستوئ.|Adresi değiştirirseniz eski bağlantı çalışmaz. Yeni bağlantıyı personelinize gönderin.
+This address is already taken. Try another one.|این آدرس قبلاً گرفته شده است. آدرس دیگری امتحان کنید.|دا پته مخکې نیول شوې ده. بله وازمویئ.|Bu adres zaten alınmış. Başka bir adres deneyin.
+Company addresses are not switched on yet. Run step 6 in Supabase first.|آدرس شرکت‌ها هنوز فعال نشده است. اول مرحله ۶ را در Supabase اجرا کنید.|د شرکتونو پتې لا فعالې شوې نه دي. لومړی په Supabase کې ۶م پړاو وچلوئ.|Şirket adresleri henüz açık değil. Önce Supabase'de 6. adımı çalıştırın.
+This address is reserved. Try another one.|این آدرس رزرو شده است. آدرس دیگری امتحان کنید.|دا پته ساتل شوې ده. بله وازمویئ.|Bu adres ayrılmış. Başka bir adres deneyin.
+Use 3 to 40 small English letters, numbers or dashes.|از ۳ تا ۴۰ حرف کوچک انگلیسی، عدد یا خط تیره استفاده کنید.|له ۳ تر ۴۰ کوچني انګلیسي توري، شمېرې یا ډشونه وکاروئ.|3 ile 40 arasında küçük İngilizce harf, rakam veya tire kullanın.
+Remove the company address? The link will stop working.|آدرس شرکت حذف شود؟ لینک دیگر کار نخواهد کرد.|د شرکت پته لرې شي؟ لینک به نور کار ونه کړي.|Şirket adresi kaldırılsın mı? Bağlantı artık çalışmayacak.
+Company address saved|آدرس شرکت ذخیره شد|د شرکت پته خوندي شوه|Şirket adresi kaydedildi
+Company address removed|آدرس شرکت حذف شد|د شرکت پته لرې شوه|Şirket adresi kaldırıldı
+Your staff sign-in link|لینک ورود کارمندان شما|ستاسو د کارکوونکو د ننوتلو لینک|Personel giriş bağlantınız
+Send on WhatsApp|ارسال در واتس‌اپ|په واټس‌اپ کې ولېږئ|WhatsApp ile gönder
+Sign in to|ورود به|ننوتل:|Giriş:
+Tip: give your business its own sign-in page with your logo and name.|نکته: برای کسب‌وکار خود یک صفحه ورود مخصوص با لوگو و نام خودتان بسازید.|لارښوونه: خپلې سوداګرۍ ته د خپل لوګو او نوم سره ځانګړې د ننوتلو پاڼه جوړه کړئ.|İpucu: İşletmenize logonuz ve adınızla kendi giriş sayfasını verin.
+Set a company address|تعیین آدرس شرکت|د شرکت پته وټاکئ|Şirket adresi belirle
+Send them your sign-in link above. They choose|لینک ورود بالا را برایشان بفرستید. آن‌ها گزینه|پورته د ننوتلو لینک ورته واستوئ. هغوی|Onlara yukarıdaki giriş bağlantısını gönderin. Şunu seçerler:
+Company not found|شرکت پیدا نشد|شرکت ونه موندل شو|Şirket bulunamadı
+There is no company at this address:|در این آدرس هیچ شرکتی وجود ندارد:|په دې پته کوم شرکت نشته:|Bu adreste bir şirket yok:
+Check the address with your manager. It may have been changed.|آدرس را از مدیر خود بپرسید. شاید تغییر کرده باشد.|پته له خپل مدیر څخه وپوښتئ. کېدای شي بدله شوې وي.|Adresi yöneticinize sorun. Değiştirilmiş olabilir.
+Go to Falak Hesab|رفتن به Falak Hesab|Falak Hesab ته لاړ شئ|Falak Hesab'ya git
+No access yet|هنوز دسترسی ندارید|لا لاسرسی نشته|Henüz erişim yok
+Signed in as|وارد شده با|ننوتلی یاست د دې په نوم|Giriş yapan
+Ask the owner of this company to add your email in Users & Access, then press Try again.|از مالک این شرکت بخواهید ایمیل شما را در «کاربران و دسترسی» اضافه کند، سپس «دوباره امتحان کنید» را بزنید.|د دې شرکت له مالک وغواړئ چې ستاسو ایمیل په «کاروونکي او لاسرسی» کې ورزیات کړي، بیا «بیا هڅه وکړئ» کېکاږئ.|Bu şirketin sahibinden e-postanızı Kullanıcılar ve Erişim bölümüne eklemesini isteyin, sonra Tekrar dene'ye basın.
+Try again|دوباره امتحان کنید|بیا هڅه وکړئ|Tekrar dene
+Open my other businesses|باز کردن کسب‌وکارهای دیگرم|زما نورې سوداګرۍ خلاصې کړئ|Diğer işletmelerimi aç
+Accounting powered by Falak Hesab|حسابداری با Falak Hesab|حساب‌داري د Falak Hesab په مرسته|Muhasebe Falak Hesab ile
+Powered by|ساخته شده با|د دې په مرسته|Altyapı:
+Plan & billing|پلان و پرداخت|پلان او تادیه|Plan ve ödeme
+Free trial|آزمایش رایگان|وړیا ازمایښت|Ücretsiz deneme
+See plans|دیدن پلان‌ها|پلانونه وګورئ|Planları gör
+Your plan has ended.|پلان شما تمام شده است.|ستاسو پلان پای ته رسېدلی.|Planınız sona erdi.
+The books are read-only. Nothing is deleted.|دفاتر فقط قابل خواندن هستند. چیزی حذف نشده است.|کتابونه یوازې د لوستلو وړ دي. هېڅ نه دي ړنګ شوي.|Defterler salt okunur. Hiçbir şey silinmedi.
+Choose a plan|انتخاب پلان|پلان وټاکئ|Plan seçin
+Ask the owner to choose a plan.|از مالک بخواهید یک پلان انتخاب کند.|له مالک وغواړئ چې پلان وټاکي.|Sahibinden bir plan seçmesini isteyin.
+Renew|تمدید|نوی کول|Yenile
+1 day left|۱ روز باقی مانده|۱ ورځ پاتې ده|1 gün kaldı
+Only the owner or an administrator can open this page.|فقط مالک یا مدیر می‌تواند این صفحه را باز کند.|یوازې مالک یا مدیر دا پاڼه خلاصولی شي.|Bu sayfayı yalnızca sahip veya yönetici açabilir.
+Plans are not switched on for this business.|پلان‌ها برای این کسب‌وکار فعال نیستند.|پلانونه د دې سوداګرۍ لپاره فعال نه دي.|Bu işletme için planlar açık değil.
+Current plan|پلان فعلی|اوسنی پلان|Mevcut plan
+(trial)|(آزمایشی)|(ازمایښتي)|(deneme)
+You are trying all Pro features for free.|همه امکانات Pro را رایگان امتحان می‌کنید.|تاسو د Pro ټولې ځانګړتیاوې وړیا ازمایئ.|Tüm Pro özelliklerini ücretsiz deniyorsunuz.
+Choose a plan before the trial ends to keep working without a break.|قبل از پایان دوره آزمایشی یک پلان انتخاب کنید تا کارتان قطع نشود.|د ازمایښت له پای ته رسېدو مخکې پلان وټاکئ چې کار مو بند نه شي.|Kesintisiz çalışmak için deneme bitmeden bir plan seçin.
+Your plan has ended. The books are read-only. Nothing is deleted. Choose a plan below to continue.|پلان شما تمام شده است. دفاتر فقط قابل خواندن هستند. چیزی حذف نشده است. برای ادامه یک پلان را در پایین انتخاب کنید.|ستاسو پلان پای ته رسېدلی. کتابونه یوازې د لوستلو وړ دي. هېڅ نه دي ړنګ شوي. د دوام لپاره لاندې پلان وټاکئ.|Planınız sona erdi. Defterler salt okunur. Hiçbir şey silinmedi. Devam etmek için aşağıdan bir plan seçin.
+We switch it on as soon as your payment arrives.|به محض رسیدن پرداخت شما آن را فعال می‌کنیم.|ستاسو تادیه چې ورسېږي، سمدستي یې فعالوو.|Ödemeniz ulaşır ulaşmaz açıyoruz.
+Free|رایگان|وړیا|Ücretsiz
+Basic|پایه|بنسټیز|Temel
+Pro|حرفه‌ای (Pro)|مسلکي (Pro)|Pro
+/ month|/ ماه|/ میاشت|/ ay
+Your plan|پلان شما|ستاسو پلان|Planınız
+Choose Free|انتخاب رایگان|وړیا وټاکئ|Ücretsiz'i seç
+Choose Basic|انتخاب پایه|بنسټیز وټاکئ|Temel'i seç
+Choose Pro|انتخاب Pro|Pro وټاکئ|Pro'yu seç
+Only the owner can choose Free.|فقط مالک می‌تواند پلان رایگان را انتخاب کند.|یوازې مالک وړیا پلان ټاکلی شي.|Ücretsiz planı yalnızca sahip seçebilir.
+For travel & exchange|برای سفر و صرافی|د سفر او صرافۍ لپاره|Seyahat ve döviz için
+1 user|۱ کاربر|۱ کاروونکی|1 kullanıcı
+Unlimited users|کاربران نامحدود|نامحدود کاروونکي|Sınırsız kullanıcı
+All accounting: sales, purchases, bank, reports|همه حسابداری: فروش، خرید، بانک، گزارش‌ها|ټول حساب‌داري: پلور، پېرود، بانک، راپورونه|Tüm muhasebe: satış, alış, banka, raporlar
+Invoices, receipts and statements|فاکتورها، رسیدها و صورت‌حساب‌ها|بلونه، رسیدونه او صورت‌حسابونه|Faturalar, makbuzlar ve ekstreler
+Backups and history|پشتیبان‌گیری و تاریخچه|بیک‌اپ او تاریخچه|Yedekler ve geçmiş
+Everything in Free|همه امکانات رایگان|د وړیا ټول شیان|Ücretsiz'deki her şey
+Company address with your logo (falakhesab.com/your-company)|آدرس شرکت با لوگوی شما (falakhesab.com/your-company)|د شرکت پته ستاسو له لوګو سره (falakhesab.com/your-company)|Logonuzla şirket adresi (falakhesab.com/your-company)
+Everything in Basic|همه امکانات پایه|د بنسټیز ټول شیان|Temel'deki her şey
+Travel: tickets, airlines, sub-agents|سفر: تکت‌ها، شرکت‌های هوایی، نمایندگان فرعی|سفر: ټکټونه، هوايي شرکتونه، فرعي اجنټان|Seyahat: biletler, havayolları, alt acenteler
+Exchange & Transfers: exchange, hawala, daily rates|صرافی و حواله: تبادله، حواله، نرخ روزانه|صرافي او حواله: تبادله، حواله، ورځنۍ نرخونه|Döviz ve Havale: döviz, havale, günlük kurlar
+How to pay|روش پرداخت|د تادیې لاره|Nasıl ödenir
+Pay by bank transfer or in cash, then send the receipt on WhatsApp. We switch on your plan the same day.|از طریق انتقال بانکی یا نقدی پرداخت کنید، سپس رسید را در واتس‌اپ بفرستید. پلان شما را همان روز فعال می‌کنیم.|د بانکي لېږد یا نغدو له لارې تادیه وکړئ، بیا رسید په واټس‌اپ کې واستوئ. ستاسو پلان همغه ورځ فعالوو.|Banka havalesi veya nakit ile ödeyin, sonra dekontu WhatsApp'tan gönderin. Planınızı aynı gün açarız.
+Plan|پلان|پلان|Plan
+No payments yet|هنوز پرداختی نیست|لا تادیه نشته|Henüz ödeme yok
+Prices are per business per month. Questions? Contact Falak Hesab support from Help & Support.|قیمت‌ها برای هر کسب‌وکار در ماه است. سؤالی دارید؟ از «کمک و پشتیبانی» با پشتیبانی Falak Hesab تماس بگیرید.|بیې د هرې سوداګرۍ لپاره په میاشت کې دي. پوښتنه لرئ؟ له «مرسته او ملاتړ» څخه Falak Hesab ملاتړ سره اړیکه ونیسئ.|Fiyatlar işletme başına aylıktır. Sorunuz mu var? Yardım ve Destek'ten Falak Hesab desteğine yazın.
+Request sent. Now pay and send us the receipt.|درخواست ارسال شد. حالا پرداخت کنید و رسید را برای ما بفرستید.|غوښتنه ولېږل شوه. اوس تادیه وکړئ او رسید راته واستوئ.|Talep gönderildi. Şimdi ödeyin ve bize dekontu gönderin.
+Switch to the Free plan? Free allows 1 user and no company address. Travel and Exchange & Transfers become read-only.|به پلان رایگان بروید؟ پلان رایگان ۱ کاربر دارد و آدرس شرکت ندارد. سفر و صرافی فقط قابل خواندن می‌شوند.|وړیا پلان ته لاړ شئ؟ وړیا پلان ۱ کاروونکی لري او د شرکت پته نه لري. سفر او صرافي به یوازې د لوستلو وړ شي.|Ücretsiz plana geçilsin mi? Ücretsiz plan 1 kullanıcı içerir ve şirket adresi yoktur. Seyahat ile Döviz ve Havale salt okunur olur.
+You are now on the Free plan|اکنون در پلان رایگان هستید|اوس په وړیا پلان کې یاست|Artık Ücretsiz plandasınız
+Complimentary|رایگان (هدیه)|وړیا (ډالۍ)|Ücretsiz (hediye)
+Ended|تمام شده|پای ته رسېدلی|Sona erdi
+Plans & payments|پلان‌ها و پرداخت‌ها|پلانونه او تادیې|Planlar ve ödemeler
+Paying|پرداخت‌کننده|تادیه کوونکي|Ödeyen
+On trial|در آزمایش|په ازمایښت کې|Denemede
+Waiting for payment:|در انتظار پرداخت:|د تادیې په تمه:|Ödeme bekleniyor:
+Manage|مدیریت|مدیریت|Yönet
+Prices and payment instructions|قیمت‌ها و دستور پرداخت|بیې او د تادیې لارښوونې|Fiyatlar ve ödeme talimatları
+Users (0 = unlimited)|کاربران (۰ = نامحدود)|کاروونکي (۰ = نامحدود)|Kullanıcılar (0 = sınırsız)
+USD / month|دالر / ماه|ډالر / میاشت|USD / ay
+TRY / month|لیره / ماه|لیره / میاشت|TL / ay
+Free trial days for new businesses|روزهای آزمایش رایگان برای کسب‌وکارهای جدید|د نویو سوداګریو لپاره د وړیا ازمایښت ورځې|Yeni işletmeler için ücretsiz deneme günü
+Payment instructions shown to customers (bank, IBAN, cash office…)|دستور پرداخت برای مشتریان (بانک، IBAN، دفتر نقدی…)|د پېرودونکو لپاره د تادیې لارښوونې (بانک، IBAN، نغدي دفتر…)|Müşterilere gösterilen ödeme talimatı (banka, IBAN, kasa…)
+Save prices|ذخیره قیمت‌ها|بیې خوندي کړئ|Fiyatları kaydet
+Months|ماه‌ها|میاشتې|Ay
+Note (e.g. bank transfer, cash)|یادداشت (مثلاً انتقال بانکی، نقد)|یادښت (لکه بانکي لېږد، نغد)|Not (ör. havale, nakit)
+Other actions|کارهای دیگر|نور کارونه|Diğer işlemler
++7 days trial|+۷ روز آزمایش|+۷ ورځې ازمایښت|+7 gün deneme
++30 days trial|+۳۰ روز آزمایش|+۳۰ ورځې ازمایښت|+30 gün deneme
+Make complimentary|رایگان کردن (هدیه)|وړیا کول (ډالۍ)|Ücretsiz yap (hediye)
+Stop complimentary|لغو رایگان|وړیا بندول|Ücretsizi durdur
+Set Free|تنظیم رایگان|وړیا ټاکل|Ücretsiz yap
+End now|پایان اکنون|اوس پای ته ورسوئ|Şimdi bitir
+Payment saved. Paid until|پرداخت ذخیره شد. پرداخت تا|تادیه خوندي شوه. تادیه تر|Ödeme kaydedildi. Ödenen tarih:
+End the plan now? The books of this business become read-only.|پلان همین حالا تمام شود؟ دفاتر این کسب‌وکار فقط قابل خواندن می‌شوند.|پلان همدا اوس پای ته ورسېږي؟ د دې سوداګرۍ کتابونه به یوازې د لوستلو وړ شي.|Plan şimdi bitirilsin mi? Bu işletmenin defterleri salt okunur olur.
+Prices saved|قیمت‌ها ذخیره شد|بیې خوندي شوې|Fiyatlar kaydedildi
+Your plan has ended. Choose a plan before adding users.|پلان شما تمام شده است. قبل از افزودن کاربر یک پلان انتخاب کنید.|ستاسو پلان پای ته رسېدلی. د کاروونکو له ورزیاتولو مخکې پلان وټاکئ.|Planınız sona erdi. Kullanıcı eklemeden önce bir plan seçin.
+Your plan allows 1 user.|پلان شما ۱ کاربر را اجازه می‌دهد.|ستاسو پلان ۱ کاروونکی اجازه ورکوي.|Planınız 1 kullanıcıya izin veriyor.
+A company address is included in the Basic and Pro plans.|آدرس شرکت در پلان‌های پایه و Pro موجود است.|د شرکت پته په بنسټیز او Pro پلانونو کې شامله ده.|Şirket adresi Temel ve Pro planlarında vardır.
+Your plan has ended. The books are read-only until the owner chooses a plan.|پلان شما تمام شده است. تا زمانی که مالک پلانی انتخاب کند، دفاتر فقط قابل خواندن هستند.|ستاسو پلان پای ته رسېدلی. تر هغه چې مالک پلان وټاکي، کتابونه یوازې د لوستلو وړ دي.|Planınız sona erdi. Sahip bir plan seçene kadar defterler salt okunurdur.
+This part (Travel / Exchange & Transfers) is included in the Pro plan.|این بخش (سفر / صرافی و حواله) در پلان Pro موجود است.|دا برخه (سفر / صرافي او حواله) په Pro پلان کې شامله ده.|Bu bölüm (Seyahat / Döviz ve Havale) Pro planında vardır.
+Plans are not switched on yet. Run step 7 in Supabase (project falak-io), then|پلان‌ها هنوز فعال نشده‌اند. مرحله ۷ را در Supabase (پروژه falak-io) اجرا کنید، سپس|پلانونه لا فعال شوي نه دي. په Supabase (پروژه falak-io) کې ۷م پړاو وچلوئ، بیا|Planlar henüz açık değil. Supabase'de (falak-io projesi) 7. adımı çalıştırın, sonra
+Create an account|ایجاد حساب|حساب جوړ کړئ|Hesap oluştur
+Create your account|حساب خود را بسازید|خپل حساب جوړ کړئ|Hesabınızı oluşturun
+Choose a plan. No card needed.|یک پلان انتخاب کنید. کارت بانکی لازم نیست.|پلان وټاکئ. بانکي کارت ته اړتیا نشته.|Bir plan seçin. Kart gerekmez.
+Free forever|همیشه رایگان|تل وړیا|Sonsuza dek ücretsiz
+30-day free trial|۳۰ روز آزمایش رایگان|۳۰ ورځې وړیا ازمایښت|30 gün ücretsiz deneme
+Your free trial is running.|دوره آزمایش رایگان شما فعال است.|ستاسو وړیا ازمایښت روان دی.|Ücretsiz denemeniz devam ediyor.
+Made with Falak Hesab – free accounting · falakhesab.com|ساخته شده با Falak Hesab – حسابداری رایگان · falakhesab.com|د Falak Hesab په مرسته جوړ شوی – وړیا حساب‌داري · falakhesab.com|Falak Hesab ile hazırlandı – ücretsiz muhasebe · falakhesab.com
+Start free. In English, Dari, Pashto and Turkish.|رایگان شروع کنید. به انگلیسی، دری، پشتو و ترکی.|وړیا پیل کړئ. په انګلیسي، دري، پښتو او ترکي.|Ücretsiz başlayın. İngilizce, Darice, Peştuca ve Türkçe.
+Online accounting|حسابداری آنلاین|آنلاین حساب‌داري|Çevrim içi muhasebe
+Falak Hesab · online accounting|Falak Hesab · حسابداری آنلاین|Falak Hesab · آنلاین حساب‌داري|Falak Hesab · çevrim içi muhasebe
+Export|خروجی Excel|Excel ته ایستل|Dışa aktar
+Nothing to export|چیزی برای خروجی نیست|د ایستلو لپاره څه نشته|Dışa aktarılacak bir şey yok
+Download this list for Excel|دانلود این فهرست برای Excel|دا لېست د Excel لپاره ښکته کړئ|Bu listeyi Excel için indir
+Features|امکانات|ځانګړتیاوې|Özellikler
+Pricing|قیمت‌ها|بیې|Fiyatlar
+Security|امنیت|امنیت|Güvenlik
+FAQ|سؤالات|پوښتنې|SSS
+Try free|رایگان امتحان کنید|وړیا یې وازمویئ|Ücretsiz dene
+View demo|دیدن نمونه|نمونه وګورئ|Demoyu gör
+Clear books for your business, travel agency or exchange office|دفاتر روشن برای کسب‌وکار، آژانس مسافرتی یا صرافی شما|ستاسو د سوداګرۍ، سفري اژانس یا صرافۍ لپاره روښانه کتابونه|İşletmeniz, seyahat acenteniz veya döviz büronuz için düzenli defterler
+Invoices, expenses, bank and cash, reports and many currencies in one simple online system. Work together with your team from any phone or computer.|فاکتورها، مصارف، بانک و صندوق، گزارش‌ها و چندین ارز در یک سیستم ساده آنلاین. با تیم خود از هر تلفن یا کامپیوتر با هم کار کنید.|بلونه، لګښتونه، بانک او نغدي، راپورونه او ډېرې اسعارې په یوه ساده آنلاین سیستم کې. له خپلې ډلې سره له هر تلیفون یا کمپیوټر څخه یوځای کار وکړئ.|Faturalar, giderler, banka ve kasa, raporlar ve birçok para birimi tek ve basit bir çevrim içi sistemde. Ekibinizle her telefondan veya bilgisayardan birlikte çalışın.
+No card needed. Free plan forever, or try Basic and Pro free for 30 days.|کارت بانکی لازم نیست. پلان رایگان برای همیشه، یا پایه و Pro را ۳۰ روز رایگان امتحان کنید.|بانکي کارت ته اړتیا نشته. تل وړیا پلان، یا بنسټیز او Pro ۳۰ ورځې وړیا وازمویئ.|Kart gerekmez. Sonsuza dek ücretsiz plan veya Temel ve Pro'yu 30 gün ücretsiz deneyin.
+Everything a small business needs|هر آنچه یک کسب‌وکار کوچک لازم دارد|هر هغه څه چې یوه کوچنۍ سوداګري ورته اړتیا لري|Küçük bir işletmenin ihtiyacı olan her şey
+Built like the accounting programs accountants know, with double-entry books behind every screen, but simple to use.|مانند برنامه‌های حسابداری که حسابداران می‌شناسند ساخته شده، با دفترداری دوطرفه پشت هر صفحه، اما ساده برای استفاده.|د هغو حساب‌داري پروګرامونو په څېر جوړ شوی چې محاسبین یې پېژني، د هرې پاڼې تر شا دوه اړخیز کتابونه، خو کارول یې اسانه دي.|Muhasebecilerin bildiği programlar gibi, her ekranın arkasında çift taraflı kayıtla kuruldu, ama kullanımı basit.
+Sales and invoices|فروش و فاکتورها|پلور او بلونه|Satışlar ve faturalar
+Quotes, sales orders, invoices, credit notes, delivery notes and recurring invoices. Send customer statements and share documents on WhatsApp.|نرخ‌نامه، سفارش فروش، فاکتور، یادداشت بستانکار، یادداشت تحویل و فاکتورهای تکراری. صورت‌حساب مشتری بفرستید و اسناد را در واتس‌اپ شریک کنید.|نرخ‌نامې، د پلور امرونه، بلونه، کریډیټ نوټونه، د سپارلو نوټونه او تکراري بلونه. پېرودونکو ته صورت‌حساب واستوئ او اسناد په واټس‌اپ کې شریک کړئ.|Teklifler, satış siparişleri, faturalar, alacak dekontları, sevk irsaliyeleri ve tekrarlayan faturalar. Müşteri ekstresi gönderin ve belgeleri WhatsApp'ta paylaşın.
+Purchases and expenses|خرید و مصارف|پېرود او لګښتونه|Alışlar ve giderler
+Supplier invoices, purchase orders, payments, goods receipts and staff expense claims.|فاکتورهای تأمین‌کننده، سفارش خرید، پرداخت‌ها، رسید اجناس و ادعای مصارف کارمندان.|د عرضه کوونکو بلونه، د پېرود امرونه، تادیې، د توکو رسیدونه او د کارکوونکو د لګښت غوښتنې.|Tedarikçi faturaları, satın alma siparişleri, ödemeler, mal kabulleri ve personel masraf beyanları.
+Bank and cash|بانک و صندوق|بانک او نغدي|Banka ve kasa
+All your bank and cash accounts, transfers between them, bank statement import (CSV) and reconciliation.|همه حساب‌های بانکی و نقدی، انتقال بین آن‌ها، وارد کردن صورت‌حساب بانک (CSV) و تطبیق.|ټول بانکي او نغدي حسابونه، د هغوی ترمنځ لېږد، د بانک صورت‌حساب راوړل (CSV) او تطبیق.|Tüm banka ve kasa hesaplarınız, aralarında transferler, banka ekstresi içe aktarma (CSV) ve mutabakat.
+Balance sheet, profit and loss, cash flow, trial balance, general ledger, aged receivables and payables, comparisons and statements.|ترازنامه، سود و زیان، جریان نقدی، تراز آزمایشی، دفتر کل، سررسید مطالبات و بدهی‌ها، مقایسه‌ها و صورت‌حساب‌ها.|بیلانس، ګټه او زیان، نغدي جریان، ازمایښتي بیلانس، عمومي لیجر، د غوښتنو او پورونو موده، پرتلې او صورت‌حسابونه.|Bilanço, kâr ve zarar, nakit akışı, mizan, genel defter, yaşlandırılmış alacak ve borçlar, karşılaştırmalar ve ekstreler.
+Many currencies|چندین ارز|ډېرې اسعارې|Birçok para birimi
+Work in your base currency and also in USD, EUR, AFN, TRY or any other, with your own exchange rates.|با ارز اصلی خود و همچنین دالر، یورو، افغانی، لیره یا هر ارز دیگر با نرخ‌های خودتان کار کنید.|په خپله اصلي اسعارو او همدارنګه ډالر، یورو، افغانۍ، لیرې یا هره بله اسعارو سره، د خپلو نرخونو سره کار وکړئ.|Ana para biriminizle ve ayrıca USD, EUR, AFN, TRY veya başka bir para birimiyle, kendi kurlarınızla çalışın.
+Your team, your rules|تیم شما، قوانین شما|ستاسو ډله، ستاسو قواعد|Ekibiniz, kurallarınız
+Owner, administrator, limited user or view only. Limited users change only the tabs you choose. Changes appear for everyone straight away.|مالک، مدیر، کاربر محدود یا فقط مشاهده. کاربران محدود فقط بخش‌هایی را که شما انتخاب می‌کنید تغییر می‌دهند. تغییرات فوراً برای همه نمایش داده می‌شود.|مالک، مدیر، محدود کاروونکی یا یوازې کتل. محدود کاروونکي یوازې هغه برخې بدلولی شي چې تاسو یې ټاکئ. بدلونونه سمدستي ټولو ته ښکاري.|Sahip, yönetici, sınırlı kullanıcı veya yalnızca görüntüleme. Sınırlı kullanıcılar yalnızca seçtiğiniz sekmeleri değiştirir. Değişiklikler herkese anında görünür.
+For travel agencies|برای آژانس‌های مسافرتی|د سفري اژانسونو لپاره|Seyahat acenteleri için
+Tickets with passenger, PNR and route, airlines, sub-agents, refunds, profit per ticket, upcoming flights and ticket receipts.|تکت با مسافر، PNR و مسیر، شرکت‌های هوایی، نمایندگان فرعی، بازپرداخت، سود هر تکت، پروازهای پیش رو و رسید تکت.|ټکټونه د مسافر، PNR او لارې سره، هوايي شرکتونه، فرعي اجنټان، بېرته ورکړې، د هر ټکټ ګټه، راتلونکې الوتنې او د ټکټ رسیدونه.|Yolcu, PNR ve güzergâhlı biletler, havayolları, alt acenteler, iadeler, bilet başına kâr, yaklaşan uçuşlar ve bilet makbuzları.
+For exchange offices|برای صرافی‌ها|د صرافیو لپاره|Döviz büroları için
+Currency exchange, hawala transfers, daily buy and sell rates and end-of-day cash counts.|تبادله ارز، انتقال حواله، نرخ روزانه خرید و فروش و شمارش نقدی پایان روز.|د اسعارو تبادله، حوالې، د پېر او پلور ورځني نرخونه او د ورځې په پای کې د نغدو شمېرل.|Döviz alım satımı, havale transferleri, günlük alış ve satış kurları ve gün sonu kasa sayımı.
+Inventory, payroll and assets|موجودی، معاشات و دارایی‌ها|ګودام، معاشونه او شتمنۍ|Stok, bordro ve varlıklar
+Stock items, employees and payslips, fixed assets and depreciation, projects and tax codes (KDV / VAT).|اجناس انبار، کارمندان و فیش معاش، دارایی‌های ثابت و استهلاک، پروژه‌ها و کدهای مالیات (KDV / VAT).|د ګودام توکي، کارکوونکي او د معاش پاڼې، ثابتې شتمنۍ او استهلاک، پروژې او د مالیې کوډونه (KDV / VAT).|Stok kalemleri, çalışanlar ve maaş bordroları, sabit kıymetler ve amortisman, projeler ve vergi kodları (KDV / VAT).
+See it before you sign up|قبل از ثبت‌نام آن را ببینید|د نوم لیکنې مخکې یې وګورئ|Kaydolmadan önce görün
+Real screens from Falak Hesab. Open the demo to try it yourself with sample data.|صفحات واقعی Falak Hesab. نمونه را باز کنید و خودتان با داده‌های نمونه امتحان کنید.|د Falak Hesab ریښتینې پاڼې. نمونه خلاصه کړئ او پخپله یې د نمونې معلوماتو سره وازمویئ.|Falak Hesab'tan gerçek ekranlar. Demoyu açın ve örnek verilerle kendiniz deneyin.
+Open the demo|باز کردن نمونه|نمونه خلاصه کړئ|Demoyu aç
+Made for|ساخته شده برای|د دې لپاره جوړ شوی|Kimler için
+Small businesses|کسب‌وکارهای کوچک|کوچنۍ سوداګرۍ|Küçük işletmeler
+Shops, offices and service companies that want clear books without an accountant at every step.|دکان‌ها، دفترها و شرکت‌های خدماتی که بدون نیاز به حسابدار در هر قدم، دفاتر روشن می‌خواهند.|دوکانونه، دفترونه او خدماتي شرکتونه چې پرته له دې چې په هر ګام کې محاسب ته اړتیا ولري، روښانه کتابونه غواړي.|Her adımda muhasebeciye ihtiyaç duymadan düzenli defter isteyen dükkânlar, ofisler ve hizmet şirketleri.
+Travel agencies|آژانس‌های مسافرتی|سفري اژانسونه|Seyahat acenteleri
+Sell tickets to walk-in customers and sub-agents and see what every airline and agent owes.|به مشتریان حضوری و نمایندگان فرعی تکت بفروشید و ببینید هر شرکت هوایی و نماینده چقدر بدهکار است.|حاضر پېرودونکو او فرعي اجنټانو ته ټکټونه وپلورئ او وګورئ چې هر هوايي شرکت او اجنټ څومره پور لري.|Gelen müşterilere ve alt acentelere bilet satın, her havayolunun ve acentenin borcunu görün.
+Exchange offices|صرافی‌ها|صرافۍ|Döviz büroları
+Exchange and hawala with daily rates, commissions and cash that always matches.|تبادله و حواله با نرخ روزانه، کمیشن و نقدی که همیشه درست است.|تبادله او حواله د ورځنیو نرخونو، کمیشن او نغدو سره چې تل سم وي.|Günlük kurlar, komisyonlar ve her zaman tutan kasa ile döviz ve havale.
+A day at a travel agency|یک روز در آژانس مسافرتی|په سفري اژانس کې یوه ورځ|Bir seyahat acentesinde bir gün
+Sell a ticket to a sub-agent: passenger, PNR, airline, price and cost on one screen.|یک تکت به نماینده فرعی بفروشید: مسافر، PNR، شرکت هوایی، قیمت و هزینه در یک صفحه.|فرعي اجنټ ته یو ټکټ وپلورئ: مسافر، PNR، هوايي شرکت، بیه او لګښت په یوه پاڼه کې.|Bir alt acenteye bilet satın: yolcu, PNR, havayolu, fiyat ve maliyet tek ekranda.
+Falak Hesab books the sale, the airline cost and your profit automatically.|Falak Hesab فروش، هزینه شرکت هوایی و سود شما را خودکار ثبت می‌کند.|Falak Hesab پلور، د هوايي شرکت لګښت او ستاسو ګټه پخپله ثبتوي.|Falak Hesab satışı, havayolu maliyetini ve kârınızı otomatik olarak kaydeder.
+Send the sub-agent their statement on WhatsApp at the end of the week.|در پایان هفته صورت‌حساب نماینده فرعی را در واتس‌اپ بفرستید.|د اونۍ په پای کې فرعي اجنټ ته د هغه صورت‌حساب په واټس‌اپ کې واستوئ.|Hafta sonunda alt acenteye ekstresini WhatsApp'tan gönderin.
+See what every airline and sub-agent owes on the Travel overview.|در نمای کلی سفر ببینید هر شرکت هوایی و نماینده فرعی چقدر بدهکار است.|د سفر په عمومي کتنه کې وګورئ چې هر هوايي شرکت او فرعي اجنټ څومره پور لري.|Seyahat özetinde her havayolunun ve alt acentenin borcunu görün.
+Falak Travel in Istanbul runs its own books this way every day.|Falak Travel در استانبول هر روز دفاتر خود را همین‌طور اداره می‌کند.|Falak Travel په استانبول کې هره ورځ خپل کتابونه همداسې چلوي.|İstanbul'daki Falak Travel her gün kendi defterlerini bu şekilde tutuyor.
+Simple prices|قیمت‌های ساده|ساده بیې|Basit fiyatlar
+Per business, per month. Pay for 1, 3, 6 or 12 months by bank transfer or cash. No automatic charges and nothing to cancel.|برای هر کسب‌وکار، ماهانه. برای ۱، ۳، ۶ یا ۱۲ ماه با انتقال بانکی یا نقدی پرداخت کنید. بدون کسر خودکار و بدون نیاز به لغو.|د هرې سوداګرۍ لپاره، په میاشت کې. د ۱، ۳، ۶ یا ۱۲ میاشتو لپاره د بانکي لېږد یا نغدو له لارې تادیه وکړئ. اتوماتیک کسر نشته او لغوه کولو ته اړتیا نشته.|İşletme başına, aylık. 1, 3, 6 veya 12 ay için havale veya nakit ile ödeyin. Otomatik ödeme yok, iptal edilecek bir şey yok.
+Start free|رایگان شروع کنید|وړیا پیل کړئ|Ücretsiz başla
+Try free for 30 days|۳۰ روز رایگان امتحان کنید|۳۰ ورځې وړیا یې وازمویئ|30 gün ücretsiz dene
+If you stop paying|اگر پرداخت را متوقف کنید|که تادیه بنده کړئ|Ödemeyi bırakırsanız
+Nothing is deleted. When your trial or paid time ends, your books become read-only until you pay again. You can still open, print and download everything, or switch to the Free plan (1 user).|چیزی حذف نمی‌شود. وقتی دوره آزمایشی یا پرداختی شما تمام شود، دفاتر شما تا پرداخت دوباره فقط قابل خواندن می‌شوند. هنوز می‌توانید همه چیز را باز، چاپ و دانلود کنید یا به پلان رایگان (۱ کاربر) بروید.|هېڅ نه ړنګېږي. کله چې ستاسو ازمایښت یا تادیه شوې موده پای ته ورسېږي، کتابونه مو تر بیا تادیې پورې یوازې د لوستلو وړ کېږي. بیا هم کولی شئ هر څه خلاص، چاپ او ښکته کړئ، یا وړیا پلان (۱ کاروونکی) ته لاړ شئ.|Hiçbir şey silinmez. Deneme veya ödenen süreniz bittiğinde, defterleriniz tekrar ödeyene kadar salt okunur olur. Yine de her şeyi açabilir, yazdırabilir ve indirebilir ya da Ücretsiz plana (1 kullanıcı) geçebilirsiniz.
+Your data is safe and it stays yours|داده‌های شما امن است و مال خودتان می‌ماند|ستاسو معلومات خوندي دي او ستاسو پاتې کېږي|Verileriniz güvende ve sizin kalır
+We only list protections that Falak Hesab really has today.|ما فقط محافظت‌هایی را می‌نویسیم که Falak Hesab امروز واقعاً دارد.|موږ یوازې هغه خوندیتوبونه لیکو چې Falak Hesab نن ورځ په رښتیا لري.|Yalnızca Falak Hesab'ın bugün gerçekten sahip olduğu korumaları listeliyoruz.
+Encrypted connection|اتصال رمزگذاری شده|کوډ شوې اړیکه|Şifreli bağlantı
+Every page and every request uses HTTPS.|هر صفحه و هر درخواست از HTTPS استفاده می‌کند.|هره پاڼه او هره غوښتنه HTTPS کاروي.|Her sayfa ve her istek HTTPS kullanır.
+Each business is separate|هر کسب‌وکار جداست|هره سوداګري جلا ده|Her işletme ayrıdır
+Database rules keep every business’s books apart. Only the people you add can open yours.|قوانین پایگاه داده دفاتر هر کسب‌وکار را جدا نگه می‌دارد. فقط کسانی که شما اضافه می‌کنید می‌توانند دفاتر شما را باز کنند.|د ډیټابیس قواعد د هرې سوداګرۍ کتابونه جلا ساتي. یوازې هغه کسان چې تاسو یې ورزیاتوئ ستاسو کتابونه خلاصولی شي.|Veritabanı kuralları her işletmenin defterlerini ayrı tutar. Sizinkini yalnızca eklediğiniz kişiler açabilir.
+Owners and staff can protect their account with a 6-digit code from an authenticator app.|مالکان و کارمندان می‌توانند حساب خود را با کد ۶ رقمی از اپلیکیشن احراز هویت محافظت کنند.|مالکان او کارکوونکي کولی شي خپل حساب د تصدیق اپلیکیشن له ۶ عددي کوډ سره خوندي کړي.|Sahipler ve personel, hesaplarını bir doğrulama uygulamasından gelen 6 haneli kodla koruyabilir.
+Daily backups|پشتیبان‌گیری روزانه|ورځنی بیک‌اپ|Günlük yedekler
+The database is backed up automatically every day and backups are kept for 7 days.|از پایگاه داده هر روز خودکار نسخه پشتیبان گرفته می‌شود و نسخه‌ها ۷ روز نگه داشته می‌شوند.|له ډیټابیس څخه هره ورځ پخپله بیک‌اپ اخیستل کېږي او بیک‌اپونه ۷ ورځې ساتل کېږي.|Veritabanı her gün otomatik olarak yedeklenir ve yedekler 7 gün saklanır.
+History and recycle bin|تاریخچه و سطل بازیافت|تاریخچه او د ړنګو شیانو ټوکرۍ|Geçmiş ve geri dönüşüm kutusu
+Every change is recorded with who made it. Deleted items can be restored for 30 days.|هر تغییر با نام کسی که آن را انجام داده ثبت می‌شود. موارد حذف‌شده تا ۳۰ روز قابل بازگردانی هستند.|هر بدلون د هغه چا له نوم سره ثبتېږي چې کړی یې دی. ړنګ شوي توکي تر ۳۰ ورځو بېرته راګرځول کېدای شي.|Her değişiklik, kimin yaptığıyla birlikte kaydedilir. Silinen öğeler 30 gün boyunca geri yüklenebilir.
+Lock date|تاریخ قفل|د قلف نېټه|Kilit tarihi
+Close a period so nobody can change old transactions by mistake.|یک دوره را ببندید تا هیچ‌کس معاملات قدیمی را اشتباهی تغییر ندهد.|یوه موده وتړئ چې هېڅوک زاړه معاملې په غلطۍ بدلې نه کړي.|Bir dönemi kapatın, böylece kimse eski işlemleri yanlışlıkla değiştiremez.
+Automatic sign-out|خروج خودکار|اتوماتیک وتل|Otomatik çıkış
+On shared computers Falak Hesab signs out after 60 minutes without activity.|در کامپیوترهای مشترک، Falak Hesab پس از ۶۰ دقیقه بدون فعالیت خارج می‌شود.|په ګډو کمپیوټرونو کې Falak Hesab له ۶۰ دقیقو بې فعالیتۍ وروسته وځي.|Ortak bilgisayarlarda Falak Hesab 60 dakika işlem yapılmazsa oturumu kapatır.
+We can’t see your password|ما رمز عبور شما را نمی‌بینیم|موږ ستاسو پټنوم نشو لیدلی|Şifrenizi göremeyiz
+Passwords are stored by our sign-in provider in encrypted form. We never see them.|رمزهای عبور توسط ارائه‌دهنده ورود ما به شکل رمزگذاری شده نگهداری می‌شوند. ما هرگز آن‌ها را نمی‌بینیم.|پټنومونه زموږ د ننوتلو چمتو کوونکي لخوا په کوډ شوي شکل ساتل کېږي. موږ یې هېڅکله نه وینو.|Şifreler giriş sağlayıcımız tarafından şifrelenmiş olarak saklanır. Biz onları asla görmeyiz.
+Take your data with you at any time|هر زمان داده‌های خود را با خود ببرید|هر وخت خپل معلومات له ځان سره یوسئ|Verilerinizi istediğiniz zaman yanınıza alın
+Download a complete backup file of your business from Settings (JSON). You can import it again into a new business.|فایل پشتیبان کامل کسب‌وکار خود را از تنظیمات دانلود کنید (JSON). می‌توانید آن را دوباره در یک کسب‌وکار جدید وارد کنید.|د خپلې سوداګرۍ بشپړ بیک‌اپ فایل له تنظیماتو ښکته کړئ (JSON). کولی شئ بیا یې په نوې سوداګرۍ کې راوړئ.|İşletmenizin tam yedek dosyasını Ayarlar'dan indirin (JSON). Yeni bir işletmeye tekrar içe aktarabilirsiniz.
+Export any list or report for Excel, Google Sheets or LibreOffice (CSV).|هر فهرست یا گزارش را برای Excel، Google Sheets یا LibreOffice خروجی بگیرید (CSV).|هر لېست یا راپور د Excel، Google Sheets یا LibreOffice لپاره وباسئ (CSV).|Her listeyi veya raporu Excel, Google Sheets ya da LibreOffice için dışa aktarın (CSV).
+Print or save any invoice, statement or report as PDF.|هر فاکتور، صورت‌حساب یا گزارش را چاپ یا به شکل PDF ذخیره کنید.|هر بل، صورت‌حساب یا راپور چاپ یا د PDF په بڼه خوندي کړئ.|Her faturayı, ekstreyi veya raporu yazdırın ya da PDF olarak kaydedin.
+If you leave, your books stay readable so you can take everything. The owner can delete the business completely from Settings.|اگر بروید، دفاتر شما قابل خواندن می‌مانند تا بتوانید همه چیز را ببرید. مالک می‌تواند کسب‌وکار را از تنظیمات کاملاً حذف کند.|که لاړ شئ، کتابونه مو د لوستلو وړ پاتې کېږي چې هر څه یوسئ. مالک کولی شي سوداګري له تنظیماتو بشپړه ړنګه کړي.|Ayrılırsanız defterleriniz okunabilir kalır, böylece her şeyi alabilirsiniz. Sahip, işletmeyi Ayarlar'dan tamamen silebilir.
+Who runs Falak Hesab|چه کسی Falak Hesab را اداره می‌کند|Falak Hesab څوک چلوي|Falak Hesab'ı kim işletiyor
+Falak Hesab is made in Istanbul by Falak Travel, a travel agency that keeps its own books in Falak Hesab every day. We built it because we needed simple accounting in our own languages, for travel and exchange work, and we use what we build.|Falak Hesab در استانبول توسط Falak Travel ساخته شده است؛ یک آژانس مسافرتی که هر روز دفاتر خود را در Falak Hesab نگه می‌دارد. ما آن را ساختیم چون به حسابداری ساده به زبان‌های خودمان برای کار سفر و صرافی نیاز داشتیم، و از چیزی که می‌سازیم خودمان استفاده می‌کنیم.|Falak Hesab په استانبول کې د Falak Travel لخوا جوړ شوی، یو سفري اژانس چې هره ورځ خپل کتابونه په Falak Hesab کې ساتي. موږ دا ځکه جوړ کړ چې د سفر او صرافۍ د کار لپاره په خپلو ژبو ساده حساب‌داري ته اړتیا وه، او هغه څه کاروو چې جوړوو یې.|Falak Hesab, İstanbul'da her gün kendi defterlerini Falak Hesab'ta tutan bir seyahat acentesi olan Falak Travel tarafından yapıldı. Seyahat ve döviz işleri için kendi dillerimizde basit bir muhasebeye ihtiyacımız olduğu için geliştirdik ve geliştirdiğimizi kendimiz kullanıyoruz.
+Customer reviews will appear here when our first customers share them. We don’t publish made-up reviews.|نظرات مشتریان وقتی اولین مشتریان ما آن‌ها را به اشتراک بگذارند اینجا نمایش داده می‌شود. ما نظرات ساختگی منتشر نمی‌کنیم.|د پېرودونکو نظرونه به دلته هغه وخت ښکاره شي چې زموږ لومړني پېرودونکي یې شریک کړي. موږ جعلي نظرونه نه خپروو.|Müşteri yorumları, ilk müşterilerimiz paylaştığında burada görünecek. Uydurma yorum yayınlamıyoruz.
+Contact and support|تماس و پشتیبانی|اړیکه او ملاتړ|İletişim ve destek
+Questions before you start, or help with your books? Write to us.|قبل از شروع سؤالی دارید یا برای دفاتر خود کمک می‌خواهید؟ برای ما بنویسید.|د پیل مخکې پوښتنې لرئ، یا د خپلو کتابونو لپاره مرسته غواړئ؟ موږ ته ولیکئ.|Başlamadan önce sorunuz mu var, ya da defterleriniz için yardım mı lazım? Bize yazın.
+Questions and answers|سؤالات و پاسخ‌ها|پوښتنې او ځوابونه|Sorular ve cevaplar
+Is there a free plan?|آیا پلان رایگان وجود دارد؟|ایا وړیا پلان شته؟|Ücretsiz plan var mı?
+Yes. The Free plan is free forever for one user and includes all accounting. Basic and Pro start with a 30-day free trial.|بله. پلان رایگان برای یک کاربر همیشه رایگان است و همه حسابداری را دارد. پایه و Pro با ۳۰ روز آزمایش رایگان شروع می‌شوند.|هو. وړیا پلان د یو کاروونکي لپاره تل وړیا دی او ټول حساب‌داري لري. بنسټیز او Pro په ۳۰ ورځني وړیا ازمایښت پیلېږي.|Evet. Ücretsiz plan tek kullanıcı için sonsuza dek ücretsizdir ve tüm muhasebeyi içerir. Temel ve Pro 30 günlük ücretsiz denemeyle başlar.
+Do I need a bank card to start?|آیا برای شروع کارت بانکی لازم است؟|ایا د پیل لپاره بانکي کارت ته اړتیا ده؟|Başlamak için banka kartı gerekiyor mu?
+No. You create an account with your email. There are no automatic charges.|خیر. با ایمیل خود حساب می‌سازید. هیچ کسر خودکاری وجود ندارد.|نه. تاسو د خپل ایمیل سره حساب جوړوئ. اتوماتیک کسر نشته.|Hayır. E-postanızla hesap oluşturursunuz. Otomatik ödeme yoktur.
+How do I pay?|چطور پرداخت کنم؟|څنګه تادیه وکړم؟|Nasıl öderim?
+By bank transfer or in cash. You can pay for 1, 3, 6 or 12 months. We switch your plan on as soon as we receive your payment.|با انتقال بانکی یا نقدی. می‌توانید برای ۱، ۳، ۶ یا ۱۲ ماه پرداخت کنید. به محض دریافت پرداخت، پلان شما را فعال می‌کنیم.|د بانکي لېږد یا نغدو له لارې. کولی شئ د ۱، ۳، ۶ یا ۱۲ میاشتو لپاره تادیه وکړئ. ستاسو تادیه چې ترلاسه کړو، سمدستي مو پلان فعالوو.|Havale veya nakit ile. 1, 3, 6 veya 12 ay için ödeyebilirsiniz. Ödemenizi alır almaz planınızı açarız.
+What happens if I stop paying?|اگر پرداخت را متوقف کنم چه می‌شود؟|که تادیه بنده کړم څه کېږي؟|Ödemeyi bırakırsam ne olur?
+Nothing is deleted. Your books become read-only: you can still open, print and download everything. You can also switch to the Free plan.|چیزی حذف نمی‌شود. دفاتر شما فقط قابل خواندن می‌شوند: هنوز می‌توانید همه چیز را باز، چاپ و دانلود کنید. همچنین می‌توانید به پلان رایگان بروید.|هېڅ نه ړنګېږي. کتابونه مو یوازې د لوستلو وړ کېږي: بیا هم هر څه خلاص، چاپ او ښکته کولی شئ. وړیا پلان ته هم تللی شئ.|Hiçbir şey silinmez. Defterleriniz salt okunur olur: yine de her şeyi açabilir, yazdırabilir ve indirebilirsiniz. Ücretsiz plana da geçebilirsiniz.
+Can I take my data with me?|آیا می‌توانم داده‌هایم را با خود ببرم؟|ایا خپل معلومات له ځان سره وړلی شم؟|Verilerimi yanımda götürebilir miyim?
+Yes. Download a full backup file of your business at any time, export any list or report for Excel (CSV), and print or save any document as PDF.|بله. هر زمان فایل پشتیبان کامل کسب‌وکار خود را دانلود کنید، هر فهرست یا گزارش را برای Excel خروجی بگیرید (CSV) و هر سند را چاپ یا PDF کنید.|هو. هر وخت د خپلې سوداګرۍ بشپړ بیک‌اپ فایل ښکته کړئ، هر لېست یا راپور د Excel لپاره وباسئ (CSV)، او هر سند چاپ یا PDF کړئ.|Evet. İşletmenizin tam yedek dosyasını istediğiniz zaman indirin, her listeyi veya raporu Excel için dışa aktarın (CSV) ve her belgeyi yazdırın ya da PDF olarak kaydedin.
+Which languages are there?|چه زبان‌هایی وجود دارد؟|کومې ژبې شته؟|Hangi diller var?
+English, Dari, Pashto and Turkish. Each person chooses their own language.|انگلیسی، دری، پشتو و ترکی. هر شخص زبان خودش را انتخاب می‌کند.|انګلیسي، دري، پښتو او ترکي. هر څوک خپله ژبه ټاکي.|İngilizce, Darice, Peştuca ve Türkçe. Herkes kendi dilini seçer.
+Can my staff use it at the same time?|آیا کارمندانم می‌توانند همزمان از آن استفاده کنند؟|ایا زما کارکوونکي یې په یو وخت کارولی شي؟|Personelim aynı anda kullanabilir mi?
+Yes. Add their email in Users & Access and choose what they may use. On Basic and Pro your business also gets its own sign-in page, for example falakhesab.com/your-company.|بله. ایمیل آن‌ها را در «کاربران و دسترسی» اضافه کنید و انتخاب کنید از چه چیزی استفاده کنند. در پلان‌های پایه و Pro کسب‌وکار شما صفحه ورود مخصوص خود را هم دارد، مثلاً falakhesab.com/your-company.|هو. د هغوی ایمیل په «کاروونکي او لاسرسی» کې ورزیات کړئ او وټاکئ چې څه وکاروي. په بنسټیز او Pro کې ستاسو سوداګري خپله د ننوتلو پاڼه هم لري، لکه falakhesab.com/your-company.|Evet. E-postalarını Kullanıcılar ve Erişim'e ekleyin ve neleri kullanabileceklerini seçin. Temel ve Pro'da işletmeniz kendi giriş sayfasına da sahip olur, örneğin falakhesab.com/your-company.
+Does it work on a phone?|آیا روی تلفن کار می‌کند؟|ایا په تلیفون کار کوي؟|Telefonda çalışır mı?
+Yes. Falak Hesab works in the browser on phones, tablets and computers. There is nothing to install.|بله. Falak Hesab در مرورگر روی تلفن، تبلت و کامپیوتر کار می‌کند. چیزی برای نصب نیست.|هو. Falak Hesab په براوزر کې په تلیفونونو، ټابلېټونو او کمپیوټرونو کار کوي. هېڅ شی نصبولو ته اړتیا نشته.|Evet. Falak Hesab telefon, tablet ve bilgisayarda tarayıcıda çalışır. Yüklenecek bir şey yoktur.
+Can I move from Manager.io or Excel?|آیا می‌توانم از Manager.io یا Excel منتقل شوم؟|ایا له Manager.io یا Excel څخه راتلی شم؟|Manager.io veya Excel'den geçebilir miyim?
+Contact us. We have moved a Manager.io business into Falak Hesab before and can help you with yours.|با ما تماس بگیرید. ما قبلاً یک کسب‌وکار را از Manager.io به Falak Hesab منتقل کرده‌ایم و می‌توانیم به شما هم کمک کنیم.|موږ سره اړیکه ونیسئ. موږ مخکې یوه سوداګري له Manager.io څخه Falak Hesab ته لېږدولې او ستاسو سره هم مرسته کولی شو.|Bize ulaşın. Daha önce bir Manager.io işletmesini Falak Hesab'a taşıdık, sizinkine de yardım edebiliriz.
+Does Falak Hesab send e-Fatura or e-Arşiv invoices?|آیا Falak Hesab فاکتور e-Fatura یا e-Arşiv می‌فرستد؟|ایا Falak Hesab د e-Fatura یا e-Arşiv بلونه لېږي؟|Falak Hesab e-Fatura veya e-Arşiv faturası gönderiyor mu?
+Not yet. Falak Hesab does not send invoices to the Turkish tax system (GİB). Ask your accountant whether you need e-Fatura or e-Arşiv.|هنوز نه. Falak Hesab فاکتورها را به سیستم مالیاتی ترکیه (GİB) نمی‌فرستد. از حسابدار خود بپرسید آیا به e-Fatura یا e-Arşiv نیاز دارید.|لا نه. Falak Hesab بلونه د ترکیې د مالیې سیستم (GİB) ته نه لېږي. له خپل محاسب وپوښتئ چې ایا e-Fatura یا e-Arşiv ته اړتیا لرئ.|Henüz değil. Falak Hesab faturaları Türk vergi sistemine (GİB) göndermez. e-Fatura veya e-Arşiv'e ihtiyacınız olup olmadığını muhasebecinize sorun.
+Where is my data stored?|داده‌های من کجا نگهداری می‌شود؟|زما معلومات چېرته ساتل کېږي؟|Verilerim nerede saklanıyor?
+In a professional cloud database (Supabase, PostgreSQL). The website is hosted by Netlify. See the Privacy Policy for details.|در یک پایگاه داده ابری حرفه‌ای (Supabase، PostgreSQL). وب‌سایت توسط Netlify میزبانی می‌شود. برای جزئیات سیاست حریم خصوصی را ببینید.|په یوه مسلکي کلاوډ ډیټابیس کې (Supabase، PostgreSQL). ویب‌سایټ د Netlify لخوا کوربه کېږي. د جزیاتو لپاره د محرمیت تګلاره وګورئ.|Profesyonel bir bulut veritabanında (Supabase, PostgreSQL). Web sitesi Netlify'da barındırılır. Ayrıntılar için Gizlilik Politikası'na bakın.
+Start with your own books today|همین امروز با دفاتر خود شروع کنید|نن له خپلو کتابونو سره پیل وکړئ|Bugün kendi defterlerinizle başlayın
+Free plan forever. Basic and Pro free for 30 days. No card needed.|پلان رایگان برای همیشه. پایه و Pro برای ۳۰ روز رایگان. کارت بانکی لازم نیست.|تل وړیا پلان. بنسټیز او Pro ۳۰ ورځې وړیا. بانکي کارت ته اړتیا نشته.|Sonsuza dek ücretsiz plan. Temel ve Pro 30 gün ücretsiz. Kart gerekmez.
+Online accounting made in Istanbul by Falak Travel.|حسابداری آنلاین ساخته شده در استانبول توسط Falak Travel.|آنلاین حساب‌داري چې په استانبول کې د Falak Travel لخوا جوړه شوې.|Falak Travel tarafından İstanbul'da yapılan çevrim içi muhasebe.
+Product|محصول|محصول|Ürün
+Demo|نمونه|نمونه|Demo
+Company|شرکت|شرکت|Şirket
+About us|درباره ما|زموږ په اړه|Hakkımızda
+Legal|حقوقی|حقوقي|Yasal
+Privacy Policy|سیاست حریم خصوصی|د محرمیت تګلاره|Gizlilik Politikası
+Terms of Service|شرایط استفاده|د کارونې شرایط|Hizmet Şartları
+Demo with sample data.|نمونه با داده‌های آزمایشی.|نمونه د ازمایښتي معلوماتو سره.|Örnek verili demo.
+Everything stays in this browser. Nothing is sent or saved online.|همه چیز در همین مرورگر می‌ماند. چیزی آنلاین ارسال یا ذخیره نمی‌شود.|هر څه په همدې براوزر کې پاتې کېږي. هېڅ شی آنلاین نه لېږل کېږي او نه خوندي کېږي.|Her şey bu tarayıcıda kalır. Hiçbir şey çevrim içi gönderilmez veya kaydedilmez.
+Start over|شروع دوباره|له سره پیل|Baştan başla
+Clear books for your business or travel agency|دفاتر روشن برای کسب‌وکار یا آژانس مسافرتی شما|ستاسو د سوداګرۍ یا سفري اژانس لپاره روښانه کتابونه|İşletmeniz veya seyahat acenteniz için düzenli defterler
+Falak Hesab is made in Istanbul by Falak Travel, a travel agency that keeps its own books in Falak Hesab every day. We built it because we needed simple accounting in our own languages for travel work, and we use what we build.|Falak Hesab در استانبول توسط Falak Travel ساخته شده است؛ یک آژانس مسافرتی که هر روز دفاتر خود را در Falak Hesab نگه می‌دارد. ما آن را ساختیم چون برای کار سفر به حسابداری ساده به زبان‌های خودمان نیاز داشتیم، و از چیزی که می‌سازیم خودمان استفاده می‌کنیم.|Falak Hesab په استانبول کې د Falak Travel لخوا جوړ شوی، یو سفري اژانس چې هره ورځ خپل کتابونه په Falak Hesab کې ساتي. موږ دا ځکه جوړ کړ چې د سفر د کار لپاره په خپلو ژبو ساده حساب‌داري ته اړتیا وه، او هغه څه کاروو چې جوړوو یې.|Falak Hesab, İstanbul'da her gün kendi defterlerini Falak Hesab'ta tutan bir seyahat acentesi olan Falak Travel tarafından yapıldı. Seyahat işleri için kendi dillerimizde basit bir muhasebeye ihtiyacımız olduğu için geliştirdik ve geliştirdiğimizi kendimiz kullanıyoruz.
+Switch to the Free plan? Free allows 1 user and no company address. Travel becomes read-only.|به پلان رایگان بروید؟ پلان رایگان ۱ کاربر دارد و آدرس شرکت ندارد. بخش سفر فقط قابل خواندن می‌شود.|وړیا پلان ته لاړ شئ؟ وړیا پلان ۱ کاروونکی لري او د شرکت پته نه لري. سفر به یوازې د لوستلو وړ شي.|Ücretsiz plana geçilsin mi? Ücretsiz plan 1 kullanıcı içerir ve şirket adresi yoktur. Seyahat salt okunur olur.
+Custom fields|فیلدهای سفارشی|ځانګړې ساحې|Özel alanlar
+Add your own boxes to customers, invoices, tickets and more. For example: passport number, national ID, file number or branch.|خانه‌های خودتان را به مشتریان، فاکتورها، تکت‌ها و موارد دیگر اضافه کنید. مثلاً: شماره پاسپورت، تذکره، شماره دوسیه یا شعبه.|خپلې خانې پېرودونکو، بلونو، ټکټونو او نورو ته ورزیاتې کړئ. د بېلګې په توګه: د پاسپورټ شمېره، تذکره، د دوسیې شمېره یا څانګه.|Müşterilere, faturalara, biletlere ve daha fazlasına kendi alanlarınızı ekleyin. Örneğin: pasaport numarası, kimlik numarası, dosya numarası veya şube.
++ Add custom field|+ افزودن فیلد سفارشی|+ ځانګړې ساحه ورزیاته کړئ|+ Özel alan ekle
+Save custom fields|ذخیره فیلدهای سفارشی|ځانګړې ساحې خوندي کړئ|Özel alanları kaydet
+Where|کجا|چېرته|Nerede
+Name of the field|نام فیلد|د ساحې نوم|Alanın adı
+Kind|نوع|ډول|Tür
+Drop-down list|فهرست کشویی|ښکته کېدونکی لېست|Açılır liste
+Long text|متن طولانی|اوږد متن|Uzun metin
+Choices (one per line)|گزینه‌ها (هر کدام در یک خط)|انتخابونه (هر یو په یوه کرښه)|Seçenekler (her satıra bir tane)
+Show as a column in the list|نمایش به عنوان ستون در فهرست|په لېست کې د ستون په توګه ښکاره کړئ|Listede sütun olarak göster
+Show on printed documents|نمایش در اسناد چاپی|په چاپي اسنادو کې ښکاره کړئ|Yazdırılan belgelerde göster
+Remove field|حذف فیلد|ساحه لرې کړئ|Alanı kaldır
+No custom fields yet.|هنوز فیلد سفارشی وجود ندارد.|لا ځانګړې ساحې نشته.|Henüz özel alan yok.
+Add at least one choice to each drop-down list.|برای هر فهرست کشویی حداقل یک گزینه اضافه کنید.|هر ښکته کېدونکي لېست ته لږ تر لږه یو انتخاب ورزیات کړئ.|Her açılır listeye en az bir seçenek ekleyin.
+Custom fields saved|فیلدهای سفارشی ذخیره شد|ځانګړې ساحې خوندي شوې|Özel alanlar kaydedildi
+Attachments|پیوست‌ها|ضمیمې|Ekler
+Add files|افزودن فایل|فایلونه ورزیات کړئ|Dosya ekle
+or drop them here|یا آن‌ها را اینجا رها کنید|یا یې دلته راپرېږدئ|veya buraya bırakın
+No files yet. Add a photo of the receipt, a PDF invoice or any other document.|هنوز فایلی نیست. عکس رسید، فاکتور PDF یا هر سند دیگری اضافه کنید.|لا فایل نشته. د رسید انځور، PDF بل یا بل هر سند ورزیات کړئ.|Henüz dosya yok. Makbuzun fotoğrafını, PDF faturayı veya başka bir belgeyi ekleyin.
+No files.|فایلی نیست.|فایل نشته.|Dosya yok.
+Remove this file?|این فایل حذف شود؟|دا فایل لرې شي؟|Bu dosya kaldırılsın mı?
+File removed|فایل حذف شد|فایل لرې شو|Dosya kaldırıldı
+Files added|فایل‌ها اضافه شد|فایلونه ورزیات شول|Dosyalar eklendi
+Uploading…|در حال بارگذاری…|پورته کېږي…|Yükleniyor…
+Saved with the record|همراه با سند ذخیره می‌شود|له ریکارډ سره خوندي کېږي|Kayıtla birlikte kaydedilir
+file|فایل|فایل|dosya
+files|فایل|فایلونه|dosya
+Download|دانلود|ښکته کول|İndir
+Close|بستن|بندول|Kapat
+That file is too large. The limit is 10 MB.|این فایل خیلی بزرگ است. حداکثر ۱۰ مگابایت.|دا فایل ډېر لوی دی. حد یې ۱۰ MB دی.|Dosya çok büyük. Sınır 10 MB.
+In the demo, files can be at most 1 MB.|در نمونه، فایل‌ها حداکثر ۱ مگابایت می‌توانند باشند.|په نمونه کې فایلونه تر ۱ MB پورې کېدای شي.|Demoda dosyalar en fazla 1 MB olabilir.
+This kind of file is not allowed.|این نوع فایل مجاز نیست.|دا ډول فایل اجازه نه لري.|Bu dosya türüne izin verilmiyor.
+You can’t add files to this record.|شما نمی‌توانید به این سند فایل اضافه کنید.|تاسو دې ریکارډ ته فایل نشئ ورزیاتولی.|Bu kayda dosya ekleyemezsiniz.
+Attachments are not switched on yet. Run step 9 in Supabase first.|پیوست‌ها هنوز فعال نشده‌اند. اول مرحله ۹ را در Supabase اجرا کنید.|ضمیمې لا فعالې شوې نه دي. لومړی په Supabase کې ۹م پړاو وچلوئ.|Ekler henüz açık değil. Önce Supabase'de 9. adımı çalıştırın.
+Photos, PDF, Word, Excel · up to 10 MB each|عکس، PDF، Word، Excel · هر کدام تا ۱۰ مگابایت|انځورونه، PDF، Word، Excel · هر یو تر ۱۰ MB|Fotoğraf, PDF, Word, Excel · her biri en fazla 10 MB
+Photos, PDF, Word, Excel · up to 1 MB each|عکس، PDF، Word، Excel · هر کدام تا ۱ مگابایت|انځورونه، PDF، Word، Excel · هر یو تر ۱ MB|Fotoğraf, PDF, Word, Excel · her biri en fazla 1 MB
+Help|کمک|مرسته|Yardım
+Help chat|گفتگوی کمک|د مرستې چټ|Yardım sohbeti
+Falak Hesab help|کمک فلک حساب|د فلک حساب مرسته|Falak Hesab yardım
+Ask anything about Falak Hesab|هر سوالی دربارهٔ فلک حساب بپرسید|د فلک حساب په اړه هر څه وپوښتئ|Falak Hesab hakkında her şeyi sorun
+Type your question…|سوال خود را بنویسید…|خپله پوښتنه ولیکئ…|Sorunuzu yazın…
+Your question|سوال شما|ستاسو پوښتنه|Sorunuz
+Talk to a person|صحبت با یک شخص|له یو کس سره خبرې|Bir kişiyle konuşun
+AI answers can be wrong. Never share passwords.|پاسخ‌های هوش مصنوعی ممکن است اشتباه باشد. هرگز رمز عبور خود را شریک نسازید.|د مصنوعي ځيرکتيا ځوابونه کېدای شي غلط وي. هېڅکله خپل پټنوم مه شریکوئ.|Yapay zekâ yanıtları yanlış olabilir. Şifrenizi asla paylaşmayın.
+Hello! I am the Falak Hesab assistant. Ask me how to do something, about plans and prices, or about a problem you have.|سلام! من دستیار فلک حساب هستم. از من بپرسید چگونه کاری را انجام دهید، دربارهٔ پلان‌ها و قیمت‌ها، یا دربارهٔ مشکلی که دارید.|سلام! زه د فلک حساب مرستیال یم. له ما وپوښتئ چې یو کار څنګه وکړئ، د پلانونو او بیو په اړه، یا د هغې ستونزې په اړه چې لرئ یې.|Merhaba! Ben Falak Hesab asistanıyım. Bir işi nasıl yapacağınızı, planları ve fiyatları ya da yaşadığınız bir sorunu bana sorabilirsiniz.
+Hello! How can I help you with Falak Hesab?|سلام! چگونه می‌توانم در فلک حساب به شما کمک کنم؟|سلام! په فلک حساب کې څنګه درسره مرسته وکړم؟|Merhaba! Falak Hesab ile ilgili size nasıl yardımcı olabilirim?
+You are welcome! Ask me anything else.|خواهش می‌کنم! هر سوال دیگری دارید بپرسید.|هیله کوم! نور هر څه چې غواړئ وپوښتئ.|Rica ederim! Başka ne isterseniz sorun.
+How do I create an invoice?|چگونه فاکتور بسازم؟|څنګه بل جوړ کړم؟|Nasıl fatura oluştururum?
+How do I add a staff member?|چگونه یک کارمند اضافه کنم؟|څنګه یو کارکوونکی اضافه کړم؟|Nasıl personel eklerim?
+What do the plans cost?|قیمت پلان‌ها چقدر است؟|د پلانونو بیه څومره ده؟|Planların fiyatı ne kadar?
+I forgot my password|رمز عبورم را فراموش کرده‌ام|خپل پټنوم مې هېر کړی|Şifremi unuttum
+How do I back up my books?|چگونه از دفاترم پشتیبان بگیرم؟|څنګه د خپلو کتابونو بیک اپ واخلم؟|Defterlerimi nasıl yedeklerim?
+You have asked many questions in a short time. Please wait a little, or use "Talk to a person" to write to us on WhatsApp.|شما در مدت کوتاهی سوالات زیادی پرسیده‌اید. لطفاً کمی صبر کنید، یا با «صحبت با یک شخص» در واتس‌اپ برای ما بنویسید.|تاسو په لنډ وخت کې ډېرې پوښتنې کړې دي. مهرباني وکړئ لږ صبر وکړئ، یا د «له یو کس سره خبرې» په کارولو سره موږ ته په واټساپ کې ولیکئ.|Kısa sürede çok soru sordunuz. Lütfen biraz bekleyin ya da "Bir kişiyle konuşun" ile bize WhatsApp'tan yazın.
+Sorry, I can't answer that right now. Please use "Talk to a person" to write to us on WhatsApp or email, and we will help you.|متأسفم، اکنون نمی‌توانم به این سوال پاسخ دهم. لطفاً با «صحبت با یک شخص» در واتس‌اپ یا ایمیل برای ما بنویسید تا کمک‌تان کنیم.|بخښنه غواړم، اوس دې پوښتنې ته ځواب نشم ورکولی. مهرباني وکړئ د «له یو کس سره خبرې» له لارې موږ ته په واټساپ یا برېښنالیک ولیکئ، موږ به ستاسو مرسته وکړو.|Üzgünüm, şu anda buna yanıt veremiyorum. Lütfen "Bir kişiyle konuşun" ile bize WhatsApp'tan veya e-postayla yazın, size yardımcı olalım.
+Pay by bank transfer or in cash, then send the receipt on WhatsApp. We switch on your plan when we receive your payment.|از طریق انتقال بانکی یا نقدی پرداخت کنید، سپس رسید را در واتس‌اپ بفرستید. وقتی پرداخت شما را دریافت کنیم، پلان شما را فعال می‌کنیم.|د بانکي لېږد یا نغدو له لارې تادیه وکړئ، بیا رسید په واټس‌اپ کې واستوئ. کله چې ستاسو تادیه ترلاسه کړو، پلان مو فعالوو.|Banka havalesi veya nakit ile ödeyin, sonra dekontu WhatsApp'tan gönderin. Ödemenizi aldığımızda planınızı açarız.
+When a trial or paid plan ends|وقتی دورهٔ آزمایشی یا پلان پولی پایان می‌یابد|کله چې آزمایښتي موده یا پیسې ورکړل شوی پلان پای ته ورسېږي|Deneme süresi veya ücretli plan bittiğinde
+If you switch to Free|اگر به پلان رایگان بروید|که وړیا پلان ته واوړئ|Ücretsiz plana geçerseniz
+Nothing is deleted.|هیچ چیزی حذف نمی‌شود.|هېڅ شی نه ړنګېږي.|Hiçbir şey silinmez.
+The books become read-only for everyone: nobody can add or change records (invoices, payments, tickets, customers and so on) or add attachments.|دفاتر برای همه فقط‌خواندنی می‌شوند: هیچ‌کس نمی‌تواند سندی (فاکتور، پرداخت، تکت، مشتری و غیره) اضافه یا تغییر دهد یا فایل ضمیمه کند.|کتابونه د ټولو لپاره یوازې د لوستلو وړ کېږي: هېڅوک نشي کولای کوم ریکارډ (بل، تادیه، ټکټ، پېرودونکی او نور) اضافه یا بدل کړي او نه فایل ضمیمه کولای شي.|Defterler herkes için salt okunur olur: kimse kayıt (fatura, ödeme, bilet, müşteri vb.) ekleyemez, değiştiremez veya ek dosya ekleyemez.
+You can still open and print everything, run every report, export lists and reports (CSV) and download a full backup from Settings.|همچنان می‌توانید همه چیز را باز و چاپ کنید، همهٔ گزارش‌ها را ببینید، فهرست‌ها و گزارش‌ها را خروجی (CSV) بگیرید و از تنظیمات پشتیبان کامل دانلود کنید.|بیا هم کولای شئ هر څه پرانیزئ او چاپ کړئ، ټول راپورونه وګورئ، لیستونه او راپورونه (CSV) واخلئ او له تنظیماتو بشپړ بیک اپ ښکته کړئ.|Yine de her şeyi açıp yazdırabilir, tüm raporları alabilir, listeleri ve raporları dışa aktarabilir (CSV) ve Ayarlar'dan tam yedek indirebilirsiniz.
+Users you added keep view-only access. You can remove users, but you can’t add new ones.|کاربرانی که اضافه کرده‌اید فقط دسترسی دیدن دارند. می‌توانید کاربران را حذف کنید، اما نمی‌توانید کاربر جدید اضافه کنید.|هغه کاروونکي چې تاسو اضافه کړي یوازې د کتلو اجازه لري. کاروونکي لرې کولای شئ، خو نوي نشئ اضافه کولای.|Eklediğiniz kullanıcılar yalnızca görüntüleme erişimini korur. Kullanıcıları kaldırabilirsiniz ama yenilerini ekleyemezsiniz.
+Your company address keeps working.|آدرس شرکت شما همچنان کار می‌کند.|ستاسو د شرکت پته کار ته دوام ورکوي.|Şirket adresiniz çalışmaya devam eder.
+When you pay for Basic or Pro, everything opens again as before.|وقتی برای پایه یا حرفه‌ای پرداخت کنید، همه چیز مانند قبل دوباره باز می‌شود.|کله چې د بنسټیز یا مسلکي پلان پیسې ورکړئ، هر څه بیا د مخکې په څېر خلاصېږي.|Basic veya Pro için ödeme yaptığınızda her şey eskisi gibi yeniden açılır.
+Only the owner can switch, and first has to remove the other users, because Free is for 1 user.|فقط مالک می‌تواند تغییر دهد و ابتدا باید کاربران دیگر را حذف کند، چون پلان رایگان برای ۱ کاربر است.|یوازې مالک یې بدلولای شي، او لومړی باید نور کاروونکي لرې کړي، ځکه وړیا پلان د ۱ کاروونکي لپاره دی.|Yalnızca sahip geçiş yapabilir ve önce diğer kullanıcıları kaldırması gerekir, çünkü Ücretsiz plan 1 kullanıcı içindir.
+Your company address (falakhesab.com/your-company) is removed, and printed documents show a small “Made with Falak Hesab” line.|آدرس شرکت شما (falakhesab.com/your-company) حذف می‌شود و در اسناد چاپی یک خط کوچک «ساخته‌شده با فلک حساب» دیده می‌شود.|ستاسو د شرکت پته (falakhesab.com/your-company) لرې کېږي، او په چاپي اسنادو کې یوه کوچنۍ کرښه «د فلک حساب سره جوړ شوی» ښکاري.|Şirket adresiniz (falakhesab.com/your-company) kaldırılır ve yazdırılan belgelerde küçük bir “Falak Hesab ile yapıldı” satırı görünür.
+All accounting keeps working as normal.|همهٔ بخش‌های حسابداری مانند همیشه کار می‌کنند.|ټول حساب‌ورکول د معمول په څېر کار کوي.|Tüm muhasebe her zamanki gibi çalışır.
+Travel tickets are kept. You can open, print and export them, see them in reports and record payments for them, but you can’t add or change tickets.|تکت‌های سفر نگه داشته می‌شوند. می‌توانید آن‌ها را باز، چاپ و خروجی بگیرید، در گزارش‌ها ببینید و پرداخت‌شان را ثبت کنید، اما نمی‌توانید تکت اضافه یا تغییر دهید.|د سفر ټکټونه ساتل کېږي. کولای شئ هغه پرانیزئ، چاپ یې کړئ او بهر یې واخلئ، په راپورونو کې یې وګورئ او تادیې یې ثبت کړئ، خو ټکټونه نشئ اضافه یا بدلولای.|Seyahat biletleri korunur. Onları açabilir, yazdırabilir, dışa aktarabilir, raporlarda görebilir ve ödemelerini kaydedebilirsiniz, ancak bilet ekleyemez veya değiştiremezsiniz.
+You can choose Basic or Pro again later. The free trial is only once per owner.|بعداً می‌توانید دوباره پایه یا حرفه‌ای را انتخاب کنید. دورهٔ آزمایشی رایگان برای هر مالک فقط یک بار است.|وروسته بیا بنسټیز یا مسلکي پلان غوره کولای شئ. وړیا آزمایښتي موده د هر مالک لپاره یوازې یو ځل ده.|Daha sonra yeniden Basic veya Pro'yu seçebilirsiniz. Ücretsiz deneme her sahip için yalnızca bir kezdir.
+Switch to the Free plan? Free is for 1 user: remove the other users first. Your company address will be removed and travel tickets become read-only. Nothing is deleted.|به پلان رایگان می‌روید؟ پلان رایگان برای ۱ کاربر است: ابتدا کاربران دیگر را حذف کنید. آدرس شرکت شما حذف می‌شود و تکت‌های سفر فقط‌خواندنی می‌شوند. هیچ چیزی حذف نمی‌شود.|وړیا پلان ته اوړئ؟ وړیا پلان د ۱ کاروونکي لپاره دی: لومړی نور کاروونکي لرې کړئ. ستاسو د شرکت پته به لرې شي او د سفر ټکټونه به یوازې د لوستلو وړ شي. هېڅ شی نه ړنګېږي.|Ücretsiz plana geçilsin mi? Ücretsiz plan 1 kullanıcı içindir: önce diğer kullanıcıları kaldırın. Şirket adresiniz kaldırılır ve seyahat biletleri salt okunur olur. Hiçbir şey silinmez.
+Nothing is deleted. Your books become read-only: you can still open and print everything, run reports, export and download a backup. Users you added can still look but not change anything. You can pay to continue, or the owner can switch to the Free plan (1 user) after removing the other users. See “When a trial or paid plan ends” under Prices.|هیچ چیزی حذف نمی‌شود. دفاتر شما فقط‌خواندنی می‌شوند: همچنان می‌توانید همه چیز را باز و چاپ کنید، گزارش بگیرید، خروجی بگیرید و پشتیبان دانلود کنید. کاربرانی که اضافه کرده‌اید می‌توانند ببینند ولی چیزی را تغییر دهند نه. می‌توانید برای ادامه پرداخت کنید، یا مالک پس از حذف کاربران دیگر به پلان رایگان (۱ کاربر) برود. بخش «وقتی دورهٔ آزمایشی یا پلان پولی پایان می‌یابد» را زیر قیمت‌ها ببینید.|هېڅ شی نه ړنګېږي. ستاسو کتابونه یوازې د لوستلو وړ کېږي: بیا هم هر څه پرانیستلی او چاپولی شئ، راپور اخیستلی، بهر اخیستلی او بیک اپ ښکته کولی شئ. هغه کاروونکي چې اضافه کړي مو وي کتلی شي خو هېڅ نشي بدلولای. د دوام لپاره پیسې ورکولی شئ، یا مالک د نورو کاروونکو له لرې کولو وروسته وړیا پلان (۱ کاروونکی) ته اوړي. د بیو لاندې «کله چې آزمایښتي موده یا پیسې ورکړل شوی پلان پای ته ورسېږي» وګورئ.|Hiçbir şey silinmez. Defterleriniz salt okunur olur: her şeyi açıp yazdırabilir, rapor alabilir, dışa aktarabilir ve yedek indirebilirsiniz. Eklediğiniz kullanıcılar bakabilir ama hiçbir şeyi değiştiremez. Devam etmek için ödeme yapabilir ya da sahip diğer kullanıcıları kaldırdıktan sonra Ücretsiz plana (1 kullanıcı) geçebilir. Fiyatlar bölümündeki “Deneme süresi veya ücretli plan bittiğinde” kısmına bakın.
+Please read before you create an account:|لطفاً پیش از ساختن حساب بخوانید:|مهرباني وکړئ د حساب جوړولو مخکې یې ولولئ:|Hesap oluşturmadan önce lütfen okuyun:
+Falak Hesab screens|صفحه‌های فلک حساب|د فلک حساب پاڼې|Falak Hesab ekranları
+Summary screen: the balance sheet and the profit and loss of an example business|صفحهٔ خلاصه: بیلانس و سود و زیان یک کسب‌وکار نمونه|د لنډیز پاڼه: د یوې بېلګې سوداګرۍ بیلانس او ګټه او تاوان|Özet ekranı: örnek bir işletmenin bilançosu ile kâr ve zararı
+A sales invoice ready to print, with the customer, item lines, tax and the balance due|یک فاکتور فروش آمادهٔ چاپ، با مشتری، سطرهای کالا، مالیات و مبلغ باقی‌مانده|د چاپ لپاره چمتو د پلور بل، له پېرودونکي، د توکو کرښو، مالیې او پاتې پیسو سره|Müşteri, kalem satırları, vergi ve kalan bakiye ile yazdırılmaya hazır bir satış faturası
+Travel overview: tickets, sales, airline costs, profit, upcoming flights and what airlines and sub-agents owe|نمای کلی سفر: تکت‌ها، فروش، هزینهٔ شرکت‌های هوایی، سود، پروازهای پیش رو و بدهی شرکت‌های هوایی و نمایندگی‌های فرعی|د سفر عمومي کتنه: ټکټونه، پلور، د هوايي شرکتونو لګښت، ګټه، راتلونکې الوتنې او د هوايي شرکتونو او فرعي اجنټانو پوروونه|Seyahat özeti: biletler, satışlar, havayolu maliyetleri, kâr, yaklaşan uçuşlar ve havayollarının ve alt acentelerin borçları
+Cash flow statement report: money in and out from operating, investing and financing activities|گزارش صورت جریان نقدی: پول ورودی و خروجی از فعالیت‌های عملیاتی، سرمایه‌گذاری و تأمین مالی|د نغدو جریان راپور: له عملیاتي، پانګونې او تمویلي فعالیتونو راتلونکې او وتونکې پیسې|Nakit akış tablosu raporu: işletme, yatırım ve finansman faaliyetlerinden giren ve çıkan para
+Small business demo|نمونهٔ کسب‌وکار کوچک|د کوچنۍ سوداګرۍ بېلګه|Küçük işletme demosu
+Travel agency demo|نمونهٔ آژانس مسافرتی|د سفر آژانس بېلګه|Seyahat acentesi demosu
+Each demo starts with a short guided tour. Sample data only; everything stays in your browser.|هر نمونه با یک راهنمای کوتاه شروع می‌شود. فقط داده‌های نمونه؛ همه چیز در مرورگر شما می‌ماند.|هره بېلګه له یوې لنډې لارښوونې سره پیلېږي. یوازې د بېلګې معلومات؛ هر څه ستاسو په براوزر کې پاتې کېږي.|Her demo kısa bir rehberli turla başlar. Yalnızca örnek veriler; her şey tarayıcınızda kalır.
+Try the demo|نمونه را امتحان کنید|بېلګه وازمویئ|Demoyu deneyin
+Take the tour|راهنما را ببینید|لارښود وګورئ|Turu başlat
+Which demo do you want to see?|کدام نمونه را می‌خواهید ببینید؟|کومه بېلګه غواړئ وګورئ؟|Hangi demoyu görmek istiyorsunuz?
+Both use sample data. Everything stays in this browser.|هر دو با داده‌های نمونه کار می‌کنند. همه چیز در همین مرورگر می‌ماند.|دواړه د بېلګې معلومات کاروي. هر څه په همدې براوزر کې پاتې کېږي.|İkisi de örnek veri kullanır. Her şey bu tarayıcıda kalır.
+Small business|کسب‌وکار کوچک|کوچنۍ سوداګري|Küçük işletme
+Travel agency|آژانس مسافرتی|د سفر آژانس|Seyahat acentesi
+Sales, purchases, bank and cash, stock and reports for a shop or office.|فروش، خرید، بانک و نقد، موجودی و گزارش‌ها برای یک دکان یا دفتر.|پلور، پېر، بانک او نغدې، ګدام او راپورونه د یو دوکان یا دفتر لپاره.|Bir dükkan veya ofis için satışlar, alışlar, banka ve kasa, stok ve raporlar.
+Tickets, airlines, sub-agents and upcoming flights, plus all the accounting.|تکت‌ها، شرکت‌های هوایی، نمایندگی‌های فرعی و پروازهای پیش رو، به‌علاوهٔ همهٔ حسابداری.|ټکټونه، هوايي شرکتونه، فرعي اجنټان او راتلونکې الوتنې، او ټول حساب‌ورکول.|Biletler, havayolları, alt acenteler ve yaklaşan uçuşlar, ayrıca tüm muhasebe.
+Next|بعدی|بل|İleri
+Finish|پایان|پای|Bitir
+This is the Summary: your balance sheet and profit and loss, always up to date. Change the dates to see any period.|این صفحهٔ خلاصه است: بیلانس و سود و زیان شما، همیشه به‌روز. تاریخ‌ها را تغییر دهید تا هر دوره‌ای را ببینید.|دا د لنډیز پاڼه ده: ستاسو بیلانس او ګټه او تاوان، تل تازه. نېټې بدلې کړئ چې هره موده وګورئ.|Bu Özet ekranı: bilançonuz ile kâr ve zararınız, her zaman güncel. Herhangi bir dönemi görmek için tarihleri değiştirin.
+The menu has a tab for every part of your business: money, sales, purchases, stock, payroll and reports.|منو برای هر بخش کسب‌وکار شما یک زبانه دارد: پول، فروش، خرید، موجودی، معاشات و گزارش‌ها.|مینو ستاسو د سوداګرۍ د هرې برخې لپاره یوه برخه لري: پیسې، پلور، پېر، ګدام، معاشونه او راپورونه.|Menüde işletmenizin her bölümü için bir sekme var: para, satışlar, alışlar, stok, bordro ve raporlar.
+Create invoices here. Try it: you can change anything in this demo.|فاکتورها را اینجا بسازید. امتحان کنید: در این نمونه می‌توانید هر چیزی را تغییر دهید.|بلونه دلته جوړ کړئ. وې ازمویئ: په دې بېلګه کې هر څه بدلولای شئ.|Faturaları burada oluşturun. Deneyin: bu demoda her şeyi değiştirebilirsiniz.
+Bank & Cash Accounts shows every account and its balance. Click one to see each movement, like a bank statement.|حساب‌های بانکی و نقدی هر حساب و موجودی آن را نشان می‌دهد. روی یکی کلیک کنید تا هر گردش را مانند صورت‌حساب بانکی ببینید.|بانکي او نغدې حسابونه هر حساب او پاتې یې ښيي. پر یوه کلیک وکړئ چې هر خوځښت د بانک د صورت‌حساب په څېر وګورئ.|Banka ve Kasa Hesapları her hesabı ve bakiyesini gösterir. Her hareketi banka ekstresi gibi görmek için birine tıklayın.
+Reports: profit by month, aged receivables, cash flow, statements and more. Print or export any of them.|گزارش‌ها: سود ماهانه، طلب‌ها بر اساس سن، جریان نقدی، صورت‌حساب‌ها و بیشتر. هر کدام را چاپ یا خروجی بگیرید.|راپورونه: میاشتنۍ ګټه، د غوښتنو عمر، د نغدو جریان، صورت‌حسابونه او نور. هر یو چاپ یا بهر واخلئ.|Raporlar: aylık kâr, yaşlandırılmış alacaklar, nakit akışı, ekstreler ve daha fazlası. Herhangi birini yazdırın veya dışa aktarın.
+Ready for your own books? Create a free account. Nothing from this demo is sent online.|آمادهٔ دفاتر خودتان هستید؟ یک حساب رایگان بسازید. هیچ چیزی از این نمونه آنلاین فرستاده نمی‌شود.|د خپلو کتابونو لپاره چمتو یاست؟ وړیا حساب جوړ کړئ. د دې بېلګې هېڅ شی آنلاین نه لېږل کېږي.|Kendi defterleriniz için hazır mısınız? Ücretsiz bir hesap oluşturun. Bu demodan hiçbir şey internete gönderilmez.
+The Travel overview shows tickets, sales, airline costs and profit for the period.|نمای کلی سفر تکت‌ها، فروش، هزینهٔ شرکت‌های هوایی و سود را برای دوره نشان می‌دهد.|د سفر عمومي کتنه د مودې ټکټونه، پلور، د هوايي شرکتونو لګښت او ګټه ښيي.|Seyahat özeti dönemin biletlerini, satışlarını, havayolu maliyetlerini ve kârını gösterir.
+Upcoming flights for the next 7 days, with a WhatsApp reminder for each passenger.|پروازهای ۷ روز آینده، با یادآوری واتس‌اپ برای هر مسافر.|د راتلونکو ۷ ورځو الوتنې، د هر مسافر لپاره د واټس‌اپ یادونې سره.|Önümüzdeki 7 günün uçuşları, her yolcu için WhatsApp hatırlatmasıyla.
+What each sub-agent owes you, and below it what you owe each airline and which tickets are still unpaid.|بدهی هر نمایندگی فرعی به شما، و پایین‌تر بدهی شما به هر شرکت هوایی و تکت‌هایی که هنوز پرداخت نشده‌اند.|هر فرعي اجنټ تاسو ته څومره پور لري، او لاندې یې تاسو هر هوايي شرکت ته څومره پور لرئ او کوم ټکټونه لا نه دي ورکړل شوي.|Her alt acentenin size borcu; altında da her havayoluna borcunuz ve hâlâ ödenmemiş biletler.
+Sell a ticket: passenger, PNR, airline, route, price and cost on one screen. The profit is calculated for you.|فروش تکت: مسافر، PNR، شرکت هوایی، مسیر، قیمت و هزینه در یک صفحه. سود برای شما حساب می‌شود.|ټکټ وپلورئ: مسافر، PNR، هوايي شرکت، لار، بیه او لګښت په یوه پاڼه کې. ګټه ستاسو لپاره حسابېږي.|Bilet satın: yolcu, PNR, havayolu, güzergâh, fiyat ve maliyet tek ekranda. Kâr sizin için hesaplanır.
+Send a sub-agent or customer their statement on WhatsApp, or print it.|صورت‌حساب نمایندگی فرعی یا مشتری را در واتس‌اپ بفرستید یا چاپ کنید.|د فرعي اجنټ یا پېرودونکي صورت‌حساب په واټس‌اپ کې ورولېږئ، یا یې چاپ کړئ.|Bir alt acenteye veya müşteriye ekstresini WhatsApp'tan gönderin ya da yazdırın.
+Get your business ready|کسب‌وکار خود را آماده کنید|خپله سوداګري چمتو کړئ|İşletmenizi hazırlayın
+steps done|گام انجام شده|ګامونه بشپړ شوي|adım tamamlandı
+Steps done|گام‌های انجام‌شده|بشپړ شوي ګامونه|Tamamlanan adımlar
+Hide this list|پنهان کردن این فهرست|دا لېست پټ کړئ|Bu listeyi gizle
+Checklist hidden|فهرست پنهان شد|لېست پټ شو|Liste gizlendi
+Done|انجام شد|بشپړ شو|Tamam
+Check your base currency|پول اصلی خود را بررسی کنید|خپله اصلي اسعارو وګورئ|Ana para biriminizi kontrol edin
+Your books are kept in|دفاتر شما به این پول نگهداری می‌شود:|ستاسو کتابونه په دې اسعارو ساتل کېږي:|Defterleriniz şu para biriminde tutulur:
+Change it in Settings before you add transactions.|پیش از ثبت معاملات آن را در تنظیمات تغییر دهید.|د معاملو له ثبتولو مخکې یې په تنظیماتو کې بدل کړئ.|İşlem eklemeden önce Ayarlar'dan değiştirin.
+Looks right|درست است|سم دی|Doğru
+Open Settings|باز کردن تنظیمات|تنظیمات پرانیزئ|Ayarları aç
+Add opening balances|موجودی‌های آغازین را اضافه کنید|پیل بیلانسونه اضافه کړئ|Açılış bakiyelerini ekleyin
+Add your bank and cash accounts with the money they held on your start date|حساب‌های بانکی و نقدی خود را با پولی که در تاریخ شروع داشتند اضافه کنید|خپل بانکي او نغدې حسابونه د پیل په نېټه کې د موجودو پیسو سره اضافه کړئ|Banka ve kasa hesaplarınızı başlangıç tarihindeki tutarlarıyla ekleyin
+, and what customers and suppliers owed then.|، و آنچه مشتریان و تأمین‌کنندگان در آن زمان بدهکار بودند.|، او هغه څه چې پېرودونکو او عرضه کوونکو هغه وخت پور درلود.|, ayrıca o tarihte müşterilerin ve tedarikçilerin borçlarını.
+New business: nothing to add|کسب‌وکار تازه: چیزی برای افزودن نیست|نوې سوداګري: د اضافه کولو لپاره څه نشته|Yeni işletme: eklenecek bir şey yok
+Add your first customer|اولین مشتری خود را اضافه کنید|خپل لومړی پېرودونکی اضافه کړئ|İlk müşterinizi ekleyin
+Sales → Customers → + New customer.|فروش ← مشتریان ← + مشتری جدید.|پلور ← پېرودونکي ← + نوی پېرودونکی.|Satışlar → Müşteriler → + Yeni müşteri.
+Add customer|افزودن مشتری|پېرودونکی اضافه کړئ|Müşteri ekle
+Create your first sales invoice|اولین فاکتور فروش خود را بسازید|خپل لومړی د پلور بل جوړ کړئ|İlk satış faturanızı oluşturun
+Choose the customer, add the lines and press Create. Then print it or share a link.|مشتری را انتخاب کنید، سطرها را اضافه کنید و ایجاد را بزنید. سپس چاپ کنید یا لینک بفرستید.|پېرودونکی وټاکئ، کرښې اضافه کړئ او جوړول کېکاږئ. بیا یې چاپ کړئ یا لینک یې شریک کړئ.|Müşteriyi seçin, satırları ekleyin ve Oluştur'a basın. Sonra yazdırın veya bir bağlantı paylaşın.
+Record your first payment|اولین پرداخت دریافتی را ثبت کنید|خپله لومړۍ ترلاسه شوې تادیه ثبت کړئ|İlk tahsilatınızı kaydedin
+When the customer pays, open the invoice and press Receive payment. The receipt is filled in for you.|وقتی مشتری پرداخت کرد، فاکتور را باز کنید و دریافت پرداخت را بزنید. رسید برای شما پر می‌شود.|کله چې پېرودونکی پیسې ورکړي، بل پرانیزئ او د تادیې ترلاسه کول کېکاږئ. رسید ستاسو لپاره ډکېږي.|Müşteri ödediğinde faturayı açın ve Ödeme al'a basın. Tahsilat sizin için doldurulur.
+Open Sales Invoices|باز کردن فاکتورهای فروش|د پلور بلونه پرانیزئ|Satış faturalarını aç
+Cancel / refund|لغو / بازپرداخت|لغوه / بېرته ورکول|İptal / iade
+Pay refund to customer|پرداخت بازپرداخت به مشتری|پېرودونکي ته بېرته پیسې ورکړئ|Müşteriye iadeyi öde
+Receive refund from airline|دریافت بازپرداخت از شرکت هوایی|له هوايي شرکت څخه بېرته پیسې ترلاسه کړئ|Havayolundan iadeyi al
+Customer had paid|مشتری پرداخته بود|پېرودونکي ورکړې وې|Müşterinin ödediği
+Paid back|بازپرداخت‌شده|بېرته ورکړل شوي|Geri ödenen
+Still to pay back|هنوز باید بازپرداخت شود|لا باید بېرته ورکړل شي|Geri ödenecek kalan
+received|دریافت‌شده|ترلاسه شوي|alındı
+still to receive|هنوز باید دریافت شود|لا باید ترلاسه شي|alınacak kalan
+Nothing to pay back: the customer had not paid more than the new price, so the refund only lowers what they owe.|چیزی برای بازپرداخت نیست: مشتری بیشتر از قیمت جدید پرداخت نکرده بود، پس بازپرداخت فقط بدهی او را کم می‌کند.|د بېرته ورکولو لپاره څه نشته: پېرودونکي له نوې بیې زیات نه وو ورکړي، نو بېرته ورکول یوازې د هغه پور کموي.|Geri ödenecek bir şey yok: müşteri yeni fiyattan fazlasını ödememişti, bu yüzden iade yalnızca borcunu azaltır.
+Refund to pay back|بازپرداخت باقی است|بېرته ورکول پاتې دي|Geri ödenecek iade var
+Ticket refund|بازپرداخت تکت|د ټکټ بېرته ورکول|Bilet iadesi
+Pay by bank transfer|پرداخت با انتقال بانکی|د بانکي لېږد له لارې تادیه|Banka havalesiyle öde
+Sample bank details. Do not send money. Test payments never change your plan.|اطلاعات بانکی نمونه است. پول نفرستید. پرداخت‌های آزمایشی هرگز پلان شما را تغییر نمی‌دهند.|د بانک معلومات بېلګه دي. پیسې مه لېږئ. ازمایښتي تادیې هېڅکله ستاسو پلان نه بدلوي.|Örnek banka bilgileri. Para göndermeyin. Test ödemeleri planınızı asla değiştirmez.
+Bank transfer payments|پرداخت‌های انتقال بانکی|د بانکي لېږد تادیې|Banka havalesi ödemeleri
+Payment confirmation|تأییدیهٔ پرداخت|د تادیې تایید|Ödeme onayı
+Choose your plan and how long to pay for. You get a payment reference and our bank details. We switch on your plan after we see the money in our bank account.|پلان و مدت پرداخت را انتخاب کنید. یک شمارهٔ مرجع پرداخت و اطلاعات بانکی ما را دریافت می‌کنید. پس از دیدن پول در حساب بانکی ما، پلان شما را فعال می‌کنیم.|خپل پلان او د تادیې موده وټاکئ. د تادیې یو ریفرنس او زموږ د بانک معلومات ترلاسه کوئ. کله چې پیسې زموږ په بانکي حساب کې ووینو، ستاسو پلان فعالوو.|Planınızı ve ne kadar süre için ödeyeceğinizi seçin. Bir ödeme referansı ve banka bilgilerimizi alırsınız. Parayı banka hesabımızda gördükten sonra planınızı açarız.
+Pay for|مدت پرداخت|د تادیې موده|Ödeme süresi
+Billing country|کشور صورت‌حساب|د بل هېواد|Fatura ülkesi
+Billing details for the invoice|اطلاعات صورت‌حساب برای فاکتور|د بل لپاره معلومات|Fatura bilgileri
+Company or business name|نام شرکت یا کسب‌وکار|د شرکت یا سوداګرۍ نوم|Şirket veya işletme adı
+Contact person|شخص تماس|د اړیکې کس|İlgili kişi
+City|شهر|ښار|Şehir
+Postal code|کد پستی|پوستي کوډ|Posta kodu
+Tax number (if your business has one)|شمارهٔ مالیاتی (اگر دارید)|مالیاتي شمېره (که لرئ)|Vergi numarası (varsa)
+Tax office|ادارهٔ مالیات|د مالیې دفتر|Vergi dairesi
+Email for the invoice|ایمیل برای فاکتور|د بل لپاره برېښنالیک|Fatura e-postası
+Continue|ادامه|دوام|Devam
+Payment reference|مرجع پرداخت|د تادیې ریفرنس|Ödeme referansı
+Write this reference in the transfer description|این مرجع را در توضیحات انتقال بنویسید|دا ریفرنس د لېږد په تشریح کې ولیکئ|Bu referansı havale açıklamasına yazın
+so we can find your payment.|تا پرداخت شما را پیدا کنیم.|څو ستاسو تادیه پیدا کړو.|böylece ödemenizi bulabiliriz.
+Subscription period|مدت اشتراک|د ګډون موده|Abonelik süresi
+Not added. Tax is set by our accountant; we will tell you if anything changes before you pay.|اضافه نشده. مالیات را حسابدار ما تعیین می‌کند؛ اگر پیش از پرداخت چیزی تغییر کند به شما می‌گوییم.|نه دی اضافه شوی. مالیه زموږ محاسب ټاکي؛ که د تادیې مخکې څه بدل شي، تاسو ته به ووایو.|Eklenmedi. Vergiyi muhasebecimiz belirler; ödemeden önce bir şey değişirse size bildiririz.
+Not added. Tax is set by our accountant.|اضافه نشده. مالیات را حسابدار ما تعیین می‌کند.|نه دی اضافه شوی. مالیه زموږ محاسب ټاکي.|Eklenmedi. Vergiyi muhasebecimiz belirler.
+Amount that must arrive|مبلغی که باید برسد|هغه اندازه چې باید ورسېږي|Ulaşması gereken tutar
+Received so far|دریافت‌شده تاکنون|تر اوسه ترلاسه شوي|Şu ana kadar alınan
+Still to pay|هنوز باید پرداخت شود|لا باید ورکړل شي|Kalan ödeme
+Payment currency|پول پرداخت|د تادیې اسعارو|Ödeme para birimi
+Our bank account|حساب بانکی ما|زموږ بانکي حساب|Banka hesabımız
+Sample bank details for testing. Do not send money to this account.|اطلاعات بانکی نمونه برای آزمایش است. به این حساب پول نفرستید.|د ازمایښت لپاره د بانک بېلګه معلومات. دې حساب ته پیسې مه لېږئ.|Test için örnek banka bilgileri. Bu hesaba para göndermeyin.
+Account holder|صاحب حساب|د حساب خاوند|Hesap sahibi
+Account number|شمارهٔ حساب|د حساب شمېره|Hesap numarası
+Bank address|آدرس بانک|د بانک پته|Banka adresi
+Description / reference|توضیحات / مرجع|تشریح / ریفرنس|Açıklama / referans
+Transfer fees|هزینه‌های انتقال|د لېږد فیس|Havale ücretleri
+Processing time|زمان پردازش|د پروسس وخت|İşlem süresi
+The amount that must arrive|مبلغی که باید برسد|هغه اندازه چې باید ورسېږي|Ulaşması gereken tutar
+If you pay less|اگر کمتر پرداخت کنید|که لږ ورکړئ|Daha az öderseniz
+If you pay more|اگر بیشتر پرداخت کنید|که زیات ورکړئ|Daha fazla öderseniz
+If you pay in another currency|اگر به پول دیگری پرداخت کنید|که په بل اسعارو ورکړئ|Başka para biriminde öderseniz
+Refunds|بازپرداخت‌ها|بېرته ورکول|İadeler
+Awaiting verification.|در انتظار تأیید.|د تایید په تمه.|Doğrulama bekleniyor.
+We are checking our bank account. Your plan changes only after we see the money.|ما حساب بانکی خود را بررسی می‌کنیم. پلان شما فقط پس از دیدن پول تغییر می‌کند.|موږ خپل بانکي حساب ګورو. ستاسو پلان یوازې د پیسو له لیدو وروسته بدلېږي.|Banka hesabımızı kontrol ediyoruz. Planınız ancak parayı gördükten sonra değişir.
+You reported a payment on|شما پرداختی را گزارش دادید در|تاسو د تادیې راپور ورکړ په|Ödeme bildirdiğiniz tarih:
+Update the payment details or add a receipt|به‌روزرسانی اطلاعات پرداخت یا افزودن رسید|د تادیې معلومات تازه کړئ یا رسید اضافه کړئ|Ödeme bilgilerini güncelleyin veya dekont ekleyin
+I have paid|پرداخت کرده‌ام|ما ورکړې دي|Ödeme yaptım
+Name of the person or company that paid|نام شخص یا شرکتی که پرداخت کرد|د هغه کس یا شرکت نوم چې پیسې یې ورکړې|Ödemeyi yapan kişi veya şirket
+Transfer date|تاریخ انتقال|د لېږد نېټه|Havale tarihi
+Amount sent|مبلغ فرستاده‌شده|لېږل شوې اندازه|Gönderilen tutar
+Currency sent|پول فرستاده‌شده|لېږل شوې اسعارو|Gönderilen para birimi
+Your bank|بانک شما|ستاسو بانک|Bankanız
+Receipt (optional, photo or PDF, up to 10 MB)|رسید (اختیاری، عکس یا PDF، تا ۱۰ مگابایت)|رسید (اختیاري، انځور یا PDF، تر ۱۰ MB)|Dekont (isteğe bağlı, fotoğraf veya PDF, en fazla 10 MB)
+Sending this does not switch on your plan. We switch it on only after we see the money in our bank account.|فرستادن این، پلان شما را فعال نمی‌کند. فقط پس از دیدن پول در حساب بانکی ما فعال می‌شود.|د دې لېږل ستاسو پلان نه فعالوي. یوازې هغه وخت فعالېږي چې پیسې زموږ په بانکي حساب کې ووینو.|Bunu göndermek planınızı açmaz. Planı ancak parayı banka hesabımızda gördükten sonra açarız.
+Send payment details|ارسال اطلاعات پرداخت|د تادیې معلومات ولېږئ|Ödeme bilgilerini gönder
+Cancel this payment|لغو این پرداخت|دا تادیه لغوه کړئ|Bu ödemeyi iptal et
+Thank you. Your payment is awaiting verification.|سپاس. پرداخت شما در انتظار تأیید است.|مننه. ستاسو تادیه د تایید په تمه ده.|Teşekkürler. Ödemeniz doğrulama bekliyor.
+Cancel this payment? Do not cancel if you already sent the money.|این پرداخت لغو شود؟ اگر پول را فرستاده‌اید لغو نکنید.|دا تادیه لغوه شي؟ که مو پیسې لېږلې وي، مه یې لغوه کوئ.|Bu ödeme iptal edilsin mi? Parayı gönderdiyseniz iptal etmeyin.
+Cancel payment|لغو پرداخت|تادیه لغوه کړئ|Ödemeyi iptal et
+Bank transfer payments from this country are not set up yet. Please contact support and we will help you.|پرداخت با انتقال بانکی از این کشور هنوز آماده نیست. لطفاً با پشتیبانی تماس بگیرید تا کمک‌تان کنیم.|له دې هېواده د بانکي لېږد تادیې لا نه دي جوړې. مهرباني وکړئ له ملاتړ سره اړیکه ونیسئ، مرسته به درسره وکړو.|Bu ülkeden banka havalesi ödemeleri henüz ayarlanmadı. Lütfen destekle iletişime geçin, size yardımcı olalım.
+Contact support on WhatsApp|تماس با پشتیبانی در واتس‌اپ|په واټساپ کې له ملاتړ سره اړیکه|WhatsApp'tan destekle iletişime geçin
+Total to pay|مجموع قابل پرداخت|د ورکولو ټوله|Ödenecek toplam
+Your bank and other banks may charge fees. The exact amount, bank details and reference are shown on the next step.|بانک شما و بانک‌های دیگر ممکن است هزینه بگیرند. مبلغ دقیق، اطلاعات بانکی و مرجع در مرحلهٔ بعد نشان داده می‌شود.|ستاسو بانک او نور بانکونه ممکن فیس واخلي. دقیقه اندازه، د بانک معلومات او ریفرنس په بل ګام کې ښودل کېږي.|Bankanız ve diğer bankalar ücret alabilir. Tam tutar, banka bilgileri ve referans bir sonraki adımda gösterilir.
+Company name and address are needed for the invoice.|نام و آدرس شرکت برای فاکتور لازم است.|د بل لپاره د شرکت نوم او پته اړینه ده.|Fatura için şirket adı ve adresi gereklidir.
+Waiting for your transfer|در انتظار انتقال شما|ستاسو د لېږد په تمه|Havalenizi bekliyoruz
+Awaiting verification|در انتظار تأیید|د تایید په تمه|Doğrulama bekleniyor
+Part payment received|بخشی از پرداخت دریافت شد|د تادیې یوه برخه ترلاسه شوه|Kısmi ödeme alındı
+Approved|تأیید شد|تایید شو|Onaylandı
+Rejected|رد شد|رد شو|Reddedildi
+Cancelled|لغو شد|لغوه شو|İptal edildi
+1 month|۱ ماه|۱ میاشت|1 ay
+3 months|۳ ماه|۳ میاشتې|3 ay
+6 months|۶ ماه|۶ میاشتې|6 ay
+12 months|۱۲ ماه|۱۲ میاشتې|12 ay
+Test|آزمایشی|ازمایښتي|Test
+Plan dates|تاریخ‌های پلان|د پلان نېټې|Plan tarihleri
+This is not a tax invoice.|این فاکتور مالیاتی نیست.|دا مالیاتي بل نه دی.|Bu bir vergi faturası değildir.
+For|برای|لپاره|Hizmet
+Subscription dates|تاریخ‌های اشتراک|د ګډون نېټې|Abonelik tarihleri
+Amount due|مبلغ قابل پرداخت|د ورکولو اندازه|Ödenecek tutar
+Received on|تاریخ دریافت|د ترلاسه کولو نېټه|Alındığı tarih
+Official invoice|فاکتور رسمی|رسمي بل|Resmî fatura
+Will be sent separately.|جداگانه فرستاده می‌شود.|په جلا توګه به ولېږل شي.|Ayrıca gönderilecektir.
+overpaid|اضافه پرداخت‌شده|زیات ورکړل شوي|fazla ödenen
+Payment approvals|تأیید پرداخت‌ها|د تادیو تایید|Ödeme onayları
+Payment settings|تنظیمات پرداخت|د تادیې تنظیمات|Ödeme ayarları
+Use a photo (JPG, PNG) or a PDF file.|یک عکس (JPG، PNG) یا فایل PDF استفاده کنید.|یو انځور (JPG، PNG) یا PDF فایل وکاروئ.|Fotoğraf (JPG, PNG) veya PDF dosyası kullanın.
+You can’t add a receipt to this payment.|نمی‌توانید به این پرداخت رسید اضافه کنید.|دې تادیې ته رسید نشئ اضافه کولای.|Bu ödemeye dekont ekleyemezsiniz.
+Not due yet|هنوز سررسید نشده|لا یې وخت نه دی رسېدلی|Vadesi gelmedi
+1–30 days late|۱–۳۰ روز دیر|۱–۳۰ ورځې ځنډ|1–30 gün gecikmiş
+31–60 days late|۳۱–۶۰ روز دیر|۳۱–۶۰ ورځې ځنډ|31–60 gün gecikmiş
+61–90 days late|۶۱–۹۰ روز دیر|۶۱–۹۰ ورځې ځنډ|61–90 gün gecikmiş
+Over 90 days late|بیش از ۹۰ روز دیر|له ۹۰ ورځو زیات ځنډ|90 günden fazla gecikmiş
+Total owed|مجموع بدهی|ټول پور|Toplam borç
+Oldest unpaid|قدیمی‌ترین پرداخت‌نشده|تر ټولو زوړ نه ورکړل شوی|En eski ödenmemiş
+No sub-agent owes you money|هیچ نماینده فرعی به شما بدهکار نیست|هېڅ فرعي اجنټ تاسو ته پور نه لري|Size borcu olan alt acente yok
+Sub-agents: what they owe and how late|نمایندگان فرعی: چقدر بدهکارند و چقدر دیر|فرعي اجنټان: څومره پور لري او څومره ځنډ|Alt acenteler: borçları ve gecikmeleri
+Airline payments due|پرداخت‌های سررسید شرکت‌های هوایی|هوايي شرکتونو ته د ورکړې وخت|Havayollarına vadesi gelen ödemeler
+Due in 7 days|سررسید در ۷ روز|په ۷ ورځو کې|7 gün içinde vadeli
+Due later|سررسید بعدی|وروسته|Daha sonra vadeli
+Next due date|تاریخ سررسید بعدی|د ورکړې راتلونکې نېټه|Sonraki vade tarihi
+Deposit running low|پیش‌پرداخت رو به اتمام است|ډیپازټ کمېږي|Depozito azalıyor
+Nothing to pay airlines right now|فعلاً پرداختی به شرکت‌های هوایی نیست|اوس هوايي شرکتونو ته څه نه ورکول کېږي|Şu an havayollarına ödenecek bir şey yok
+Pay back customer|بازپرداخت به مشتری|پېرودونکي ته بېرته ورکړه|Müşteriye geri öde
+Waiting for airline refund|در انتظار بازپرداخت شرکت هوایی|د هوايي شرکت د بېرته ورکړې په تمه|Havayolu iadesi bekleniyor
+No cancelled tickets|تکت لغو شده‌ای نیست|لغو شوی ټکټ نشته|İptal edilmiş bilet yok
+Overdue from sub-agents|معوقات نمایندگان فرعی|د فرعي اجنټانو ځنډېدلي پورونه|Alt acentelerden vadesi geçmiş
+Due to airlines in the next 7 days|قابل پرداخت به شرکت‌های هوایی در ۷ روز آینده|په راتلونکو ۷ ورځو کې هوايي شرکتونو ته|Önümüzdeki 7 günde havayollarına ödenecek
+Open refunds|بازپرداخت‌های باز|خلاصې بېرته ورکړې|Açık iadeler
+Due dates: tickets sold to a sub-agent are due after the agent's Payment terms (days); airline costs after the airline's Payment terms. Set 0 to pay on the issue date.|تاریخ سررسید: تکت‌هایی که به نماینده فرعی فروخته می‌شوند پس از «مهلت پرداخت (روز)» همان نماینده سررسید می‌شوند؛ هزینه شرکت هوایی پس از مهلت پرداخت همان شرکت. برای پرداخت در روز صدور، ۰ بگذارید.|د ورکړې نېټه: هغه ټکټونه چې فرعي اجنټ ته پلورل کېږي د هماغه اجنټ د «د تادیې موده (ورځې)» وروسته ورکول کېږي؛ د هوايي شرکت لګښت د هماغه شرکت د تادیې مودې وروسته. د صادرېدو په ورځ د ورکړې لپاره ۰ ولیکئ.|Vade tarihleri: alt acenteye satılan biletler, acentenin Ödeme vadesi (gün) sonunda vadelidir; havayolu maliyetleri havayolunun ödeme vadesi sonunda. Düzenleme günü ödemek için 0 yazın.

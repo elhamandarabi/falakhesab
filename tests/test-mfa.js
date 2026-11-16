@@ -1,0 +1,23 @@
+const { chromium } = require('playwright');const fs=require('fs');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1200,height:850}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
+ await p.route(/fonts\.g/,r=>r.abort());await p.route(/vendor\/supabase-/,r=>r.fulfill({body:fs.readFileSync('mock-supabase.js','utf8'),contentType:'application/javascript'}));
+ await p.route(/config\.js$/,r=>r.fulfill({body:"window.FALAK_CONFIG={supabaseUrl:'https://x.supabase.co',supabaseAnonKey:'k'}",contentType:'application/javascript'}));
+ await p.goto('file://'+process.cwd()+'/site/index.html');await p.waitForTimeout(600);
+ const go=async h=>{await p.evaluate(h=>location.hash=h,h);await p.waitForTimeout(300)};
+ const login=async()=>{await go('#/login');await p.fill('#aEmail','owner@x.com');await p.fill('#aPw','secret12');await p.click('#af button');await p.waitForTimeout(700)};
+ await go('#/signup');await p.fill('#aEmail','owner@x.com');await p.fill('#aPw','secret12');await p.click('#af button');await p.waitForTimeout(300);
+ await login();console.log('after login (no 2FA):',await p.locator('h1').first().textContent());
+ await go('#/profile');await p.waitForTimeout(400);console.log('profile box:',(await p.locator('#mfaBox').innerText()).split('\n')[0]);
+ await p.click('#mfaOn');await p.waitForTimeout(300);console.log('QR shown:',await p.locator('#mfaBox img').count(),'secret:',await p.locator('#mfaBox .mono').textContent());
+ await p.fill('#mfaCode','000000');await p.click('#mfaOk');await p.waitForTimeout(200);console.log('wrong code msg:',await p.textContent('#mfaErr'));
+ await p.fill('#mfaCode','123456');await p.click('#mfaOk');await p.waitForTimeout(400);console.log('after confirm:',(await p.locator('#mfaBox').innerText()).split('\n')[0]);
+ await p.screenshot({path:'mfa-on.png'});
+ // sign out and in again -> code screen
+ await p.evaluate(()=>{});await go('#/businesses');await p.click('#signOut');await p.waitForTimeout(500);
+ await login();console.log('after login with 2FA:',await p.locator('#authView h1').textContent().catch(()=>'(none)'));
+ await go('#/summary');console.log('protected page still asks code:',await p.locator('#authView h1').textContent().catch(()=>'(none)'));
+ await p.screenshot({path:'mfa-code.png'});
+ await p.fill('#aCode','111111');await p.click('#af button');await p.waitForTimeout(300);console.log('wrong:',await p.textContent('#aErr'));
+ await p.fill('#aCode','123456');await p.click('#af button');await p.waitForTimeout(700);console.log('after code:',await p.locator('#view h1').first().textContent());
+ await go('#/profile');await p.waitForTimeout(400);await p.click('#mfaOff');await p.click('#mYes');await p.waitForTimeout(400);console.log('after off:',(await p.locator('#mfaBox').innerText()).split('\n')[0]);
+ console.log('errors',errs);await b.close()})();

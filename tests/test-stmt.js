@@ -1,0 +1,17 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1300,height:900}});const errs=[];
+ p.on('pageerror',e=>errs.push('PAGEERR '+e.message));await p.route(/fonts\.g/,r=>r.abort());
+ require('fs').writeFileSync('site/_demo.html',require('fs').readFileSync('site/index.html','utf8').replace('<script src="config.js"></script>','<script>window.FALAK_CONFIG={}</script>'));
+ await p.goto('file://'+process.cwd()+'/site/_demo.html');await p.waitForTimeout(800);
+ const nav=async h=>{await p.evaluate(h=>location.hash=h,h);await p.waitForTimeout(300);const t=await p.locator('body').innerText();if(/Something went wrong/.test(t))errs.push(h+': '+t.match(/Something went wrong.*/)[0])};
+ const save=async()=>{await p.click('#saveBtn');await p.waitForTimeout(400)};
+ await nav('#/customer/new');await p.fill('#fName','elham');await save();
+ const id=await p.evaluate(()=>JSON.parse(localStorage.getItem('falak_io_demo_v2')).records.find(r=>r.data.name==='elham').id);
+ await nav('#/payment/new');await p.fill('#fContact','elham');await p.selectOption('#lines [data-k=account]','ar:'+id);await p.fill('#lines [data-k=amount]','15000');await save();
+ await nav('#/receipt/new');await p.fill('#fContact','elham');await p.selectOption('#lines [data-k=account]','ar:'+id);await p.fill('#lines [data-k=amount]','1606');await save();
+ await nav('#/customer');console.log('customer row:',(await p.locator('tr',{hasText:'elham'}).innerText()).replace(/\s+/g,' '));
+ await nav('#/reports/statements');console.log('list:',(await p.locator('#view table').innerText()).replace(/\t/g,' | ').split('\n').join(' // '));
+ await nav('#/reports/statement/'+id);console.log('statement:',(await p.locator('.card.doc').innerText()).replace(/\s+/g,' '));
+ console.log('wa:',decodeURIComponent(await p.locator('a[href^="https://wa.me"]').getAttribute('href')).replace(/\n/g,' | '));
+ await p.screenshot({path:'stmt-new.png',fullPage:true});
+ console.log('errors',errs);await b.close()})();
